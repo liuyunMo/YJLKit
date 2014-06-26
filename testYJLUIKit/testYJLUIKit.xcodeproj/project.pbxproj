@@ -1,0 +1,1108 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B2012A2D19388371005D52F7 /* YJLFlagDelegate.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = B21FA35F19387B2200E8465D /* YJLFlagDelegate.h */; };
+		B2012A2E19388371005D52F7 /* YJLFlagView.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = B21FA36019387B2200E8465D /* YJLFlagView.h */; };
+		B2012A2F19388371005D52F7 /* YJLLayoutDelegate.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = B21FA36219387B2200E8465D /* YJLLayoutDelegate.h */; };
+		B2012A3019388371005D52F7 /* YJLUIKit.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = B21FA36319387B2200E8465D /* YJLUIKit.h */; };
+		B2012A3119388371005D52F7 /* YJLView.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = B21FA36519387B2200E8465D /* YJLView.h */; };
+		B2012A38193884AB005D52F7 /* YJLContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = B2012A37193884AB005D52F7 /* YJLContentView.m */; };
+		B2012A39193884AB005D52F7 /* YJLContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = B2012A37193884AB005D52F7 /* YJLContentView.m */; };
+		B2012A3D19388D3D005D52F7 /* readme.txt in Resources */ = {isa = PBXBuildFile; fileRef = B2012A3C19388D3D005D52F7 /* readme.txt */; };
+		B2012A3E19388E1C005D52F7 /* YJLContentView.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = B2012A36193884AB005D52F7 /* YJLContentView.h */; };
+		B202DA011959637500F75F23 /* YJLSelectView.m in Sources */ = {isa = PBXBuildFile; fileRef = B202DA001959637500F75F23 /* YJLSelectView.m */; };
+		B202DA021959637500F75F23 /* YJLSelectView.m in Sources */ = {isa = PBXBuildFile; fileRef = B202DA001959637500F75F23 /* YJLSelectView.m */; };
+		B21FA2FA19386EEE00E8465D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B21FA2F919386EEE00E8465D /* Foundation.framework */; };
+		B21FA2FC19386EEE00E8465D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B21FA2FB19386EEE00E8465D /* CoreGraphics.framework */; };
+		B21FA2FE19386EEE00E8465D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B21FA2FD19386EEE00E8465D /* UIKit.framework */; };
+		B21FA30419386EEE00E8465D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B21FA30219386EEE00E8465D /* InfoPlist.strings */; };
+		B21FA30619386EEE00E8465D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B21FA30519386EEE00E8465D /* main.m */; };
+		B21FA30A19386EEE00E8465D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B21FA30919386EEE00E8465D /* AppDelegate.m */; };
+		B21FA31019386EEE00E8465D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B21FA30F19386EEE00E8465D /* ViewController.m */; };
+		B21FA31219386EEE00E8465D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B21FA31119386EEE00E8465D /* Images.xcassets */; };
+		B21FA31919386EEE00E8465D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B21FA31819386EEE00E8465D /* XCTest.framework */; };
+		B21FA31A19386EEE00E8465D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B21FA2F919386EEE00E8465D /* Foundation.framework */; };
+		B21FA31B19386EEE00E8465D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B21FA2FD19386EEE00E8465D /* UIKit.framework */; };
+		B21FA32319386EEE00E8465D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B21FA32119386EEE00E8465D /* InfoPlist.strings */; };
+		B21FA32519386EEE00E8465D /* testYJLUIKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B21FA32419386EEE00E8465D /* testYJLUIKitTests.m */; };
+		B21FA33319386F0000E8465D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B21FA2F919386EEE00E8465D /* Foundation.framework */; };
+		B21FA34019386F0100E8465D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B21FA31819386EEE00E8465D /* XCTest.framework */; };
+		B21FA34119386F0100E8465D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B21FA2F919386EEE00E8465D /* Foundation.framework */; };
+		B21FA34219386F0100E8465D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B21FA2FD19386EEE00E8465D /* UIKit.framework */; };
+		B21FA34519386F0100E8465D /* libYJLUIKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B21FA33219386F0000E8465D /* libYJLUIKit.a */; };
+		B21FA34B19386F0100E8465D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B21FA34919386F0100E8465D /* InfoPlist.strings */; };
+		B21FA34D19386F0100E8465D /* YJLUIKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B21FA34C19386F0100E8465D /* YJLUIKitTests.m */; };
+		B21FA36719387B2200E8465D /* YJLFlagView.m in Sources */ = {isa = PBXBuildFile; fileRef = B21FA36119387B2200E8465D /* YJLFlagView.m */; };
+		B21FA36819387B2200E8465D /* YJLFlagView.m in Sources */ = {isa = PBXBuildFile; fileRef = B21FA36119387B2200E8465D /* YJLFlagView.m */; };
+		B21FA36919387B2200E8465D /* YJLUIKit.m in Sources */ = {isa = PBXBuildFile; fileRef = B21FA36419387B2200E8465D /* YJLUIKit.m */; };
+		B21FA36A19387B2200E8465D /* YJLUIKit.m in Sources */ = {isa = PBXBuildFile; fileRef = B21FA36419387B2200E8465D /* YJLUIKit.m */; };
+		B21FA36B19387B2200E8465D /* YJLView.m in Sources */ = {isa = PBXBuildFile; fileRef = B21FA36619387B2200E8465D /* YJLView.m */; };
+		B21FA36C19387B2200E8465D /* YJLView.m in Sources */ = {isa = PBXBuildFile; fileRef = B21FA36619387B2200E8465D /* YJLView.m */; };
+		B22C440E193D9E720012064D /* YJLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B22C440D193D9E720012064D /* YJLViewController.m */; };
+		B22C440F193D9E720012064D /* YJLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B22C440D193D9E720012064D /* YJLViewController.m */; };
+		B22C4410193D9F750012064D /* YJLViewController.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = B22C440C193D9E720012064D /* YJLViewController.h */; };
+		B22C442F193DA5FC0012064D /* YJLDefine.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = B21FA35E19387B2200E8465D /* YJLDefine.h */; };
+		B2ABD88B194ADB1500EF2EC6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B21FA2F919386EEE00E8465D /* Foundation.framework */; };
+		B2ABD890194ADB1500EF2EC6 /* YJLExam.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = B2ABD88F194ADB1500EF2EC6 /* YJLExam.h */; };
+		B2ABD892194ADB1500EF2EC6 /* YJLExam.m in Sources */ = {isa = PBXBuildFile; fileRef = B2ABD891194ADB1500EF2EC6 /* YJLExam.m */; };
+		B2ABD898194ADB1500EF2EC6 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B21FA31819386EEE00E8465D /* XCTest.framework */; };
+		B2ABD899194ADB1500EF2EC6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B21FA2F919386EEE00E8465D /* Foundation.framework */; };
+		B2ABD89A194ADB1500EF2EC6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B21FA2FD19386EEE00E8465D /* UIKit.framework */; };
+		B2ABD89D194ADB1500EF2EC6 /* libYJLExam.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B2ABD88A194ADB1500EF2EC6 /* libYJLExam.a */; };
+		B2ABD8A3194ADB1500EF2EC6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B2ABD8A1194ADB1500EF2EC6 /* InfoPlist.strings */; };
+		B2ABD8A5194ADB1500EF2EC6 /* YJLExamTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B2ABD8A4194ADB1500EF2EC6 /* YJLExamTests.m */; };
+		B2ABD8AE194ADB7E00EF2EC6 /* YJLQuestion.m in Sources */ = {isa = PBXBuildFile; fileRef = B2ABD8AD194ADB7E00EF2EC6 /* YJLQuestion.m */; };
+		B2ABD8AF194ADB7E00EF2EC6 /* YJLQuestion.m in Sources */ = {isa = PBXBuildFile; fileRef = B2ABD8AD194ADB7E00EF2EC6 /* YJLQuestion.m */; };
+		B2ABD8B2194ADD0E00EF2EC6 /* YJLQuestionHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = B2ABD8B1194ADD0E00EF2EC6 /* YJLQuestionHandle.m */; };
+		B2ABD8B3194ADD0E00EF2EC6 /* YJLQuestionHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = B2ABD8B1194ADD0E00EF2EC6 /* YJLQuestionHandle.m */; };
+		B2D7A24E194EF40700C679B0 /* YJLScrollLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = B2D7A24D194EF40700C679B0 /* YJLScrollLabel.m */; };
+		B2D7A24F194EF40700C679B0 /* YJLScrollLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = B2D7A24D194EF40700C679B0 /* YJLScrollLabel.m */; };
+		B2D7A252194EF43F00C679B0 /* YJLDrawLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = B2D7A251194EF43F00C679B0 /* YJLDrawLabel.m */; };
+		B2D7A253194EF43F00C679B0 /* YJLDrawLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = B2D7A251194EF43F00C679B0 /* YJLDrawLabel.m */; };
+		B2F286B5194941C2005DC4D9 /* YJLImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = B2F286B4194941C2005DC4D9 /* YJLImageView.m */; };
+		B2F286B6194941C2005DC4D9 /* YJLImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = B2F286B4194941C2005DC4D9 /* YJLImageView.m */; };
+		B2F286B9194948AA005DC4D9 /* YJLObject.m in Sources */ = {isa = PBXBuildFile; fileRef = B2F286B8194948AA005DC4D9 /* YJLObject.m */; };
+		B2F286BA194948AA005DC4D9 /* YJLObject.m in Sources */ = {isa = PBXBuildFile; fileRef = B2F286B8194948AA005DC4D9 /* YJLObject.m */; };
+		B2F286BD19494904005DC4D9 /* YJLTextObj.m in Sources */ = {isa = PBXBuildFile; fileRef = B2F286BC19494904005DC4D9 /* YJLTextObj.m */; };
+		B2F286BE19494904005DC4D9 /* YJLTextObj.m in Sources */ = {isa = PBXBuildFile; fileRef = B2F286BC19494904005DC4D9 /* YJLTextObj.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B21FA31C19386EEE00E8465D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B21FA2EE19386EEE00E8465D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B21FA2F519386EEE00E8465D;
+			remoteInfo = testYJLUIKit;
+		};
+		B21FA34319386F0100E8465D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B21FA2EE19386EEE00E8465D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B21FA33119386F0000E8465D;
+			remoteInfo = YJLUIKit;
+		};
+		B2ABD89B194ADB1500EF2EC6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B21FA2EE19386EEE00E8465D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B2ABD889194ADB1500EF2EC6;
+			remoteInfo = YJLExam;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B21FA33019386F0000E8465D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				B22C442F193DA5FC0012064D /* YJLDefine.h in CopyFiles */,
+				B22C4410193D9F750012064D /* YJLViewController.h in CopyFiles */,
+				B2012A3E19388E1C005D52F7 /* YJLContentView.h in CopyFiles */,
+				B2012A2D19388371005D52F7 /* YJLFlagDelegate.h in CopyFiles */,
+				B2012A2E19388371005D52F7 /* YJLFlagView.h in CopyFiles */,
+				B2012A2F19388371005D52F7 /* YJLLayoutDelegate.h in CopyFiles */,
+				B2012A3019388371005D52F7 /* YJLUIKit.h in CopyFiles */,
+				B2012A3119388371005D52F7 /* YJLView.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2ABD888194ADB1500EF2EC6 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				B2ABD890194ADB1500EF2EC6 /* YJLExam.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		B2012A36193884AB005D52F7 /* YJLContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJLContentView.h; sourceTree = "<group>"; };
+		B2012A37193884AB005D52F7 /* YJLContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJLContentView.m; sourceTree = "<group>"; };
+		B2012A3C19388D3D005D52F7 /* readme.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = readme.txt; sourceTree = SOURCE_ROOT; };
+		B202D9FF1959637500F75F23 /* YJLSelectView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJLSelectView.h; sourceTree = "<group>"; };
+		B202DA001959637500F75F23 /* YJLSelectView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJLSelectView.m; sourceTree = "<group>"; };
+		B21FA2F619386EEE00E8465D /* testYJLUIKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testYJLUIKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B21FA2F919386EEE00E8465D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B21FA2FB19386EEE00E8465D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B21FA2FD19386EEE00E8465D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B21FA30119386EEE00E8465D /* testYJLUIKit-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "testYJLUIKit-Info.plist"; sourceTree = "<group>"; };
+		B21FA30319386EEE00E8465D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B21FA30519386EEE00E8465D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B21FA30719386EEE00E8465D /* testYJLUIKit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "testYJLUIKit-Prefix.pch"; sourceTree = "<group>"; };
+		B21FA30819386EEE00E8465D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B21FA30919386EEE00E8465D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B21FA30E19386EEE00E8465D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B21FA30F19386EEE00E8465D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B21FA31119386EEE00E8465D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B21FA31719386EEE00E8465D /* testYJLUIKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testYJLUIKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B21FA31819386EEE00E8465D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		B21FA32019386EEE00E8465D /* testYJLUIKitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "testYJLUIKitTests-Info.plist"; sourceTree = "<group>"; };
+		B21FA32219386EEE00E8465D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B21FA32419386EEE00E8465D /* testYJLUIKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testYJLUIKitTests.m; sourceTree = "<group>"; };
+		B21FA33219386F0000E8465D /* libYJLUIKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libYJLUIKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B21FA33619386F0000E8465D /* YJLUIKit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YJLUIKit-Prefix.pch"; sourceTree = "<group>"; };
+		B21FA33F19386F0100E8465D /* YJLUIKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YJLUIKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B21FA34819386F0100E8465D /* YJLUIKitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "YJLUIKitTests-Info.plist"; sourceTree = "<group>"; };
+		B21FA34A19386F0100E8465D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B21FA34C19386F0100E8465D /* YJLUIKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YJLUIKitTests.m; sourceTree = "<group>"; };
+		B21FA35E19387B2200E8465D /* YJLDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJLDefine.h; sourceTree = "<group>"; };
+		B21FA35F19387B2200E8465D /* YJLFlagDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJLFlagDelegate.h; sourceTree = "<group>"; };
+		B21FA36019387B2200E8465D /* YJLFlagView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJLFlagView.h; sourceTree = "<group>"; };
+		B21FA36119387B2200E8465D /* YJLFlagView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJLFlagView.m; sourceTree = "<group>"; };
+		B21FA36219387B2200E8465D /* YJLLayoutDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJLLayoutDelegate.h; sourceTree = "<group>"; };
+		B21FA36319387B2200E8465D /* YJLUIKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJLUIKit.h; sourceTree = "<group>"; };
+		B21FA36419387B2200E8465D /* YJLUIKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJLUIKit.m; sourceTree = "<group>"; };
+		B21FA36519387B2200E8465D /* YJLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJLView.h; sourceTree = "<group>"; };
+		B21FA36619387B2200E8465D /* YJLView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJLView.m; sourceTree = "<group>"; };
+		B22C440C193D9E720012064D /* YJLViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJLViewController.h; sourceTree = "<group>"; };
+		B22C440D193D9E720012064D /* YJLViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJLViewController.m; sourceTree = "<group>"; };
+		B2ABD88A194ADB1500EF2EC6 /* libYJLExam.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libYJLExam.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2ABD88E194ADB1500EF2EC6 /* YJLExam-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YJLExam-Prefix.pch"; sourceTree = "<group>"; };
+		B2ABD88F194ADB1500EF2EC6 /* YJLExam.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YJLExam.h; sourceTree = "<group>"; };
+		B2ABD891194ADB1500EF2EC6 /* YJLExam.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YJLExam.m; sourceTree = "<group>"; };
+		B2ABD897194ADB1500EF2EC6 /* YJLExamTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YJLExamTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2ABD8A0194ADB1500EF2EC6 /* YJLExamTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "YJLExamTests-Info.plist"; sourceTree = "<group>"; };
+		B2ABD8A2194ADB1500EF2EC6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B2ABD8A4194ADB1500EF2EC6 /* YJLExamTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YJLExamTests.m; sourceTree = "<group>"; };
+		B2ABD8AC194ADB7E00EF2EC6 /* YJLQuestion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJLQuestion.h; sourceTree = "<group>"; };
+		B2ABD8AD194ADB7E00EF2EC6 /* YJLQuestion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJLQuestion.m; sourceTree = "<group>"; };
+		B2ABD8B0194ADD0E00EF2EC6 /* YJLQuestionHandle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJLQuestionHandle.h; sourceTree = "<group>"; };
+		B2ABD8B1194ADD0E00EF2EC6 /* YJLQuestionHandle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJLQuestionHandle.m; sourceTree = "<group>"; };
+		B2D7A24C194EF40700C679B0 /* YJLScrollLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJLScrollLabel.h; sourceTree = "<group>"; };
+		B2D7A24D194EF40700C679B0 /* YJLScrollLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJLScrollLabel.m; sourceTree = "<group>"; };
+		B2D7A250194EF43F00C679B0 /* YJLDrawLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJLDrawLabel.h; sourceTree = "<group>"; };
+		B2D7A251194EF43F00C679B0 /* YJLDrawLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJLDrawLabel.m; sourceTree = "<group>"; };
+		B2F286B3194941C2005DC4D9 /* YJLImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJLImageView.h; sourceTree = "<group>"; };
+		B2F286B4194941C2005DC4D9 /* YJLImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJLImageView.m; sourceTree = "<group>"; };
+		B2F286B7194948AA005DC4D9 /* YJLObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJLObject.h; sourceTree = "<group>"; };
+		B2F286B8194948AA005DC4D9 /* YJLObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJLObject.m; sourceTree = "<group>"; };
+		B2F286BB19494904005DC4D9 /* YJLTextObj.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJLTextObj.h; sourceTree = "<group>"; };
+		B2F286BC19494904005DC4D9 /* YJLTextObj.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJLTextObj.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B21FA2F319386EEE00E8465D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B21FA2FC19386EEE00E8465D /* CoreGraphics.framework in Frameworks */,
+				B21FA2FE19386EEE00E8465D /* UIKit.framework in Frameworks */,
+				B21FA2FA19386EEE00E8465D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B21FA31419386EEE00E8465D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B21FA31919386EEE00E8465D /* XCTest.framework in Frameworks */,
+				B21FA31B19386EEE00E8465D /* UIKit.framework in Frameworks */,
+				B21FA31A19386EEE00E8465D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B21FA32F19386F0000E8465D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B21FA33319386F0000E8465D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B21FA33C19386F0100E8465D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B21FA34519386F0100E8465D /* libYJLUIKit.a in Frameworks */,
+				B21FA34019386F0100E8465D /* XCTest.framework in Frameworks */,
+				B21FA34219386F0100E8465D /* UIKit.framework in Frameworks */,
+				B21FA34119386F0100E8465D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2ABD887194ADB1500EF2EC6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2ABD88B194ADB1500EF2EC6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2ABD894194ADB1500EF2EC6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2ABD89D194ADB1500EF2EC6 /* libYJLExam.a in Frameworks */,
+				B2ABD898194ADB1500EF2EC6 /* XCTest.framework in Frameworks */,
+				B2ABD89A194ADB1500EF2EC6 /* UIKit.framework in Frameworks */,
+				B2ABD899194ADB1500EF2EC6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B21FA2ED19386EEE00E8465D = {
+			isa = PBXGroup;
+			children = (
+				B21FA2FF19386EEE00E8465D /* testYJLUIKit */,
+				B21FA31E19386EEE00E8465D /* testYJLUIKitTests */,
+				B21FA33419386F0000E8465D /* YJLUIKit */,
+				B21FA34619386F0100E8465D /* YJLUIKitTests */,
+				B2ABD88C194ADB1500EF2EC6 /* YJLExam */,
+				B2ABD89E194ADB1500EF2EC6 /* YJLExamTests */,
+				B21FA2F819386EEE00E8465D /* Frameworks */,
+				B21FA2F719386EEE00E8465D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B21FA2F719386EEE00E8465D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B21FA2F619386EEE00E8465D /* testYJLUIKit.app */,
+				B21FA31719386EEE00E8465D /* testYJLUIKitTests.xctest */,
+				B21FA33219386F0000E8465D /* libYJLUIKit.a */,
+				B21FA33F19386F0100E8465D /* YJLUIKitTests.xctest */,
+				B2ABD88A194ADB1500EF2EC6 /* libYJLExam.a */,
+				B2ABD897194ADB1500EF2EC6 /* YJLExamTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B21FA2F819386EEE00E8465D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B21FA2F919386EEE00E8465D /* Foundation.framework */,
+				B21FA2FB19386EEE00E8465D /* CoreGraphics.framework */,
+				B21FA2FD19386EEE00E8465D /* UIKit.framework */,
+				B21FA31819386EEE00E8465D /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B21FA2FF19386EEE00E8465D /* testYJLUIKit */ = {
+			isa = PBXGroup;
+			children = (
+				B2012A3C19388D3D005D52F7 /* readme.txt */,
+				B21FA30819386EEE00E8465D /* AppDelegate.h */,
+				B21FA30919386EEE00E8465D /* AppDelegate.m */,
+				B21FA30E19386EEE00E8465D /* ViewController.h */,
+				B21FA30F19386EEE00E8465D /* ViewController.m */,
+				B21FA31119386EEE00E8465D /* Images.xcassets */,
+				B21FA30019386EEE00E8465D /* Supporting Files */,
+			);
+			path = testYJLUIKit;
+			sourceTree = "<group>";
+		};
+		B21FA30019386EEE00E8465D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B21FA30119386EEE00E8465D /* testYJLUIKit-Info.plist */,
+				B21FA30219386EEE00E8465D /* InfoPlist.strings */,
+				B21FA30519386EEE00E8465D /* main.m */,
+				B21FA30719386EEE00E8465D /* testYJLUIKit-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B21FA31E19386EEE00E8465D /* testYJLUIKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				B21FA32419386EEE00E8465D /* testYJLUIKitTests.m */,
+				B21FA31F19386EEE00E8465D /* Supporting Files */,
+			);
+			path = testYJLUIKitTests;
+			sourceTree = "<group>";
+		};
+		B21FA31F19386EEE00E8465D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B21FA32019386EEE00E8465D /* testYJLUIKitTests-Info.plist */,
+				B21FA32119386EEE00E8465D /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B21FA33419386F0000E8465D /* YJLUIKit */ = {
+			isa = PBXGroup;
+			children = (
+				B21FA33519386F0000E8465D /* Supporting Files */,
+				B2012A36193884AB005D52F7 /* YJLContentView.h */,
+				B2012A37193884AB005D52F7 /* YJLContentView.m */,
+				B21FA35E19387B2200E8465D /* YJLDefine.h */,
+				B21FA35F19387B2200E8465D /* YJLFlagDelegate.h */,
+				B21FA36019387B2200E8465D /* YJLFlagView.h */,
+				B21FA36119387B2200E8465D /* YJLFlagView.m */,
+				B21FA36219387B2200E8465D /* YJLLayoutDelegate.h */,
+				B21FA36319387B2200E8465D /* YJLUIKit.h */,
+				B21FA36419387B2200E8465D /* YJLUIKit.m */,
+				B21FA36519387B2200E8465D /* YJLView.h */,
+				B21FA36619387B2200E8465D /* YJLView.m */,
+				B22C440C193D9E720012064D /* YJLViewController.h */,
+				B22C440D193D9E720012064D /* YJLViewController.m */,
+				B2F286B3194941C2005DC4D9 /* YJLImageView.h */,
+				B2F286B4194941C2005DC4D9 /* YJLImageView.m */,
+				B2F286B7194948AA005DC4D9 /* YJLObject.h */,
+				B2F286B8194948AA005DC4D9 /* YJLObject.m */,
+				B2F286BB19494904005DC4D9 /* YJLTextObj.h */,
+				B2F286BC19494904005DC4D9 /* YJLTextObj.m */,
+				B2D7A24C194EF40700C679B0 /* YJLScrollLabel.h */,
+				B2D7A24D194EF40700C679B0 /* YJLScrollLabel.m */,
+				B2D7A250194EF43F00C679B0 /* YJLDrawLabel.h */,
+				B2D7A251194EF43F00C679B0 /* YJLDrawLabel.m */,
+				B202D9FF1959637500F75F23 /* YJLSelectView.h */,
+				B202DA001959637500F75F23 /* YJLSelectView.m */,
+			);
+			path = YJLUIKit;
+			sourceTree = "<group>";
+		};
+		B21FA33519386F0000E8465D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B21FA33619386F0000E8465D /* YJLUIKit-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B21FA34619386F0100E8465D /* YJLUIKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				B21FA34C19386F0100E8465D /* YJLUIKitTests.m */,
+				B21FA34719386F0100E8465D /* Supporting Files */,
+			);
+			path = YJLUIKitTests;
+			sourceTree = "<group>";
+		};
+		B21FA34719386F0100E8465D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B21FA34819386F0100E8465D /* YJLUIKitTests-Info.plist */,
+				B21FA34919386F0100E8465D /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B2ABD88C194ADB1500EF2EC6 /* YJLExam */ = {
+			isa = PBXGroup;
+			children = (
+				B2ABD88F194ADB1500EF2EC6 /* YJLExam.h */,
+				B2ABD891194ADB1500EF2EC6 /* YJLExam.m */,
+				B2ABD88D194ADB1500EF2EC6 /* Supporting Files */,
+				B2ABD8AC194ADB7E00EF2EC6 /* YJLQuestion.h */,
+				B2ABD8AD194ADB7E00EF2EC6 /* YJLQuestion.m */,
+				B2ABD8B0194ADD0E00EF2EC6 /* YJLQuestionHandle.h */,
+				B2ABD8B1194ADD0E00EF2EC6 /* YJLQuestionHandle.m */,
+			);
+			path = YJLExam;
+			sourceTree = "<group>";
+		};
+		B2ABD88D194ADB1500EF2EC6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B2ABD88E194ADB1500EF2EC6 /* YJLExam-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B2ABD89E194ADB1500EF2EC6 /* YJLExamTests */ = {
+			isa = PBXGroup;
+			children = (
+				B2ABD8A4194ADB1500EF2EC6 /* YJLExamTests.m */,
+				B2ABD89F194ADB1500EF2EC6 /* Supporting Files */,
+			);
+			path = YJLExamTests;
+			sourceTree = "<group>";
+		};
+		B2ABD89F194ADB1500EF2EC6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B2ABD8A0194ADB1500EF2EC6 /* YJLExamTests-Info.plist */,
+				B2ABD8A1194ADB1500EF2EC6 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B21FA2F519386EEE00E8465D /* testYJLUIKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B21FA32819386EEE00E8465D /* Build configuration list for PBXNativeTarget "testYJLUIKit" */;
+			buildPhases = (
+				B21FA2F219386EEE00E8465D /* Sources */,
+				B21FA2F319386EEE00E8465D /* Frameworks */,
+				B21FA2F419386EEE00E8465D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = testYJLUIKit;
+			productName = testYJLUIKit;
+			productReference = B21FA2F619386EEE00E8465D /* testYJLUIKit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B21FA31619386EEE00E8465D /* testYJLUIKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B21FA32B19386EEE00E8465D /* Build configuration list for PBXNativeTarget "testYJLUIKitTests" */;
+			buildPhases = (
+				B21FA31319386EEE00E8465D /* Sources */,
+				B21FA31419386EEE00E8465D /* Frameworks */,
+				B21FA31519386EEE00E8465D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B21FA31D19386EEE00E8465D /* PBXTargetDependency */,
+			);
+			name = testYJLUIKitTests;
+			productName = testYJLUIKitTests;
+			productReference = B21FA31719386EEE00E8465D /* testYJLUIKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B21FA33119386F0000E8465D /* YJLUIKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B21FA34E19386F0100E8465D /* Build configuration list for PBXNativeTarget "YJLUIKit" */;
+			buildPhases = (
+				B21FA32E19386F0000E8465D /* Sources */,
+				B21FA32F19386F0000E8465D /* Frameworks */,
+				B21FA33019386F0000E8465D /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YJLUIKit;
+			productName = YJLUIKit;
+			productReference = B21FA33219386F0000E8465D /* libYJLUIKit.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		B21FA33E19386F0100E8465D /* YJLUIKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B21FA35119386F0100E8465D /* Build configuration list for PBXNativeTarget "YJLUIKitTests" */;
+			buildPhases = (
+				B21FA33B19386F0100E8465D /* Sources */,
+				B21FA33C19386F0100E8465D /* Frameworks */,
+				B21FA33D19386F0100E8465D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B21FA34419386F0100E8465D /* PBXTargetDependency */,
+			);
+			name = YJLUIKitTests;
+			productName = YJLUIKitTests;
+			productReference = B21FA33F19386F0100E8465D /* YJLUIKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B2ABD889194ADB1500EF2EC6 /* YJLExam */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2ABD8A6194ADB1500EF2EC6 /* Build configuration list for PBXNativeTarget "YJLExam" */;
+			buildPhases = (
+				B2ABD886194ADB1500EF2EC6 /* Sources */,
+				B2ABD887194ADB1500EF2EC6 /* Frameworks */,
+				B2ABD888194ADB1500EF2EC6 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YJLExam;
+			productName = YJLExam;
+			productReference = B2ABD88A194ADB1500EF2EC6 /* libYJLExam.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		B2ABD896194ADB1500EF2EC6 /* YJLExamTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2ABD8A9194ADB1500EF2EC6 /* Build configuration list for PBXNativeTarget "YJLExamTests" */;
+			buildPhases = (
+				B2ABD893194ADB1500EF2EC6 /* Sources */,
+				B2ABD894194ADB1500EF2EC6 /* Frameworks */,
+				B2ABD895194ADB1500EF2EC6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B2ABD89C194ADB1500EF2EC6 /* PBXTargetDependency */,
+			);
+			name = YJLExamTests;
+			productName = YJLExamTests;
+			productReference = B2ABD897194ADB1500EF2EC6 /* YJLExamTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B21FA2EE19386EEE00E8465D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "钟园园";
+				TargetAttributes = {
+					B21FA31619386EEE00E8465D = {
+						TestTargetID = B21FA2F519386EEE00E8465D;
+					};
+					B21FA33E19386F0100E8465D = {
+						TestTargetID = B21FA2F519386EEE00E8465D;
+					};
+					B2ABD896194ADB1500EF2EC6 = {
+						TestTargetID = B21FA2F519386EEE00E8465D;
+					};
+				};
+			};
+			buildConfigurationList = B21FA2F119386EEE00E8465D /* Build configuration list for PBXProject "testYJLUIKit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B21FA2ED19386EEE00E8465D;
+			productRefGroup = B21FA2F719386EEE00E8465D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B21FA2F519386EEE00E8465D /* testYJLUIKit */,
+				B21FA31619386EEE00E8465D /* testYJLUIKitTests */,
+				B21FA33119386F0000E8465D /* YJLUIKit */,
+				B21FA33E19386F0100E8465D /* YJLUIKitTests */,
+				B2ABD889194ADB1500EF2EC6 /* YJLExam */,
+				B2ABD896194ADB1500EF2EC6 /* YJLExamTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B21FA2F419386EEE00E8465D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B21FA31219386EEE00E8465D /* Images.xcassets in Resources */,
+				B21FA30419386EEE00E8465D /* InfoPlist.strings in Resources */,
+				B2012A3D19388D3D005D52F7 /* readme.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B21FA31519386EEE00E8465D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B21FA32319386EEE00E8465D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B21FA33D19386F0100E8465D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B21FA34B19386F0100E8465D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2ABD895194ADB1500EF2EC6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2ABD8A3194ADB1500EF2EC6 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B21FA2F219386EEE00E8465D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2F286B9194948AA005DC4D9 /* YJLObject.m in Sources */,
+				B2F286B5194941C2005DC4D9 /* YJLImageView.m in Sources */,
+				B2ABD8B2194ADD0E00EF2EC6 /* YJLQuestionHandle.m in Sources */,
+				B2D7A252194EF43F00C679B0 /* YJLDrawLabel.m in Sources */,
+				B202DA011959637500F75F23 /* YJLSelectView.m in Sources */,
+				B2F286BD19494904005DC4D9 /* YJLTextObj.m in Sources */,
+				B21FA36919387B2200E8465D /* YJLUIKit.m in Sources */,
+				B21FA36719387B2200E8465D /* YJLFlagView.m in Sources */,
+				B21FA36B19387B2200E8465D /* YJLView.m in Sources */,
+				B2012A38193884AB005D52F7 /* YJLContentView.m in Sources */,
+				B22C440E193D9E720012064D /* YJLViewController.m in Sources */,
+				B2D7A24E194EF40700C679B0 /* YJLScrollLabel.m in Sources */,
+				B21FA31019386EEE00E8465D /* ViewController.m in Sources */,
+				B21FA30A19386EEE00E8465D /* AppDelegate.m in Sources */,
+				B21FA30619386EEE00E8465D /* main.m in Sources */,
+				B2ABD8AE194ADB7E00EF2EC6 /* YJLQuestion.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B21FA31319386EEE00E8465D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B21FA32519386EEE00E8465D /* testYJLUIKitTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B21FA32E19386F0000E8465D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2F286B6194941C2005DC4D9 /* YJLImageView.m in Sources */,
+				B2F286BA194948AA005DC4D9 /* YJLObject.m in Sources */,
+				B202DA021959637500F75F23 /* YJLSelectView.m in Sources */,
+				B2012A39193884AB005D52F7 /* YJLContentView.m in Sources */,
+				B21FA36A19387B2200E8465D /* YJLUIKit.m in Sources */,
+				B21FA36819387B2200E8465D /* YJLFlagView.m in Sources */,
+				B22C440F193D9E720012064D /* YJLViewController.m in Sources */,
+				B2F286BE19494904005DC4D9 /* YJLTextObj.m in Sources */,
+				B21FA36C19387B2200E8465D /* YJLView.m in Sources */,
+				B2D7A253194EF43F00C679B0 /* YJLDrawLabel.m in Sources */,
+				B2D7A24F194EF40700C679B0 /* YJLScrollLabel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B21FA33B19386F0100E8465D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B21FA34D19386F0100E8465D /* YJLUIKitTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2ABD886194ADB1500EF2EC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2ABD8B3194ADD0E00EF2EC6 /* YJLQuestionHandle.m in Sources */,
+				B2ABD892194ADB1500EF2EC6 /* YJLExam.m in Sources */,
+				B2ABD8AF194ADB7E00EF2EC6 /* YJLQuestion.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2ABD893194ADB1500EF2EC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2ABD8A5194ADB1500EF2EC6 /* YJLExamTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B21FA31D19386EEE00E8465D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B21FA2F519386EEE00E8465D /* testYJLUIKit */;
+			targetProxy = B21FA31C19386EEE00E8465D /* PBXContainerItemProxy */;
+		};
+		B21FA34419386F0100E8465D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B21FA33119386F0000E8465D /* YJLUIKit */;
+			targetProxy = B21FA34319386F0100E8465D /* PBXContainerItemProxy */;
+		};
+		B2ABD89C194ADB1500EF2EC6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B2ABD889194ADB1500EF2EC6 /* YJLExam */;
+			targetProxy = B2ABD89B194ADB1500EF2EC6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B21FA30219386EEE00E8465D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B21FA30319386EEE00E8465D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B21FA32119386EEE00E8465D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B21FA32219386EEE00E8465D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B21FA34919386F0100E8465D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B21FA34A19386F0100E8465D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B2ABD8A1194ADB1500EF2EC6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B2ABD8A2194ADB1500EF2EC6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B21FA32619386EEE00E8465D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B21FA32719386EEE00E8465D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B21FA32919386EEE00E8465D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "testYJLUIKit/testYJLUIKit-Prefix.pch";
+				INFOPLIST_FILE = "testYJLUIKit/testYJLUIKit-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B21FA32A19386EEE00E8465D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "testYJLUIKit/testYJLUIKit-Prefix.pch";
+				INFOPLIST_FILE = "testYJLUIKit/testYJLUIKit-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		B21FA32C19386EEE00E8465D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/testYJLUIKit.app/testYJLUIKit";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "testYJLUIKit/testYJLUIKit-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "testYJLUIKitTests/testYJLUIKitTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		B21FA32D19386EEE00E8465D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/testYJLUIKit.app/testYJLUIKit";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "testYJLUIKit/testYJLUIKit-Prefix.pch";
+				INFOPLIST_FILE = "testYJLUIKitTests/testYJLUIKitTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+		B21FA34F19386F0100E8465D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
+				DSTROOT = /tmp/YJLUIKit.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YJLUIKit/YJLUIKit-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		B21FA35019386F0100E8465D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
+				DSTROOT = /tmp/YJLUIKit.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YJLUIKit/YJLUIKit-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		B21FA35219386F0100E8465D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/testYJLUIKit.app/testYJLUIKit";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YJLUIKit/YJLUIKit-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "YJLUIKitTests/YJLUIKitTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		B21FA35319386F0100E8465D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/testYJLUIKit.app/testYJLUIKit";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YJLUIKit/YJLUIKit-Prefix.pch";
+				INFOPLIST_FILE = "YJLUIKitTests/YJLUIKitTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+		B2ABD8A7194ADB1500EF2EC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
+				DSTROOT = /tmp/YJLExam.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YJLExam/YJLExam-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		B2ABD8A8194ADB1500EF2EC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
+				DSTROOT = /tmp/YJLExam.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YJLExam/YJLExam-Prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		B2ABD8AA194ADB1500EF2EC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/testYJLUIKit.app/testYJLUIKit";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YJLExam/YJLExam-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "YJLExamTests/YJLExamTests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		B2ABD8AB194ADB1500EF2EC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/testYJLUIKit.app/testYJLUIKit";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YJLExam/YJLExam-Prefix.pch";
+				INFOPLIST_FILE = "YJLExamTests/YJLExamTests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B21FA2F119386EEE00E8465D /* Build configuration list for PBXProject "testYJLUIKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B21FA32619386EEE00E8465D /* Debug */,
+				B21FA32719386EEE00E8465D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B21FA32819386EEE00E8465D /* Build configuration list for PBXNativeTarget "testYJLUIKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B21FA32919386EEE00E8465D /* Debug */,
+				B21FA32A19386EEE00E8465D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B21FA32B19386EEE00E8465D /* Build configuration list for PBXNativeTarget "testYJLUIKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B21FA32C19386EEE00E8465D /* Debug */,
+				B21FA32D19386EEE00E8465D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B21FA34E19386F0100E8465D /* Build configuration list for PBXNativeTarget "YJLUIKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B21FA34F19386F0100E8465D /* Debug */,
+				B21FA35019386F0100E8465D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B21FA35119386F0100E8465D /* Build configuration list for PBXNativeTarget "YJLUIKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B21FA35219386F0100E8465D /* Debug */,
+				B21FA35319386F0100E8465D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B2ABD8A6194ADB1500EF2EC6 /* Build configuration list for PBXNativeTarget "YJLExam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2ABD8A7194ADB1500EF2EC6 /* Debug */,
+				B2ABD8A8194ADB1500EF2EC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B2ABD8A9194ADB1500EF2EC6 /* Build configuration list for PBXNativeTarget "YJLExamTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2ABD8AA194ADB1500EF2EC6 /* Debug */,
+				B2ABD8AB194ADB1500EF2EC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B21FA2EE19386EEE00E8465D /* Project object */;
+}
