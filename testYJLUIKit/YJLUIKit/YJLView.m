@@ -33,6 +33,7 @@
     [super dealloc];
 }
 #pragma mark -- YJLLayoutDelegate Methods
+//YJLLAYOUTDELEGATE_IMPLEMENTATION(@"frame,tag,backgroundColor","YJLView")
 +(NSArray *)getInfoDictKeys
 {
     Class currentClass=[self class];

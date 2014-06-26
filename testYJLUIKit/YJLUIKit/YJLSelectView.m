@@ -37,13 +37,8 @@
         [self addSubview:titleLa];
         [titleLa release];
     }
+    titleLa.frame=self.bounds;
     titleLa.text=self.title;
-}
--(id)init
-{
-    [self release];
-    self=nil;
-    return self;
 }
 -(id)initWithFrame:(CGRect)frame
 {
@@ -51,6 +46,17 @@
         [self createView];
     }
     return self;
+}
+-(void)willMoveToSuperview:(UIView *)newSuperview
+{
+    if (newSuperview) {
+        [self createView];
+    }else{
+        if (self.opening) {
+            [menuView removeFromSuperview];
+            menuView=nil;
+        }
+    }
 }
 -(id)initWithFrame:(CGRect)frame title:(NSString *)title options:(NSArray *)options
 {
@@ -99,9 +105,9 @@
     
     _opening=YES;
     float x=0,y=0,w=0,h=0;
-    if (self.menuWidth==0) {
-        w=self.frame.size.width;
-    }
+    
+    w=self.menuWidth==0?self.frame.size.width:self.menuWidth;
+    
     switch (self.direction) {
         case kYJLDirectionDown:
             x=self.frame.origin.x+self.menuOffset.x;

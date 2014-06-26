@@ -7,7 +7,6 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "YJLUIKit.h"
 @interface ViewController : UIViewController
 
 @end

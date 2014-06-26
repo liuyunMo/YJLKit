@@ -12,12 +12,11 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    enableDeallocLog(YES);
     UIWindow *window=[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    window.rootViewController=[[ViewController alloc] init];
+    window.rootViewController=[[[UINavigationController alloc] initWithRootViewController:[[[ViewController alloc] init] autorelease]] autorelease];
     window.backgroundColor=[UIColor whiteColor];
     [window makeKeyAndVisible];
     return YES;
 }
-							
-
 @end

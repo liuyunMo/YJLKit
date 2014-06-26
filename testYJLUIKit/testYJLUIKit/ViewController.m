@@ -8,71 +8,67 @@
 
 #import "ViewController.h"
 #import "YJLContentView.h"
-@interface ViewController ()<YJLSelectViewDelegete>
-
+#define KEY_TITLE @"title"
+#define KEY_CLASS @"class"
+@interface ViewController ()<UITableViewDataSource,UITableViewDelegate>
+{
+    NSArray *dataToShow;
+}
 @end
 
 @implementation ViewController
-
+- (void)dealloc
+{
+    DEALLOC_PRINT;
+    [dataToShow release];
+    [super dealloc];
+}
 - (void)viewDidLoad
 {
-    enableDeallocLog(YES);
     [super viewDidLoad];
-    self.view.backgroundColor=[UIColor scrollViewTexturedBackgroundColor];
-    YJLFlagView *flagView=[YJLFlagView createWithInfoDict:
-  @{@"flag":@"flag",
-    @"tag":@(10),
-    @"frame":[NSValue valueWithCGRect:CGRectMake(0, 0, 100, 100)],
-    @"backgroundColor":[UIColor redColor]
-                                                        }];
-    [self.view addSubview:flagView];
-    NSLog(@"%ld_%@",(long)flagView.tag,flagView.flag);
-    NSLog(@"%@",[YJLContentView getInfoDictKeys]);
-    
-    
-    YJLScrollLabel *label=[[YJLScrollLabel alloc] initWithFrame:CGRectMake(0, 120, 100, 20)];
-    YJLTextObj *textObj=[[YJLTextObj alloc] init];
-    label.backgroundColor=[UIColor brownColor];
-    textObj.text=@"just for test!just for test!just for test!";
-    textObj.font=[UIFont systemFontOfSize:15];
-    textObj.textColor=[UIColor redColor];
-    label.textObj=textObj;
-    [textObj release];
-    [self.view addSubview:label];
-    [label release];
-    
-//    UIScrollView *sc=[[UIScrollView alloc] initWithFrame:CGRectMake(0, 150, 210, self.view.bounds.size.height-200)];
-//    [self.view addSubview:sc];
-//    [sc release];
-//    NSString *path=[[NSBundle mainBundle] pathForResource:@"readme" ofType:@"txt"];
-//    YJLContentView *vi=[[YJLContentView alloc] initWithString:[NSString stringWithContentsOfFile:path encoding:4 error:nil] frame:CGRectMake(10, 0, 200, 10)];
-//    vi.contentOffset=CGSizeMake(10, 30);
-//    vi.font=[UIFont systemFontOfSize:10];
-//    vi.backgroundColor=[UIColor cyanColor];
-//    [sc addSubview:vi];
-//    [vi release];
-//    
-//    NSLog(@"%@",flagView.infoDict);
-//    [flagView.infoDict.description writeToFile:[NSHomeDirectory() stringByAppendingPathComponent:@"Documents/info.txt"] atomically:YES encoding:4 error:nil];
-//    sc.contentSize=CGSizeMake(320, vi.frame.size.height);
-//    NSLog(@"%@",NSHomeDirectory());
-    
-    YJLSelectView *selectVi=[[YJLSelectView alloc] initWithFrame:CGRectMake(150, 40, 160, 30) title:@"这个是下拉菜单" options:@[@"选项1",@"选项2",@"选项3",@"选项4",@"选项1345",@"选项135",@"选项16",@"选项10",]];
-    selectVi.delegate=self;
-    selectVi.menuMaxHeight=0;
-    [self.view addSubview:selectVi];
-    NSLog(@"%@",selectVi.infoDict);
+    self.title=@"YJLKit";
+    dataToShow=@[
+                 @{KEY_TITLE:@"YJLSelectView",
+                   KEY_CLASS:@"TestSelectViewViewController"},
+                 
+                 ];
+    [dataToShow retain];
+    UITableView *tab=[[UITableView alloc] initWithFrame:self.view.bounds];
+    tab.delegate=self;
+    tab.dataSource=self;
+    [self.view addSubview:tab];
+    [tab release];
 }
-//-(void)touchesEnded:(NSSet *)touches withEvent:(UIEvent *)event
-//{
-//    [self.view.subviews makeObjectsPerformSelector:@selector(removeFromSuperview)];
-//}
-- (void)didReceiveMemoryWarning
+#pragma mark-- UITableViewDataSource
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    [super didReceiveMemoryWarning];
+    return dataToShow.count;
 }
--(void)selectView:(YJLSelectView*)selectView selectItem:(UIView *)itemView atIndex:(NSUInteger)index
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    [selectView close];
+    static NSString *cellId=@"cellId";
+    UITableViewCell *cell=[tableView dequeueReusableCellWithIdentifier:cellId];
+    if (cell==nil) {
+        cell=[[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:cellId] autorelease];
+        cell.accessoryType=UITableViewCellAccessoryDisclosureIndicator;
+    }
+    NSDictionary *dict=[dataToShow objectAtIndex:indexPath.row];
+    cell.textLabel.text=[dict objectForKey:KEY_TITLE];
+    return cell;
+}
+#pragma mark-- UITableViewDelegate
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    UITableViewCell *cell=[tableView cellForRowAtIndexPath:indexPath];
+    [cell setSelected:NO animated:YES];
+    NSDictionary *dict=[dataToShow objectAtIndex:indexPath.row];
+    Class c=NSClassFromString([dict objectForKey:KEY_CLASS]);
+    UIViewController *vc=[[c alloc] init];
+    if ([vc isKindOfClass:[UIViewController class]]) {
+        vc.title=[dict objectForKey:KEY_TITLE];
+        [self.navigationController pushViewController:vc animated:YES];
+    }
+    [vc release];
 }
 @end

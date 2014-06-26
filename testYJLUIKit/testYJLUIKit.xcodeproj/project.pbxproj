@@ -71,6 +71,7 @@
 		B2F286BA194948AA005DC4D9 /* YJLObject.m in Sources */ = {isa = PBXBuildFile; fileRef = B2F286B8194948AA005DC4D9 /* YJLObject.m */; };
 		B2F286BD19494904005DC4D9 /* YJLTextObj.m in Sources */ = {isa = PBXBuildFile; fileRef = B2F286BC19494904005DC4D9 /* YJLTextObj.m */; };
 		B2F286BE19494904005DC4D9 /* YJLTextObj.m in Sources */ = {isa = PBXBuildFile; fileRef = B2F286BC19494904005DC4D9 /* YJLTextObj.m */; };
+		B2FAC52B195C16810022C4C9 /* TestSelectViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2FAC52A195C16810022C4C9 /* TestSelectViewViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -190,6 +191,8 @@
 		B2F286B8194948AA005DC4D9 /* YJLObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJLObject.m; sourceTree = "<group>"; };
 		B2F286BB19494904005DC4D9 /* YJLTextObj.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJLTextObj.h; sourceTree = "<group>"; };
 		B2F286BC19494904005DC4D9 /* YJLTextObj.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJLTextObj.m; sourceTree = "<group>"; };
+		B2FAC529195C16810022C4C9 /* TestSelectViewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestSelectViewViewController.h; sourceTree = "<group>"; };
+		B2FAC52A195C16810022C4C9 /* TestSelectViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestSelectViewViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -302,6 +305,8 @@
 				B21FA30F19386EEE00E8465D /* ViewController.m */,
 				B21FA31119386EEE00E8465D /* Images.xcassets */,
 				B21FA30019386EEE00E8465D /* Supporting Files */,
+				B2FAC529195C16810022C4C9 /* TestSelectViewViewController.h */,
+				B2FAC52A195C16810022C4C9 /* TestSelectViewViewController.m */,
 			);
 			path = testYJLUIKit;
 			sourceTree = "<group>";
@@ -643,6 +648,7 @@
 				B21FA30A19386EEE00E8465D /* AppDelegate.m in Sources */,
 				B21FA30619386EEE00E8465D /* main.m in Sources */,
 				B2ABD8AE194ADB7E00EF2EC6 /* YJLQuestion.m in Sources */,
+				B2FAC52B195C16810022C4C9 /* TestSelectViewViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

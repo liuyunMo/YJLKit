@@ -31,42 +31,26 @@
     [super dealloc];
 }
 #pragma mark-- YJLCreateDelegate Methods
-+(NSArray *)getInfoDictKeys
-{
-    Class currentClass=[self class];
-    NSMutableArray *arr=[NSMutableArray array];
-    [arr addObjectsFromArray:@[
-                               @"flag"
-                               ]];
-    while (strcmp(class_getName(currentClass), "YJLObject")!=0) {
-        unsigned int proCount=0;
-        objc_property_t *proList=class_copyPropertyList(currentClass, &proCount);
-        for (int i=0; i<proCount; i++) {
-            const char *proName=property_getName(proList[i]);
-            [arr addObject:[NSString stringWithUTF8String:proName]];
-        }
-        currentClass=class_getSuperclass(currentClass);
-        
-    }
-    return arr;
-}
-+(id)createWithInfoDict:(NSDictionary*)infoDict
-{
-    UIView *view=[[[self class] alloc] init];
-    for (NSString *key in infoDict.allKeys) {
-        [view setValue:[infoDict objectForKey:key] forKey:key];
-    }
-    return view;
-}
--(NSDictionary *)infoDict
-{
-    NSMutableDictionary *dict=[NSMutableDictionary dictionary];
-    for (NSString *key in [[self class] getInfoDictKeys]) {
-        id value=[self valueForKey:key];
-        if (value) {
-            [dict setObject:value forKey:key];
-        }
-    }
-    return dict;
-}
+//+(NSArray *)getInfoDictKeys
+//{
+//    Class currentClass=[self class];
+//    NSMutableArray *arr=[NSMutableArray array];
+//    [arr addObjectsFromArray:@[
+//                               @"flag"
+//                               ]];
+//    while (strcmp(class_getName(currentClass), "YJLObject")!=0) {
+//        unsigned int proCount=0;
+//        objc_property_t *proList=class_copyPropertyList(currentClass, &proCount);
+//        for (int i=0; i<proCount; i++) {
+//            const char *proName=property_getName(proList[i]);
+//            [arr addObject:[NSString stringWithUTF8String:proName]];
+//        }
+//        currentClass=class_getSuperclass(currentClass);
+//        
+//    }
+//    return arr;
+//}
+GET_INFO_DICT_KEYS_IMPLEMENTATION(@"flag","YJLObject")
+CREATE_WITH_INFO_DICT_IMPLEMENTATION
+INFO_DICT_IMPLEMENTATION
 @end
