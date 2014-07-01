@@ -7,8 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9CF85B08195C4FDE0013FC75 /* YJLProgreeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CF85B07195C4FDE0013FC75 /* YJLProgreeView.m */; };
-		9CF85B09195C4FDE0013FC75 /* YJLProgreeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CF85B07195C4FDE0013FC75 /* YJLProgreeView.m */; };
+		9C049BB019627A41002EC9FA /* YJLProgreeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C049BAF19627A41002EC9FA /* YJLProgreeView.m */; };
+		9C049BB119627A41002EC9FA /* YJLProgreeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C049BAF19627A41002EC9FA /* YJLProgreeView.m */; };
+		9C31CF2719605E8700823002 /* YJLImageView.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = B2F286B3194941C2005DC4D9 /* YJLImageView.h */; };
+		9C31CF2819605E8700823002 /* YJLObject.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = B2F286B7194948AA005DC4D9 /* YJLObject.h */; };
+		9C31CF2919605E8700823002 /* YJLTextObj.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = B2F286BB19494904005DC4D9 /* YJLTextObj.h */; };
+		9C31CF2A19605E8700823002 /* YJLScrollLabel.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = B2D7A24C194EF40700C679B0 /* YJLScrollLabel.h */; };
+		9C31CF2B19605E8700823002 /* YJLDrawLabel.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = B2D7A250194EF43F00C679B0 /* YJLDrawLabel.h */; };
+		9C31CF2C19605E8700823002 /* YJLSelectView.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = B202D9FF1959637500F75F23 /* YJLSelectView.h */; };
+		9CC51A0A196277EB000877FA /* TestProgressViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CC51A09196277EB000877FA /* TestProgressViewViewController.m */; };
 		B2012A2D19388371005D52F7 /* YJLFlagDelegate.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = B21FA35F19387B2200E8465D /* YJLFlagDelegate.h */; };
 		B2012A2E19388371005D52F7 /* YJLFlagView.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = B21FA36019387B2200E8465D /* YJLFlagView.h */; };
 		B2012A2F19388371005D52F7 /* YJLLayoutDelegate.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = B21FA36219387B2200E8465D /* YJLLayoutDelegate.h */; };
@@ -107,6 +114,12 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
+				9C31CF2719605E8700823002 /* YJLImageView.h in CopyFiles */,
+				9C31CF2819605E8700823002 /* YJLObject.h in CopyFiles */,
+				9C31CF2919605E8700823002 /* YJLTextObj.h in CopyFiles */,
+				9C31CF2A19605E8700823002 /* YJLScrollLabel.h in CopyFiles */,
+				9C31CF2B19605E8700823002 /* YJLDrawLabel.h in CopyFiles */,
+				9C31CF2C19605E8700823002 /* YJLSelectView.h in CopyFiles */,
 				B22C442F193DA5FC0012064D /* YJLDefine.h in CopyFiles */,
 				B22C4410193D9F750012064D /* YJLViewController.h in CopyFiles */,
 				B2012A3E19388E1C005D52F7 /* YJLContentView.h in CopyFiles */,
@@ -131,8 +144,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		9CF85B06195C4FDE0013FC75 /* YJLProgreeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJLProgreeView.h; sourceTree = "<group>"; };
-		9CF85B07195C4FDE0013FC75 /* YJLProgreeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJLProgreeView.m; sourceTree = "<group>"; };
+		9C049BAE19627A41002EC9FA /* YJLProgreeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJLProgreeView.h; sourceTree = "<group>"; };
+		9C049BAF19627A41002EC9FA /* YJLProgreeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJLProgreeView.m; sourceTree = "<group>"; };
+		9CC51A08196277EB000877FA /* TestProgressViewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestProgressViewViewController.h; sourceTree = "<group>"; };
+		9CC51A09196277EB000877FA /* TestProgressViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestProgressViewViewController.m; sourceTree = "<group>"; };
 		B2012A36193884AB005D52F7 /* YJLContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJLContentView.h; sourceTree = "<group>"; };
 		B2012A37193884AB005D52F7 /* YJLContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJLContentView.m; sourceTree = "<group>"; };
 		B2012A3C19388D3D005D52F7 /* readme.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = readme.txt; sourceTree = SOURCE_ROOT; };
@@ -311,6 +326,8 @@
 				B21FA30019386EEE00E8465D /* Supporting Files */,
 				B2FAC529195C16810022C4C9 /* TestSelectViewViewController.h */,
 				B2FAC52A195C16810022C4C9 /* TestSelectViewViewController.m */,
+				9CC51A08196277EB000877FA /* TestProgressViewViewController.h */,
+				9CC51A09196277EB000877FA /* TestProgressViewViewController.m */,
 			);
 			path = testYJLUIKit;
 			sourceTree = "<group>";
@@ -373,8 +390,8 @@
 				B2D7A251194EF43F00C679B0 /* YJLDrawLabel.m */,
 				B202D9FF1959637500F75F23 /* YJLSelectView.h */,
 				B202DA001959637500F75F23 /* YJLSelectView.m */,
-				9CF85B06195C4FDE0013FC75 /* YJLProgreeView.h */,
-				9CF85B07195C4FDE0013FC75 /* YJLProgreeView.m */,
+				9C049BAE19627A41002EC9FA /* YJLProgreeView.h */,
+				9C049BAF19627A41002EC9FA /* YJLProgreeView.m */,
 			);
 			path = YJLUIKit;
 			sourceTree = "<group>";
@@ -646,12 +663,13 @@
 				B2F286BD19494904005DC4D9 /* YJLTextObj.m in Sources */,
 				B21FA36919387B2200E8465D /* YJLUIKit.m in Sources */,
 				B21FA36719387B2200E8465D /* YJLFlagView.m in Sources */,
+				9CC51A0A196277EB000877FA /* TestProgressViewViewController.m in Sources */,
 				B21FA36B19387B2200E8465D /* YJLView.m in Sources */,
 				B2012A38193884AB005D52F7 /* YJLContentView.m in Sources */,
 				B22C440E193D9E720012064D /* YJLViewController.m in Sources */,
-				9CF85B08195C4FDE0013FC75 /* YJLProgreeView.m in Sources */,
 				B2D7A24E194EF40700C679B0 /* YJLScrollLabel.m in Sources */,
 				B21FA31019386EEE00E8465D /* ViewController.m in Sources */,
+				9C049BB019627A41002EC9FA /* YJLProgreeView.m in Sources */,
 				B21FA30A19386EEE00E8465D /* AppDelegate.m in Sources */,
 				B21FA30619386EEE00E8465D /* main.m in Sources */,
 				B2ABD8AE194ADB7E00EF2EC6 /* YJLQuestion.m in Sources */,
@@ -676,7 +694,7 @@
 				B202DA021959637500F75F23 /* YJLSelectView.m in Sources */,
 				B2012A39193884AB005D52F7 /* YJLContentView.m in Sources */,
 				B21FA36A19387B2200E8465D /* YJLUIKit.m in Sources */,
-				9CF85B09195C4FDE0013FC75 /* YJLProgreeView.m in Sources */,
+				9C049BB119627A41002EC9FA /* YJLProgreeView.m in Sources */,
 				B21FA36819387B2200E8465D /* YJLFlagView.m in Sources */,
 				B22C440F193D9E720012064D /* YJLViewController.m in Sources */,
 				B2F286BE19494904005DC4D9 /* YJLTextObj.m in Sources */,
@@ -843,10 +861,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "testYJLUIKit/testYJLUIKit-Prefix.pch";
 				INFOPLIST_FILE = "testYJLUIKit/testYJLUIKit-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "testYJLUIKit/testYJLUIKit-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -856,10 +878,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "testYJLUIKit/testYJLUIKit-Prefix.pch";
 				INFOPLIST_FILE = "testYJLUIKit/testYJLUIKit-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "testYJLUIKit/testYJLUIKit-Bridging-Header.h";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

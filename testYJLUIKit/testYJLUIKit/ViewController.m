@@ -30,6 +30,8 @@
     dataToShow=@[
                  @{KEY_TITLE:@"YJLSelectView",
                    KEY_CLASS:@"TestSelectViewViewController"},
+                 @{KEY_TITLE:@"YJLProgressView",
+                   KEY_CLASS:@"TestProgressViewViewController"},
                  
                  ];
     [dataToShow retain];

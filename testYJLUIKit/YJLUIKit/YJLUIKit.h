@@ -18,6 +18,7 @@
 #import "YJLDrawLabel.h"
 #import "YJLScrollLabel.h"
 #import "YJLSelectView.h"
+#import "YJLProgreeView.h"
 
 
 @interface YJLUIKit : NSObject
