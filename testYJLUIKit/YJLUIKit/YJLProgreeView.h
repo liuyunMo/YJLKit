@@ -24,4 +24,6 @@ typedef enum : NSUInteger {
 @property(nonatomic,retain)UIColor *                  progressColor;
 @property(nonatomic,assign)float                      progress;     //0-1
 @property(nonatomic,assign)float                      progressWidth;
+
+@property(nonatomic,copy)VVBlock                      progressChanged;
 @end

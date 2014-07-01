@@ -32,7 +32,8 @@
                    KEY_CLASS:@"TestSelectViewViewController"},
                  @{KEY_TITLE:@"YJLProgressView",
                    KEY_CLASS:@"TestProgressViewViewController"},
-                 
+                 @{KEY_TITLE:@"YJLRefurbishView",
+                   KEY_CLASS:@"TestRefurbishView"},
                  ];
     [dataToShow retain];
     UITableView *tab=[[UITableView alloc] initWithFrame:self.view.bounds];

@@ -12,6 +12,7 @@
 - (void)dealloc
 {
     DEALLOC_PRINT;
+    Block_release(_progressChanged);
     [_defaultColor release];
     [_progressColor release];
     [super dealloc];
@@ -29,6 +30,9 @@
 -(void)setProgress:(float)progress
 {
     _progress=progress<0?0:(progress>1?1:progress);
+    if (_progressChanged) {
+        _progressChanged();
+    }
     [self setNeedsDisplay];
 }
 -(void)drawLoopProgress:(CGContextRef)ctx rect:(CGRect)rect

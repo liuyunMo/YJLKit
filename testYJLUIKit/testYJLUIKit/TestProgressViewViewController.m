@@ -52,6 +52,10 @@
     proVi4.type=YJLProgressViewPie;
     proVi4.backgroundColor=[UIColor clearColor];
     [self.view addSubview:proVi4];
+    __block typeof(proVi4)p=proVi4;
+    proVi4.progressChanged=^{
+        NSLog(@"%f",p.progress);
+    };
     [proVi4 release];
     
     timer=[NSTimer scheduledTimerWithTimeInterval:.1 target:self selector:@selector(run) userInfo:nil repeats:YES];
@@ -64,7 +68,7 @@
     proVi2.progress+=.01;
     proVi3.progress+=.01;
     proVi4.progress+=.01;
-    if (proVi.progress>1) {
+    if (proVi.progress>=1) {
         [timer invalidate];
         timer=nil;
     }
