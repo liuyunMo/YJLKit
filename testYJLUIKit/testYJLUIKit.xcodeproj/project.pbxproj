@@ -12,6 +12,9 @@
 		9C2DEFB91963117F005C6F56 /* YJLRefurbishView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C2DEFB81963117F005C6F56 /* YJLRefurbishView.m */; };
 		9C2DEFBA1963117F005C6F56 /* YJLRefurbishView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C2DEFB81963117F005C6F56 /* YJLRefurbishView.m */; };
 		9C2DEFBD19631530005C6F56 /* TestRefurbishView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C2DEFBC19631530005C6F56 /* TestRefurbishView.m */; };
+		9C2DEFC01963BE81005C6F56 /* YJLRefView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C2DEFBF1963BE81005C6F56 /* YJLRefView.m */; };
+		9C2DEFC11963BE81005C6F56 /* YJLRefView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C2DEFBF1963BE81005C6F56 /* YJLRefView.m */; };
+		9C2DEFC41963C487005C6F56 /* TestYJLRefView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C2DEFC31963C487005C6F56 /* TestYJLRefView.m */; };
 		9C31CF2719605E8700823002 /* YJLImageView.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = B2F286B3194941C2005DC4D9 /* YJLImageView.h */; };
 		9C31CF2819605E8700823002 /* YJLObject.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = B2F286B7194948AA005DC4D9 /* YJLObject.h */; };
 		9C31CF2919605E8700823002 /* YJLTextObj.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = B2F286BB19494904005DC4D9 /* YJLTextObj.h */; };
@@ -153,6 +156,10 @@
 		9C2DEFB81963117F005C6F56 /* YJLRefurbishView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJLRefurbishView.m; sourceTree = "<group>"; };
 		9C2DEFBB19631530005C6F56 /* TestRefurbishView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestRefurbishView.h; sourceTree = "<group>"; };
 		9C2DEFBC19631530005C6F56 /* TestRefurbishView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestRefurbishView.m; sourceTree = "<group>"; };
+		9C2DEFBE1963BE81005C6F56 /* YJLRefView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJLRefView.h; sourceTree = "<group>"; };
+		9C2DEFBF1963BE81005C6F56 /* YJLRefView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJLRefView.m; sourceTree = "<group>"; };
+		9C2DEFC21963C487005C6F56 /* TestYJLRefView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestYJLRefView.h; sourceTree = "<group>"; };
+		9C2DEFC31963C487005C6F56 /* TestYJLRefView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestYJLRefView.m; sourceTree = "<group>"; };
 		9CC51A08196277EB000877FA /* TestProgressViewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestProgressViewViewController.h; sourceTree = "<group>"; };
 		9CC51A09196277EB000877FA /* TestProgressViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestProgressViewViewController.m; sourceTree = "<group>"; };
 		B2012A36193884AB005D52F7 /* YJLContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJLContentView.h; sourceTree = "<group>"; };
@@ -337,6 +344,8 @@
 				9CC51A09196277EB000877FA /* TestProgressViewViewController.m */,
 				9C2DEFBB19631530005C6F56 /* TestRefurbishView.h */,
 				9C2DEFBC19631530005C6F56 /* TestRefurbishView.m */,
+				9C2DEFC21963C487005C6F56 /* TestYJLRefView.h */,
+				9C2DEFC31963C487005C6F56 /* TestYJLRefView.m */,
 			);
 			path = testYJLUIKit;
 			sourceTree = "<group>";
@@ -403,6 +412,8 @@
 				9C049BAF19627A41002EC9FA /* YJLProgreeView.m */,
 				9C2DEFB71963117F005C6F56 /* YJLRefurbishView.h */,
 				9C2DEFB81963117F005C6F56 /* YJLRefurbishView.m */,
+				9C2DEFBE1963BE81005C6F56 /* YJLRefView.h */,
+				9C2DEFBF1963BE81005C6F56 /* YJLRefView.m */,
 			);
 			path = YJLUIKit;
 			sourceTree = "<group>";
@@ -684,8 +695,10 @@
 				9C2DEFBD19631530005C6F56 /* TestRefurbishView.m in Sources */,
 				9C049BB019627A41002EC9FA /* YJLProgreeView.m in Sources */,
 				B21FA30A19386EEE00E8465D /* AppDelegate.m in Sources */,
+				9C2DEFC01963BE81005C6F56 /* YJLRefView.m in Sources */,
 				B21FA30619386EEE00E8465D /* main.m in Sources */,
 				B2ABD8AE194ADB7E00EF2EC6 /* YJLQuestion.m in Sources */,
+				9C2DEFC41963C487005C6F56 /* TestYJLRefView.m in Sources */,
 				B2FAC52B195C16810022C4C9 /* TestSelectViewViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -714,6 +727,7 @@
 				B2F286BE19494904005DC4D9 /* YJLTextObj.m in Sources */,
 				B21FA36C19387B2200E8465D /* YJLView.m in Sources */,
 				B2D7A253194EF43F00C679B0 /* YJLDrawLabel.m in Sources */,
+				9C2DEFC11963BE81005C6F56 /* YJLRefView.m in Sources */,
 				B2D7A24F194EF40700C679B0 /* YJLScrollLabel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

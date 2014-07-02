@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-
+//偏转的问题。。
 @interface YJLRefurbishView : UITableView
 -(void)setupDefineValues;
 -(void)prepareToRefurbish;

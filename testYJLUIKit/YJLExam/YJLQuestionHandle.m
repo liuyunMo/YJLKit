@@ -55,7 +55,7 @@
 {
     return qIds.count;
 }
--(int)getQuestionIdWithIndex:(unsigned int)index
+-(int)getQuestionIdWithIndex:(NSUInteger)index
 {
     if(index>self.questionCount-1){
         return -1;
@@ -63,7 +63,7 @@
         return [[qIds objectAtIndex:index] intValue];
     }
 }
--(YJLQuestion *)getQuestionWithIndex:(unsigned int)index
+-(YJLQuestion *)getQuestionWithIndex:(NSUInteger)index
 {
     int qId=[self getQuestionIdWithIndex:index];
     if (qId!=-1) {
@@ -83,7 +83,7 @@
     }
     return nil;
 }
--(NSArray *)getAnswerWithIndex:(unsigned int)index
+-(NSArray *)getAnswerWithIndex:(NSUInteger)index
 {
     if(index>self.questionCount-1){
         return nil;

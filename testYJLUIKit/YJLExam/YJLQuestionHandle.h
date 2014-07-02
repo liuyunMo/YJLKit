@@ -12,9 +12,9 @@
 @interface YJLQuestionHandle : YJLObject
 @property(nonatomic,assign)int questionCount;
 -(id)initWithQuestions:(NSArray*)questions;
--(int)getQuestionIdWithIndex:(unsigned int)index;
--(YJLQuestion *)getQuestionWithIndex:(unsigned int)index;
+-(int)getQuestionIdWithIndex:(NSUInteger)index;
+-(YJLQuestion *)getQuestionWithIndex:(NSUInteger)index;
 -(YJLQuestion *)getQuestionWithQuestionId:(int)questionId;
 -(NSArray *)getAnswerWithQuestionId:(int)questionId;
--(NSArray *)getAnswerWithIndex:(unsigned int)index;
+-(NSArray *)getAnswerWithIndex:(NSUInteger)index;
 @end
