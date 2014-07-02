@@ -8,6 +8,6 @@
 
 #import "YJLViewController.h"
 
-@interface TestRefurbishView : YJLViewController
+@interface TestRefurbishView : YJLViewController<UITableViewDataSource,UITableViewDelegate>
 
 @end

@@ -18,13 +18,30 @@
 - (void)dealloc
 {
     DEALLOC_PRINT;
+    [self removeKVO];
     [super dealloc];
+}
+- (void)didMoveToSuperview
+{
+    NSLog(@"%@",[NSValue valueWithUIEdgeInsets:self.contentInset]);
+    NSLog(@"%@",[NSValue valueWithCGPoint:self.contentOffset]);
+    NSLog(@"%@",[NSValue valueWithCGSize:self.contentSize]);
 }
 -(void)setupDefineValues
 {
-    self.contentSize=CGSizeMake(self.frame.size.width, self.frame.size.height);
     self.clipsToBounds=YES;
     [self addKVO];
+}
+-(void)removeKVO
+{
+    [self removeObserver:self forKeyPath:@"contentOffset"];
+    for (UIPanGestureRecognizer *ges in self.gestureRecognizers)
+    {
+        if ([ges isKindOfClass:[UIPanGestureRecognizer class]])
+        {
+            [ges removeObserver:self forKeyPath:@"state"];
+        }
+    }
 }
 -(void)addKVO
 {
@@ -40,11 +57,12 @@
 }
 -(void)observeValueForKeyPath:(NSString *)keyPath ofObject:(id)object change:(NSDictionary *)change context:(void *)context
 {
-    NSLog(@"%@",keyPath);
     if ([keyPath isEqualToString:@"contentOffset"]) {
         CGPoint offset=[[change objectForKey:NSKeyValueChangeNewKey] CGPointValue];
-        if (offset.y<-130) {
-            proView.progress=fabsf(offset.y+130)/20;
+        if (offset.y<-40) {
+            proView.progress=fabsf(offset.y+40)/20;
+        }else{
+            proView.progress=0;
         }
     }
     if ([keyPath isEqualToString:@"state"]) {
@@ -66,26 +84,22 @@
         [ac release];
         ac.center=proView.center;
     }
-    
     proView.hidden=YES;
-    self.contentInset=UIEdgeInsetsMake(130,0,0,0);
-    [self performSelector:@selector(refurbishFinish) withObject:nil afterDelay:2];
+    
+    self.contentInset=UIEdgeInsetsMake(60,0,0,0);
+    [self performSelector:@selector(refurbishFinish) withObject:nil afterDelay:3];
 }
 -(void)refurbishFinish
 {
-    proView.hidden=NO;
-    [ac removeFromSuperview];
-    ac=nil;
-    NSLog(@"%@",NSStringFromUIEdgeInsets(self.contentInset));
-    [self setContentInset:UIEdgeInsetsMake(0, 0, 0, 0)];
-//    [UIView animateWithDuration:.25 animations:^{
-//        
-//    } completion:^(BOOL finished) {
-//        if (finished) {
-////            [ac removeFromSuperview];
-////            ac=nil;
-//        }
-//    }];
+    [UIView animateWithDuration:.5 animations:^{
+        [self setContentInset:UIEdgeInsetsMake(0, 0, 0, 0)];
+    } completion:^(BOOL finished) {
+        if (finished) {
+            proView.hidden=NO;
+            [ac removeFromSuperview];
+            ac=nil;
+        }
+    }];
 }
 -(void)createView
 {
@@ -99,11 +113,19 @@
         [self addSubview:proView];
         [proView release];
     }
-    proView.center=CGPointMake(self.frame.size.width/2, -110);
+    proView.center=CGPointMake(self.frame.size.width/2, -30);
 }
 -(id)initWithFrame:(CGRect)frame
 {
     if (self=[super initWithFrame:frame]) {
+        [self setupDefineValues];
+        [self createView];
+    }
+    return self;
+}
+-(id)initWithFrame:(CGRect)frame style:(UITableViewStyle)style
+{
+    if (self=[super initWithFrame:frame style:style]) {
         [self setupDefineValues];
         [self createView];
     }

@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface YJLRefurbishView : UIScrollView
+@interface YJLRefurbishView : UITableView
 -(void)setupDefineValues;
+-(void)prepareToRefurbish;
+-(void)refurbishFinish;
 @end
