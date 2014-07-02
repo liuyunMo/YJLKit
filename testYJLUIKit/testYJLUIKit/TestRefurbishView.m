@@ -15,7 +15,7 @@
     [super viewDidLoad];
     self.view.backgroundColor=[UIColor whiteColor];
     
-    YJLRefurbishView *refView=[[YJLRefurbishView alloc] initWithFrame:CGRectMake(10, 80, 300, 300) style:UITableViewStylePlain];
+    YJLRefurbishView *refView=[[YJLRefurbishView alloc] initWithFrame:CGRectMake(0, 64, 320, self.view.bounds.size.height-64) style:UITableViewStylePlain];
     refView.delegate=self;
     refView.dataSource=self;
     [refView prepareToRefurbish];
@@ -26,7 +26,7 @@
 }
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    return 2;
+    return 20;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{

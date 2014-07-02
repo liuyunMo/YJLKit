@@ -8,6 +8,7 @@
 
 #import "YJLRefurbishView.h"
 #import "YJLProgreeView.h"
+#define SPAN_TO_REF    80
 @interface YJLRefurbishView()
 {
     YJLProgreeView *proView;
@@ -59,8 +60,8 @@
 {
     if ([keyPath isEqualToString:@"contentOffset"]) {
         CGPoint offset=[[change objectForKey:NSKeyValueChangeNewKey] CGPointValue];
-        if (offset.y<-40) {
-            proView.progress=fabsf(offset.y+40)/20;
+        if (offset.y<-SPAN_TO_REF/2) {
+            proView.progress=fabsf(offset.y+SPAN_TO_REF/2)/(SPAN_TO_REF/2);
         }else{
             proView.progress=0;
         }
@@ -78,7 +79,7 @@
 {
     if (!ac) {
         ac=[[UIActivityIndicatorView alloc] initWithActivityIndicatorStyle:UIActivityIndicatorViewStyleGray];
-        ac.color=[UIColor redColor];
+        ac.color=[UIColor whiteColor];
         [ac startAnimating];
         [self addSubview:ac];
         [ac release];
@@ -86,12 +87,12 @@
     }
     proView.hidden=YES;
     
-    self.contentInset=UIEdgeInsetsMake(60,0,0,0);
+    self.contentInset=UIEdgeInsetsMake(SPAN_TO_REF,0,0,0);
     [self performSelector:@selector(refurbishFinish) withObject:nil afterDelay:3];
 }
 -(void)refurbishFinish
 {
-    [UIView animateWithDuration:.5 animations:^{
+    [UIView animateWithDuration:.25 animations:^{
         [self setContentInset:UIEdgeInsetsMake(0, 0, 0, 0)];
     } completion:^(BOOL finished) {
         if (finished) {
@@ -113,7 +114,7 @@
         [self addSubview:proView];
         [proView release];
     }
-    proView.center=CGPointMake(self.frame.size.width/2, -30);
+    proView.center=CGPointMake(self.frame.size.width/2, -SPAN_TO_REF/2);
 }
 -(id)initWithFrame:(CGRect)frame
 {
