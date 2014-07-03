@@ -12,7 +12,7 @@
 @property(nonatomic,copy)NSString    *content;
 @property(nonatomic,retain)UIFont    *font;
 @property(nonatomic,retain)UIColor   *textColor;
-@property(nonatomic,assign)CGSize    contentOffset;
+@property(nonatomic,assign)CGPoint   contentOffset;
 
 -(id)initWithString:(NSString *)string frame:(CGRect)frame;
 -(void)createView;

@@ -17,9 +17,11 @@
 {
     [super setupDefineValues];
     self.userInteractionEnabled=NO;
-    _font=[[UIFont systemFontOfSize:15] retain];
-    _textColor=[[UIColor blackColor] retain];
-    _contentOffset=CGSizeMake(0, 0);
+    UIFont *font=[UIFont systemFontOfSize:15];
+    SET_PAR(_font, font);
+    UIColor *color=[UIColor blackColor];
+    SET_PAR(_textColor, color);
+    _contentOffset=CGPointMake(0, 0);
 }
 -(id)initWithString:(NSString *)string frame:(CGRect)frame
 {
@@ -33,7 +35,7 @@
 {
     if (!contentView)
     {
-        contentView=[[UITextView alloc] initWithFrame:CGRectMake(self.contentOffset.width, self.contentOffset.height, self.bounds.size.width-self.contentOffset.width, self.bounds.size.height)];
+        contentView=[[UITextView alloc] initWithFrame:CGRectMake(self.contentOffset.x, self.contentOffset.y, self.bounds.size.width-self.contentOffset.x, self.bounds.size.height)];
         contentView.editable=self.userInteractionEnabled;
         contentView.backgroundColor=[UIColor clearColor];
         contentView.userInteractionEnabled=self.userInteractionEnabled;
@@ -49,13 +51,13 @@
 }
 -(void)adjustFrame
 {
-    contentView.frame     = CGRectMake(self.contentOffset.width,
-                                       self.contentOffset.height,
-                                       self.bounds.size.width-self.contentOffset.width,
-                                       self.bounds.size.height-self.contentOffset.height);
+    contentView.frame     = CGRectMake(self.contentOffset.x,
+                                       self.contentOffset.y,
+                                       self.bounds.size.width-self.contentOffset.x,
+                                       self.bounds.size.height-self.contentOffset.y);
     float height=[YJLUIKit getTextViewContentHeight:contentView];
     CGRect selfRect=self.frame;
-    selfRect.size.height=self.contentOffset.height+height;
+    selfRect.size.height=self.contentOffset.y+height;
     self.frame=selfRect;//会触发 contentView.frame发成改变
 }
 -(void)dealloc
@@ -74,10 +76,10 @@
 -(void)setFrame:(CGRect)frame
 {
     [super setFrame:frame];
-    contentView.frame     = CGRectMake(self.contentOffset.width,
-                                       self.contentOffset.height,
-                                       self.bounds.size.width-self.contentOffset.width,
-                                       self.bounds.size.height-self.contentOffset.height);
+    contentView.frame     = CGRectMake(self.contentOffset.x,
+                                       self.contentOffset.y,
+                                       self.bounds.size.width-self.contentOffset.x,
+                                       self.bounds.size.height-self.contentOffset.y);
 }
 -(void)setContent:(NSString *)content
 {
@@ -86,7 +88,7 @@
     _content=content;
     [self createView];
 }
--(void)setContentOffset:(CGSize)contentOffset
+-(void)setContentOffset:(CGPoint)contentOffset
 {
     _contentOffset=contentOffset;
     [self createView];

@@ -9,7 +9,10 @@
 #import <Foundation/Foundation.h>
 
 #import "YJLUIKit.h"
-
+#import "YJLQuestion.h"
+#import "YJLQuestionHandle.h"
+#import "YJLOptionView.h"
+#import "YJLQuestionView.h"
 
 @interface YJLExam : NSObject
 
