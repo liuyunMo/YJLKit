@@ -12,6 +12,7 @@
 #import "YJLDefine.h"
 #import "YJLView.h"
 #import "YJLFlagView.h"
+#import "YJLImageView.h"
 #import "YJLContentView.h"
 #import "YJLObject.h"
 #import "YJLTextObj.h"
@@ -21,6 +22,7 @@
 #import "YJLProgreeView.h"
 #import "YJLRefurbishView.h"
 #import "YJLRefView.h"
+#import "YJLADControl.h"
 
 
 @interface YJLUIKit : NSObject

@@ -36,6 +36,8 @@
                    KEY_CLASS:@"TestRefurbishView"},
                  @{KEY_TITLE:@"YJLRefView",
                    KEY_CLASS:@"TestYJLRefView"},
+                 @{KEY_TITLE:@"YJLADControl",
+                   KEY_CLASS:@"TestYJLADControl"},
                  ];
     [dataToShow retain];
     UITableView *tab=[[UITableView alloc] initWithFrame:self.view.bounds];
