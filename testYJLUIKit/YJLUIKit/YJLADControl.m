@@ -136,6 +136,7 @@
     
     __block typeof(self)bSelf=self;
     [UIView animateWithDuration:self.transitionTime animations:^{
+        [UIView setAnimationCurve:UIViewAnimationCurveEaseIn];
         nextView.frame=bSelf.bounds;
         currentView.frame=preRect;
     } completion:^(BOOL finished) {

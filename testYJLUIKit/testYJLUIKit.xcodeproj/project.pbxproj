@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		9C049BB019627A41002EC9FA /* YJLProgreeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C049BAF19627A41002EC9FA /* YJLProgreeView.m */; };
 		9C049BB119627A41002EC9FA /* YJLProgreeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C049BAF19627A41002EC9FA /* YJLProgreeView.m */; };
+		9C27983B197CC07600603D52 /* YJLADControl.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9C4F3653197BC0DF00C4B403 /* YJLADControl.h */; };
 		9C2DEFB91963117F005C6F56 /* YJLRefurbishView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C2DEFB81963117F005C6F56 /* YJLRefurbishView.m */; };
 		9C2DEFBA1963117F005C6F56 /* YJLRefurbishView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C2DEFB81963117F005C6F56 /* YJLRefurbishView.m */; };
 		9C2DEFBD19631530005C6F56 /* TestRefurbishView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C2DEFBC19631530005C6F56 /* TestRefurbishView.m */; };
@@ -130,6 +131,7 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
+				9C27983B197CC07600603D52 /* YJLADControl.h in CopyFiles */,
 				9C6DC70C1975270F00D67AB2 /* YJLProgreeView.h in CopyFiles */,
 				9C6DC70D1975270F00D67AB2 /* YJLRefurbishView.h in CopyFiles */,
 				9C6DC70E1975270F00D67AB2 /* YJLRefView.h in CopyFiles */,
@@ -870,7 +872,8 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Zhong yuan (V3LKSP2F27)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Zhong yuan (V3LKSP2F27)";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -888,6 +891,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "4D62C9B9-8E1C-476F-9789-45801E1176AA";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -908,7 +912,8 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Zhong yuan (V3LKSP2F27)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Zhong yuan (V3LKSP2F27)";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -919,6 +924,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PROVISIONING_PROFILE = "4D62C9B9-8E1C-476F-9789-45801E1176AA";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -935,6 +941,7 @@
 				INFOPLIST_FILE = "testYJLUIKit/testYJLUIKit-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "4D62C9B9-8E1C-476F-9789-45801E1176AA";
 				SWIFT_OBJC_BRIDGING_HEADER = "testYJLUIKit/testYJLUIKit-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				WRAPPER_EXTENSION = app;
@@ -952,6 +959,7 @@
 				INFOPLIST_FILE = "testYJLUIKit/testYJLUIKit-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "4D62C9B9-8E1C-476F-9789-45801E1176AA";
 				SWIFT_OBJC_BRIDGING_HEADER = "testYJLUIKit/testYJLUIKit-Bridging-Header.h";
 				WRAPPER_EXTENSION = app;
 			};
