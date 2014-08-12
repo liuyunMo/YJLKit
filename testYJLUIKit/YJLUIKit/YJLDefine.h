@@ -22,6 +22,7 @@ BOOL logEnable();
 BOOL isIOS7();
 
 typedef void(^VVBlock)(void);
+typedef void(^VTBlock)(int index);
 
 //颜色
 #define SAFE_COLOR(x)   ((x)>0.0f?((x)>255.0f?255.0f:(x)):0.0f)

@@ -38,6 +38,8 @@
                    KEY_CLASS:@"TestYJLRefView"},
                  @{KEY_TITLE:@"YJLADControl",
                    KEY_CLASS:@"TestYJLADControl"},
+                 @{KEY_TITLE:@"QMLSegmentControl",
+                   KEY_CLASS:@"TestSegViewController"}
                  ];
     [dataToShow retain];
     UITableView *tab=[[UITableView alloc] initWithFrame:self.view.bounds];
