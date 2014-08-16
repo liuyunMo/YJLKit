@@ -97,6 +97,12 @@
         [self beginTransition];
     }
 }
+- (void)willMoveToSuperview:(UIView *)newSuperview
+{
+    if (!newSuperview) {
+        [self endTimer];
+    }
+}
 -(void)beginTransition
 {
     transiting=YES;
