@@ -117,6 +117,7 @@
 		B2F286BD19494904005DC4D9 /* YJLTextObj.m in Sources */ = {isa = PBXBuildFile; fileRef = B2F286BC19494904005DC4D9 /* YJLTextObj.m */; };
 		B2F286BE19494904005DC4D9 /* YJLTextObj.m in Sources */ = {isa = PBXBuildFile; fileRef = B2F286BC19494904005DC4D9 /* YJLTextObj.m */; };
 		B2FAC52B195C16810022C4C9 /* TestSelectViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2FAC52A195C16810022C4C9 /* TestSelectViewViewController.m */; };
+		CE42DA9219C18A8F00896FB4 /* QMLLineView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE42DA9119C18A8F00896FB4 /* QMLLineView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -290,6 +291,8 @@
 		B2F286BC19494904005DC4D9 /* YJLTextObj.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJLTextObj.m; sourceTree = "<group>"; };
 		B2FAC529195C16810022C4C9 /* TestSelectViewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestSelectViewViewController.h; sourceTree = "<group>"; };
 		B2FAC52A195C16810022C4C9 /* TestSelectViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestSelectViewViewController.m; sourceTree = "<group>"; };
+		CE42DA9019C18A8F00896FB4 /* QMLLineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QMLLineView.h; sourceTree = "<group>"; };
+		CE42DA9119C18A8F00896FB4 /* QMLLineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QMLLineView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -510,6 +513,8 @@
 				9C2DEFBF1963BE81005C6F56 /* YJLRefView.m */,
 				9C4F3653197BC0DF00C4B403 /* YJLADControl.h */,
 				9C4F3654197BC0DF00C4B403 /* YJLADControl.m */,
+				CE42DA9019C18A8F00896FB4 /* QMLLineView.h */,
+				CE42DA9119C18A8F00896FB4 /* QMLLineView.m */,
 			);
 			path = YJLUIKit;
 			sourceTree = "<group>";
@@ -849,6 +854,7 @@
 				B21FA36819387B2200E8465D /* YJLFlagView.m in Sources */,
 				B22C440F193D9E720012064D /* YJLViewController.m in Sources */,
 				B2F286BE19494904005DC4D9 /* YJLTextObj.m in Sources */,
+				CE42DA9219C18A8F00896FB4 /* QMLLineView.m in Sources */,
 				B21FA36C19387B2200E8465D /* YJLView.m in Sources */,
 				B2D7A253194EF43F00C679B0 /* YJLDrawLabel.m in Sources */,
 				9C2DEFC11963BE81005C6F56 /* YJLRefView.m in Sources */,
