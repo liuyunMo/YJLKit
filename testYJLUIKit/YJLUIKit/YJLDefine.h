@@ -17,12 +17,20 @@ typedef enum : NSUInteger {
     kYJLDirectionRight
 } YJLDirection;
 
+typedef struct QMLEdge{
+    float left;
+    float tap;
+    float right;
+    float bottom;
+}QMLEdge;
+
 void enableDeallocLog(BOOL);
 BOOL logEnable();
 BOOL isIOS7();
 
 typedef void(^VVBlock)(void);
 typedef void(^VTBlock)(int index);
+typedef void(^VDBlock)(NSDictionary *dict);
 
 //颜色
 #define SAFE_COLOR(x)   ((x)>0.0f?((x)>255.0f?255.0f:(x)):0.0f)

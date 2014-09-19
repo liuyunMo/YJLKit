@@ -7,12 +7,7 @@
 //
 
 #import "YJLFlagView.h"
-typedef struct QMLEdge{
-    float left;
-    float tap;
-    float right;
-    float bottom;
-}QMLEdge;
+
 @interface QMLLineItem:YJLObject
 @property(nonatomic,retain)NSArray *values;//NSNumber
 @property(nonatomic,retain)UIColor *lineColor;

@@ -39,7 +39,10 @@
                  @{KEY_TITLE:@"YJLADControl",
                    KEY_CLASS:@"TestYJLADControl"},
                  @{KEY_TITLE:@"QMLSegmentControl",
-                   KEY_CLASS:@"TestSegViewController"}
+                   KEY_CLASS:@"TestSegViewController"},
+                 @{KEY_TITLE:@"QMLNetGraphicsLayer",
+                   KEY_CLASS:@"TestNetLayerViewController"},
+                 
                  ];
     [dataToShow retain];
     UITableView *tab=[[UITableView alloc] initWithFrame:self.view.bounds];

@@ -118,6 +118,11 @@
 		B2F286BE19494904005DC4D9 /* YJLTextObj.m in Sources */ = {isa = PBXBuildFile; fileRef = B2F286BC19494904005DC4D9 /* YJLTextObj.m */; };
 		B2FAC52B195C16810022C4C9 /* TestSelectViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2FAC52A195C16810022C4C9 /* TestSelectViewViewController.m */; };
 		CE42DA9219C18A8F00896FB4 /* QMLLineView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE42DA9119C18A8F00896FB4 /* QMLLineView.m */; };
+		CEAC1DB619C697E000732671 /* QMLNetGraphicsLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = CEAC1DB519C697E000732671 /* QMLNetGraphicsLayer.m */; };
+		CEAC1DB719C697E000732671 /* QMLNetGraphicsLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = CEAC1DB519C697E000732671 /* QMLNetGraphicsLayer.m */; };
+		CEAC1DBA19C697FE00732671 /* QMLShapeLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = CEAC1DB919C697FE00732671 /* QMLShapeLayer.m */; };
+		CEAC1DBB19C697FE00732671 /* QMLShapeLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = CEAC1DB919C697FE00732671 /* QMLShapeLayer.m */; };
+		CEBED37719C2D535000F7905 /* TestNetLayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEBED37619C2D535000F7905 /* TestNetLayerViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -293,6 +298,12 @@
 		B2FAC52A195C16810022C4C9 /* TestSelectViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestSelectViewViewController.m; sourceTree = "<group>"; };
 		CE42DA9019C18A8F00896FB4 /* QMLLineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QMLLineView.h; sourceTree = "<group>"; };
 		CE42DA9119C18A8F00896FB4 /* QMLLineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QMLLineView.m; sourceTree = "<group>"; };
+		CEAC1DB419C697E000732671 /* QMLNetGraphicsLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QMLNetGraphicsLayer.h; sourceTree = "<group>"; };
+		CEAC1DB519C697E000732671 /* QMLNetGraphicsLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QMLNetGraphicsLayer.m; sourceTree = "<group>"; };
+		CEAC1DB819C697FE00732671 /* QMLShapeLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QMLShapeLayer.h; sourceTree = "<group>"; };
+		CEAC1DB919C697FE00732671 /* QMLShapeLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QMLShapeLayer.m; sourceTree = "<group>"; };
+		CEBED37519C2D535000F7905 /* TestNetLayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestNetLayerViewController.h; sourceTree = "<group>"; };
+		CEBED37619C2D535000F7905 /* TestNetLayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestNetLayerViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -439,6 +450,8 @@
 				9C4F3658197BC11D00C4B403 /* TestYJLADControl.m */,
 				9C988CCE199A553A008F82E3 /* TestSegViewController.h */,
 				9C988CCF199A553A008F82E3 /* TestSegViewController.m */,
+				CEBED37519C2D535000F7905 /* TestNetLayerViewController.h */,
+				CEBED37619C2D535000F7905 /* TestNetLayerViewController.m */,
 			);
 			path = testYJLUIKit;
 			sourceTree = "<group>";
@@ -475,6 +488,7 @@
 		B21FA33419386F0000E8465D /* YJLUIKit */ = {
 			isa = PBXGroup;
 			children = (
+				CEBED37819C2D727000F7905 /* QMLLayer */,
 				9C988CA9199A5401008F82E3 /* QMLSegItem.h */,
 				9C988CAA199A5401008F82E3 /* QMLSegItem.m */,
 				9C988CAB199A5401008F82E3 /* QMLSegmentControl.h */,
@@ -589,6 +603,17 @@
 				B2ABD8A1194ADB1500EF2EC6 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CEBED37819C2D727000F7905 /* QMLLayer */ = {
+			isa = PBXGroup;
+			children = (
+				CEAC1DB819C697FE00732671 /* QMLShapeLayer.h */,
+				CEAC1DB919C697FE00732671 /* QMLShapeLayer.m */,
+				CEAC1DB419C697E000732671 /* QMLNetGraphicsLayer.h */,
+				CEAC1DB519C697E000732671 /* QMLNetGraphicsLayer.m */,
+			);
+			path = QMLLayer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -813,11 +838,13 @@
 				9C988CAD199A5401008F82E3 /* QMLSegItem.m in Sources */,
 				9C2DEFB91963117F005C6F56 /* YJLRefurbishView.m in Sources */,
 				B21FA36B19387B2200E8465D /* YJLView.m in Sources */,
+				CEAC1DB619C697E000732671 /* QMLNetGraphicsLayer.m in Sources */,
 				B2012A38193884AB005D52F7 /* YJLContentView.m in Sources */,
 				B22C440E193D9E720012064D /* YJLViewController.m in Sources */,
 				9C300697196539C500A95B4C /* YJLOptionView.m in Sources */,
 				B2D7A24E194EF40700C679B0 /* YJLScrollLabel.m in Sources */,
 				9C4F3655197BC0DF00C4B403 /* YJLADControl.m in Sources */,
+				CEAC1DBA19C697FE00732671 /* QMLShapeLayer.m in Sources */,
 				B21FA31019386EEE00E8465D /* ViewController.m in Sources */,
 				9C2DEFBD19631530005C6F56 /* TestRefurbishView.m in Sources */,
 				9C049BB019627A41002EC9FA /* YJLProgreeView.m in Sources */,
@@ -826,6 +853,7 @@
 				B21FA30619386EEE00E8465D /* main.m in Sources */,
 				B2ABD8AE194ADB7E00EF2EC6 /* YJLQuestion.m in Sources */,
 				9C2DEFC41963C487005C6F56 /* TestYJLRefView.m in Sources */,
+				CEBED37719C2D535000F7905 /* TestNetLayerViewController.m in Sources */,
 				B2FAC52B195C16810022C4C9 /* TestSelectViewViewController.m in Sources */,
 				9C988CAF199A5401008F82E3 /* QMLSegmentControl.m in Sources */,
 			);
@@ -850,8 +878,10 @@
 				B21FA36A19387B2200E8465D /* YJLUIKit.m in Sources */,
 				9C4F3656197BC0DF00C4B403 /* YJLADControl.m in Sources */,
 				9C2DEFBA1963117F005C6F56 /* YJLRefurbishView.m in Sources */,
+				CEAC1DB719C697E000732671 /* QMLNetGraphicsLayer.m in Sources */,
 				9C049BB119627A41002EC9FA /* YJLProgreeView.m in Sources */,
 				B21FA36819387B2200E8465D /* YJLFlagView.m in Sources */,
+				CEAC1DBB19C697FE00732671 /* QMLShapeLayer.m in Sources */,
 				B22C440F193D9E720012064D /* YJLViewController.m in Sources */,
 				B2F286BE19494904005DC4D9 /* YJLTextObj.m in Sources */,
 				CE42DA9219C18A8F00896FB4 /* QMLLineView.m in Sources */,
@@ -964,8 +994,8 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Zhong yuan (V3LKSP2F27)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Zhong yuan (V3LKSP2F27)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Liu Kang (RHL8F59F4Y)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Liu Kang (RHL8F59F4Y)";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -983,7 +1013,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				ONLY_ACTIVE_ARCH = YES;
-				PROVISIONING_PROFILE = "4D62C9B9-8E1C-476F-9789-45801E1176AA";
+				PROVISIONING_PROFILE = "ab767c90-dba8-4ceb-9cb6-8979da23b98a";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -1004,8 +1034,8 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Zhong yuan (V3LKSP2F27)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Zhong yuan (V3LKSP2F27)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Liu Kang (RHL8F59F4Y)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Liu Kang (RHL8F59F4Y)";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -1016,7 +1046,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
-				PROVISIONING_PROFILE = "4D62C9B9-8E1C-476F-9789-45801E1176AA";
+				PROVISIONING_PROFILE = "ab767c90-dba8-4ceb-9cb6-8979da23b98a";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -1028,12 +1058,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Liu Kang (RHL8F59F4Y)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "testYJLUIKit/testYJLUIKit-Prefix.pch";
 				INFOPLIST_FILE = "testYJLUIKit/testYJLUIKit-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "4D62C9B9-8E1C-476F-9789-45801E1176AA";
+				PROVISIONING_PROFILE = "ab767c90-dba8-4ceb-9cb6-8979da23b98a";
 				SWIFT_OBJC_BRIDGING_HEADER = "testYJLUIKit/testYJLUIKit-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				WRAPPER_EXTENSION = app;
@@ -1046,12 +1077,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Liu Kang (RHL8F59F4Y)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Liu Kang (RHL8F59F4Y)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "testYJLUIKit/testYJLUIKit-Prefix.pch";
 				INFOPLIST_FILE = "testYJLUIKit/testYJLUIKit-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "4D62C9B9-8E1C-476F-9789-45801E1176AA";
+				PROVISIONING_PROFILE = "ab767c90-dba8-4ceb-9cb6-8979da23b98a";
 				SWIFT_OBJC_BRIDGING_HEADER = "testYJLUIKit/testYJLUIKit-Bridging-Header.h";
 				WRAPPER_EXTENSION = app;
 			};
