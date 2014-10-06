@@ -118,6 +118,15 @@
 		B2F286BE19494904005DC4D9 /* YJLTextObj.m in Sources */ = {isa = PBXBuildFile; fileRef = B2F286BC19494904005DC4D9 /* YJLTextObj.m */; };
 		B2FAC52B195C16810022C4C9 /* TestSelectViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2FAC52A195C16810022C4C9 /* TestSelectViewViewController.m */; };
 		CE42DA9219C18A8F00896FB4 /* QMLLineView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE42DA9119C18A8F00896FB4 /* QMLLineView.m */; };
+		CE4EBE5919E2DFF300D9B34A /* QMLSliderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE4EBE5819E2DFF300D9B34A /* QMLSliderViewController.m */; };
+		CE4EBE5C19E2E65900D9B34A /* QMLSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = CE4EBE5B19E2E65900D9B34A /* QMLSlider.m */; };
+		CE4EBE5D19E2E65900D9B34A /* QMLSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = CE4EBE5B19E2E65900D9B34A /* QMLSlider.m */; };
+		CE4EBE6919E2E67800D9B34A /* QMLTouchImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE4EBE6419E2E67800D9B34A /* QMLTouchImageView.m */; };
+		CE4EBE6A19E2E67800D9B34A /* QMLTouchImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE4EBE6419E2E67800D9B34A /* QMLTouchImageView.m */; };
+		CE4EBE6D19E2EC9000D9B34A /* btn_brightness_default.png in Resources */ = {isa = PBXBuildFile; fileRef = CE4EBE6B19E2EC9000D9B34A /* btn_brightness_default.png */; };
+		CE4EBE6E19E2EC9000D9B34A /* btn_brightness_select.png in Resources */ = {isa = PBXBuildFile; fileRef = CE4EBE6C19E2EC9000D9B34A /* btn_brightness_select.png */; };
+		CE663E7519E0E91300A9D68F /* QMLStatusImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE663E7419E0E91300A9D68F /* QMLStatusImageView.m */; };
+		CE663E7619E0E91300A9D68F /* QMLStatusImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE663E7419E0E91300A9D68F /* QMLStatusImageView.m */; };
 		CEAC1DB619C697E000732671 /* QMLNetGraphicsLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = CEAC1DB519C697E000732671 /* QMLNetGraphicsLayer.m */; };
 		CEAC1DB719C697E000732671 /* QMLNetGraphicsLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = CEAC1DB519C697E000732671 /* QMLNetGraphicsLayer.m */; };
 		CEAC1DBA19C697FE00732671 /* QMLShapeLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = CEAC1DB919C697FE00732671 /* QMLShapeLayer.m */; };
@@ -298,6 +307,16 @@
 		B2FAC52A195C16810022C4C9 /* TestSelectViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestSelectViewViewController.m; sourceTree = "<group>"; };
 		CE42DA9019C18A8F00896FB4 /* QMLLineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QMLLineView.h; sourceTree = "<group>"; };
 		CE42DA9119C18A8F00896FB4 /* QMLLineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QMLLineView.m; sourceTree = "<group>"; };
+		CE4EBE5719E2DFF300D9B34A /* QMLSliderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QMLSliderViewController.h; sourceTree = "<group>"; };
+		CE4EBE5819E2DFF300D9B34A /* QMLSliderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QMLSliderViewController.m; sourceTree = "<group>"; };
+		CE4EBE5A19E2E65900D9B34A /* QMLSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QMLSlider.h; sourceTree = "<group>"; };
+		CE4EBE5B19E2E65900D9B34A /* QMLSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QMLSlider.m; sourceTree = "<group>"; };
+		CE4EBE6319E2E67800D9B34A /* QMLTouchImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QMLTouchImageView.h; sourceTree = "<group>"; };
+		CE4EBE6419E2E67800D9B34A /* QMLTouchImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QMLTouchImageView.m; sourceTree = "<group>"; };
+		CE4EBE6B19E2EC9000D9B34A /* btn_brightness_default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_brightness_default.png; sourceTree = "<group>"; };
+		CE4EBE6C19E2EC9000D9B34A /* btn_brightness_select.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_brightness_select.png; sourceTree = "<group>"; };
+		CE663E7319E0E91300A9D68F /* QMLStatusImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QMLStatusImageView.h; sourceTree = "<group>"; };
+		CE663E7419E0E91300A9D68F /* QMLStatusImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QMLStatusImageView.m; sourceTree = "<group>"; };
 		CEAC1DB419C697E000732671 /* QMLNetGraphicsLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QMLNetGraphicsLayer.h; sourceTree = "<group>"; };
 		CEAC1DB519C697E000732671 /* QMLNetGraphicsLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QMLNetGraphicsLayer.m; sourceTree = "<group>"; };
 		CEAC1DB819C697FE00732671 /* QMLShapeLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QMLShapeLayer.h; sourceTree = "<group>"; };
@@ -371,6 +390,8 @@
 		9C988CB1199A5513008F82E3 /* Res */ = {
 			isa = PBXGroup;
 			children = (
+				CE4EBE6B19E2EC9000D9B34A /* btn_brightness_default.png */,
+				CE4EBE6C19E2EC9000D9B34A /* btn_brightness_select.png */,
 				9C988CB2199A5513008F82E3 /* btn_segment1_default.png */,
 				9C988CB3199A5513008F82E3 /* btn_segment1_select.png */,
 				9C988CB4199A5513008F82E3 /* btn_segment2_default.png */,
@@ -452,6 +473,8 @@
 				9C988CCF199A553A008F82E3 /* TestSegViewController.m */,
 				CEBED37519C2D535000F7905 /* TestNetLayerViewController.h */,
 				CEBED37619C2D535000F7905 /* TestNetLayerViewController.m */,
+				CE4EBE5719E2DFF300D9B34A /* QMLSliderViewController.h */,
+				CE4EBE5819E2DFF300D9B34A /* QMLSliderViewController.m */,
 			);
 			path = testYJLUIKit;
 			sourceTree = "<group>";
@@ -488,6 +511,10 @@
 		B21FA33419386F0000E8465D /* YJLUIKit */ = {
 			isa = PBXGroup;
 			children = (
+				CE4EBE6319E2E67800D9B34A /* QMLTouchImageView.h */,
+				CE4EBE6419E2E67800D9B34A /* QMLTouchImageView.m */,
+				CE4EBE5A19E2E65900D9B34A /* QMLSlider.h */,
+				CE4EBE5B19E2E65900D9B34A /* QMLSlider.m */,
 				CEBED37819C2D727000F7905 /* QMLLayer */,
 				9C988CA9199A5401008F82E3 /* QMLSegItem.h */,
 				9C988CAA199A5401008F82E3 /* QMLSegItem.m */,
@@ -529,6 +556,8 @@
 				9C4F3654197BC0DF00C4B403 /* YJLADControl.m */,
 				CE42DA9019C18A8F00896FB4 /* QMLLineView.h */,
 				CE42DA9119C18A8F00896FB4 /* QMLLineView.m */,
+				CE663E7319E0E91300A9D68F /* QMLStatusImageView.h */,
+				CE663E7419E0E91300A9D68F /* QMLStatusImageView.m */,
 			);
 			path = YJLUIKit;
 			sourceTree = "<group>";
@@ -784,11 +813,13 @@
 				9C988CC6199A5513008F82E3 /* pic_tab1_default.png in Resources */,
 				9C988CC7199A5513008F82E3 /* pic_tab1_select.png in Resources */,
 				9C988CCD199A5513008F82E3 /* pic_tab4_select.png in Resources */,
+				CE4EBE6E19E2EC9000D9B34A /* btn_brightness_select.png in Resources */,
 				9C988CC0199A5513008F82E3 /* btn_segment1_default.png in Resources */,
 				B2012A3D19388D3D005D52F7 /* readme.txt in Resources */,
 				9C988CC1199A5513008F82E3 /* btn_segment1_select.png in Resources */,
 				9C988CC3199A5513008F82E3 /* btn_segment2_select.png in Resources */,
 				9C988CC2199A5513008F82E3 /* btn_segment2_default.png in Resources */,
+				CE4EBE6D19E2EC9000D9B34A /* btn_brightness_default.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -826,6 +857,7 @@
 				B2F286B9194948AA005DC4D9 /* YJLObject.m in Sources */,
 				9C30069D196540A200A95B4C /* YJLQuestionView.m in Sources */,
 				B2F286B5194941C2005DC4D9 /* YJLImageView.m in Sources */,
+				CE4EBE5C19E2E65900D9B34A /* QMLSlider.m in Sources */,
 				B2ABD8B2194ADD0E00EF2EC6 /* YJLQuestionHandle.m in Sources */,
 				B2D7A252194EF43F00C679B0 /* YJLDrawLabel.m in Sources */,
 				B202DA011959637500F75F23 /* YJLSelectView.m in Sources */,
@@ -835,6 +867,7 @@
 				B21FA36719387B2200E8465D /* YJLFlagView.m in Sources */,
 				9C988CD0199A553A008F82E3 /* TestSegViewController.m in Sources */,
 				9CC51A0A196277EB000877FA /* TestProgressViewViewController.m in Sources */,
+				CE4EBE5919E2DFF300D9B34A /* QMLSliderViewController.m in Sources */,
 				9C988CAD199A5401008F82E3 /* QMLSegItem.m in Sources */,
 				9C2DEFB91963117F005C6F56 /* YJLRefurbishView.m in Sources */,
 				B21FA36B19387B2200E8465D /* YJLView.m in Sources */,
@@ -846,7 +879,9 @@
 				9C4F3655197BC0DF00C4B403 /* YJLADControl.m in Sources */,
 				CEAC1DBA19C697FE00732671 /* QMLShapeLayer.m in Sources */,
 				B21FA31019386EEE00E8465D /* ViewController.m in Sources */,
+				CE663E7519E0E91300A9D68F /* QMLStatusImageView.m in Sources */,
 				9C2DEFBD19631530005C6F56 /* TestRefurbishView.m in Sources */,
+				CE4EBE6919E2E67800D9B34A /* QMLTouchImageView.m in Sources */,
 				9C049BB019627A41002EC9FA /* YJLProgreeView.m in Sources */,
 				B21FA30A19386EEE00E8465D /* AppDelegate.m in Sources */,
 				9C2DEFC01963BE81005C6F56 /* YJLRefView.m in Sources */,
@@ -872,9 +907,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				B2F286B6194941C2005DC4D9 /* YJLImageView.m in Sources */,
+				CE4EBE5D19E2E65900D9B34A /* QMLSlider.m in Sources */,
 				B2F286BA194948AA005DC4D9 /* YJLObject.m in Sources */,
 				B202DA021959637500F75F23 /* YJLSelectView.m in Sources */,
 				B2012A39193884AB005D52F7 /* YJLContentView.m in Sources */,
+				CE663E7619E0E91300A9D68F /* QMLStatusImageView.m in Sources */,
 				B21FA36A19387B2200E8465D /* YJLUIKit.m in Sources */,
 				9C4F3656197BC0DF00C4B403 /* YJLADControl.m in Sources */,
 				9C2DEFBA1963117F005C6F56 /* YJLRefurbishView.m in Sources */,
@@ -884,6 +921,7 @@
 				CEAC1DBB19C697FE00732671 /* QMLShapeLayer.m in Sources */,
 				B22C440F193D9E720012064D /* YJLViewController.m in Sources */,
 				B2F286BE19494904005DC4D9 /* YJLTextObj.m in Sources */,
+				CE4EBE6A19E2E67800D9B34A /* QMLTouchImageView.m in Sources */,
 				CE42DA9219C18A8F00896FB4 /* QMLLineView.m in Sources */,
 				B21FA36C19387B2200E8465D /* YJLView.m in Sources */,
 				B2D7A253194EF43F00C679B0 /* YJLDrawLabel.m in Sources */,

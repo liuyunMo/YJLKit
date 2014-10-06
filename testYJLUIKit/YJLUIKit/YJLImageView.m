@@ -20,6 +20,13 @@
 {
     _scale=.5;
 }
+-(id)initWithFrame:(CGRect)frame
+{
+    if (self=[super initWithFrame:frame]) {
+        [self setupDefineValues];
+    }
+    return self;
+}
 -(id)initWithImage:(UIImage *)image
 {
     if (self=[super initWithImage:image]) {

@@ -11,7 +11,7 @@
 @interface QMLSegmentControl : YJLFlagView
 @property(nonatomic,retain)NSArray *items; //QMLSegItem
 @property(nonatomic,assign)int selectIndex;
-@property(nonatomic,copy)VTBlock valueChanged;
+@property(nonatomic,copy)VIBlock valueChanged;
 -(id)initWithFrame:(CGRect)frame items:(NSArray *)items;
 -(void)redrawView;
 @end

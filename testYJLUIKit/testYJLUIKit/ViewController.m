@@ -42,7 +42,8 @@
                    KEY_CLASS:@"TestSegViewController"},
                  @{KEY_TITLE:@"QMLNetGraphicsLayer",
                    KEY_CLASS:@"TestNetLayerViewController"},
-                 
+                 @{KEY_TITLE:@"QMLSlider",
+                   KEY_CLASS:@"QMLSliderViewController"},
                  ];
     [dataToShow retain];
     UITableView *tab=[[UITableView alloc] initWithFrame:self.view.bounds];

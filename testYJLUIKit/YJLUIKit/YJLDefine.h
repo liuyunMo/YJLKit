@@ -29,8 +29,10 @@ BOOL logEnable();
 BOOL isIOS7();
 
 typedef void(^VVBlock)(void);
-typedef void(^VTBlock)(int index);
+typedef void(^VIBlock)(int index);
+typedef void(^VFBlock)(float);
 typedef void(^VDBlock)(NSDictionary *dict);
+typedef void(^VSBlock)(NSSet *);
 
 //颜色
 #define SAFE_COLOR(x)   ((x)>0.0f?((x)>255.0f?255.0f:(x)):0.0f)
