@@ -6,10 +6,10 @@
 //  Copyright (c) 2014年 钟园园. All rights reserved.
 //
 
-#import "YJLFlagView.h"
+
 #import "YJLTextObj.h"
 @protocol YJLSelectViewDelegete;
-@interface YJLSelectView : YJLFlagView
+@interface YJLSelectView : YJLView
 @property(nonatomic,retain)NSArray       *options;
 @property(nonatomic,assign)float         menuMaxHeight;
 @property(nonatomic,assign)YJLDirection  direction;

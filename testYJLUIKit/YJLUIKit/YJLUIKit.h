@@ -12,7 +12,6 @@
 #import "YJLDefine.h"
 #import "QMLLayoutFunction.h"
 #import "YJLView.h"
-#import "YJLFlagView.h"
 #import "YJLImageView.h"
 #import "YJLContentView.h"
 #import "YJLObject.h"

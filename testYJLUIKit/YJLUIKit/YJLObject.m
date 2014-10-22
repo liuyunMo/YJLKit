@@ -38,6 +38,6 @@
     if (flag) {
         obj.flag=flag;
     }
-    return obj;
+    return [obj autorelease];
 }
 @end

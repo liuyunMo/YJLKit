@@ -37,7 +37,7 @@
     layer.backgroundColor=[UIColor colorWithRed:.2 green:.3 blue:.6 alpha:1].CGColor;
     [control.layer insertSublayer:layer atIndex:0];
 }
--(void)ADControl:(YJLADControl*)contrl willShowView:(YJLFlagView *)view atIndex:(int)index
+-(void)ADControl:(YJLADControl*)contrl willShowView:(YJLView *)view atIndex:(int)index
 {
     UILabel *im=[[UILabel alloc] initWithFrame:CGRectMake(100, 100, 100, 100)];
     im.text=[NSString stringWithFormat:@"%d",index+1];
@@ -53,7 +53,7 @@
     [layer setBackgroundColor:(index==0?[UIColor colorWithRed:.2 green:.3 blue:.6 alpha:1].CGColor:[UIColor colorWithRed:.2 green:.5 blue:.3 alpha:1].CGColor)];
     
 }
--(void)ADControl:(YJLADControl*)control showView:(YJLFlagView *)view atIndex:(int)index
+-(void)ADControl:(YJLADControl*)control showView:(YJLView *)view atIndex:(int)index
 {
     
     

@@ -6,9 +6,9 @@
 //  Copyright (c) 2014年 钟园园. All rights reserved.
 //
 
-#import "YJLFlagView.h"
 
-@interface YJLRefView : YJLFlagView
+
+@interface YJLRefView : YJLView
 @property(nonatomic,retain)UIView *contentView;
 @property(nonatomic,assign)CGPoint contentOffset;
 -(void)tryToRefurbish;

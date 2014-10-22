@@ -10,8 +10,8 @@
 #import "YJLADControl.h"
 @interface YJLADControl ()
 {
-    YJLFlagView *currentView;
-    YJLFlagView *nextView;
+    YJLView *currentView;
+    YJLView *nextView;
     NSTimer *timer;
     float timeCount;
     BOOL transiting;
@@ -45,7 +45,7 @@
     
     if (_itemCount>0) {
         if (!currentView) {
-            currentView=[[YJLFlagView alloc] initWithFrame:self.bounds];
+            currentView=[[YJLView alloc] initWithFrame:self.bounds];
             currentView.flag=FLAG_CURRENT_VIEW;
             [self addSubview:currentView];
             [currentView release];
@@ -132,7 +132,7 @@
             break;
     }
     if (!nextView) {
-        nextView=[[YJLFlagView alloc] initWithFrame:nextRect];
+        nextView=[[YJLView alloc] initWithFrame:nextRect];
         nextView.flag=FLAG_NEXT_VIEW;
         [self addSubview:nextView];
         [nextView release];
@@ -158,7 +158,7 @@
     nextView=nil;
     [self showViewAtIndex:self.currentIndex];
 }
--(void)willShowView:(YJLFlagView *)view atIndex:(int)index
+-(void)willShowView:(YJLView *)view atIndex:(int)index
 {
     if ([self.delegate respondsToSelector:@selector(ADControl:willShowView:atIndex:)])
     {

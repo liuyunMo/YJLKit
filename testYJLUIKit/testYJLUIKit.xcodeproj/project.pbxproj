@@ -53,7 +53,6 @@
 		9C988CD0199A553A008F82E3 /* TestSegViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C988CCF199A553A008F82E3 /* TestSegViewController.m */; };
 		9CC51A0A196277EB000877FA /* TestProgressViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CC51A09196277EB000877FA /* TestProgressViewViewController.m */; };
 		B2012A2D19388371005D52F7 /* YJLFlagDelegate.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = B21FA35F19387B2200E8465D /* YJLFlagDelegate.h */; };
-		B2012A2E19388371005D52F7 /* YJLFlagView.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = B21FA36019387B2200E8465D /* YJLFlagView.h */; };
 		B2012A2F19388371005D52F7 /* YJLLayoutDelegate.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = B21FA36219387B2200E8465D /* YJLLayoutDelegate.h */; };
 		B2012A3019388371005D52F7 /* YJLUIKit.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = B21FA36319387B2200E8465D /* YJLUIKit.h */; };
 		B2012A3119388371005D52F7 /* YJLView.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = B21FA36519387B2200E8465D /* YJLView.h */; };
@@ -83,8 +82,6 @@
 		B21FA34519386F0100E8465D /* libYJLUIKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B21FA33219386F0000E8465D /* libYJLUIKit.a */; };
 		B21FA34B19386F0100E8465D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B21FA34919386F0100E8465D /* InfoPlist.strings */; };
 		B21FA34D19386F0100E8465D /* YJLUIKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B21FA34C19386F0100E8465D /* YJLUIKitTests.m */; };
-		B21FA36719387B2200E8465D /* YJLFlagView.m in Sources */ = {isa = PBXBuildFile; fileRef = B21FA36119387B2200E8465D /* YJLFlagView.m */; };
-		B21FA36819387B2200E8465D /* YJLFlagView.m in Sources */ = {isa = PBXBuildFile; fileRef = B21FA36119387B2200E8465D /* YJLFlagView.m */; };
 		B21FA36919387B2200E8465D /* YJLUIKit.m in Sources */ = {isa = PBXBuildFile; fileRef = B21FA36419387B2200E8465D /* YJLUIKit.m */; };
 		B21FA36A19387B2200E8465D /* YJLUIKit.m in Sources */ = {isa = PBXBuildFile; fileRef = B21FA36419387B2200E8465D /* YJLUIKit.m */; };
 		B21FA36B19387B2200E8465D /* YJLView.m in Sources */ = {isa = PBXBuildFile; fileRef = B21FA36619387B2200E8465D /* YJLView.m */; };
@@ -125,6 +122,7 @@
 		CE4EBE6A19E2E67800D9B34A /* QMLTouchImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE4EBE6419E2E67800D9B34A /* QMLTouchImageView.m */; };
 		CE4EBE6D19E2EC9000D9B34A /* btn_brightness_default.png in Resources */ = {isa = PBXBuildFile; fileRef = CE4EBE6B19E2EC9000D9B34A /* btn_brightness_default.png */; };
 		CE4EBE6E19E2EC9000D9B34A /* btn_brightness_select.png in Resources */ = {isa = PBXBuildFile; fileRef = CE4EBE6C19E2EC9000D9B34A /* btn_brightness_select.png */; };
+		CE5D809819F7ED28003EDE27 /* YJLProgreeView.qml in Resources */ = {isa = PBXBuildFile; fileRef = CE5D809719F7ED28003EDE27 /* YJLProgreeView.qml */; };
 		CE663E7519E0E91300A9D68F /* QMLStatusImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE663E7419E0E91300A9D68F /* QMLStatusImageView.m */; };
 		CE663E7619E0E91300A9D68F /* QMLStatusImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE663E7419E0E91300A9D68F /* QMLStatusImageView.m */; };
 		CE6EA22A19F75749008D2105 /* QMLItem.qml in Resources */ = {isa = PBXBuildFile; fileRef = CE6EA22919F75749008D2105 /* QMLItem.qml */; };
@@ -182,7 +180,6 @@
 				B22C4410193D9F750012064D /* YJLViewController.h in CopyFiles */,
 				B2012A3E19388E1C005D52F7 /* YJLContentView.h in CopyFiles */,
 				B2012A2D19388371005D52F7 /* YJLFlagDelegate.h in CopyFiles */,
-				B2012A2E19388371005D52F7 /* YJLFlagView.h in CopyFiles */,
 				B2012A2F19388371005D52F7 /* YJLLayoutDelegate.h in CopyFiles */,
 				B2012A3019388371005D52F7 /* YJLUIKit.h in CopyFiles */,
 				B2012A3119388371005D52F7 /* YJLView.h in CopyFiles */,
@@ -275,8 +272,6 @@
 		B21FA34C19386F0100E8465D /* YJLUIKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YJLUIKitTests.m; sourceTree = "<group>"; };
 		B21FA35E19387B2200E8465D /* YJLDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJLDefine.h; sourceTree = "<group>"; };
 		B21FA35F19387B2200E8465D /* YJLFlagDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJLFlagDelegate.h; sourceTree = "<group>"; };
-		B21FA36019387B2200E8465D /* YJLFlagView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJLFlagView.h; sourceTree = "<group>"; };
-		B21FA36119387B2200E8465D /* YJLFlagView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJLFlagView.m; sourceTree = "<group>"; };
 		B21FA36219387B2200E8465D /* YJLLayoutDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJLLayoutDelegate.h; sourceTree = "<group>"; };
 		B21FA36319387B2200E8465D /* YJLUIKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJLUIKit.h; sourceTree = "<group>"; };
 		B21FA36419387B2200E8465D /* YJLUIKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJLUIKit.m; sourceTree = "<group>"; };
@@ -318,6 +313,7 @@
 		CE4EBE6419E2E67800D9B34A /* QMLTouchImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QMLTouchImageView.m; sourceTree = "<group>"; };
 		CE4EBE6B19E2EC9000D9B34A /* btn_brightness_default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_brightness_default.png; sourceTree = "<group>"; };
 		CE4EBE6C19E2EC9000D9B34A /* btn_brightness_select.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_brightness_select.png; sourceTree = "<group>"; };
+		CE5D809719F7ED28003EDE27 /* YJLProgreeView.qml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = YJLProgreeView.qml; sourceTree = "<group>"; };
 		CE663E7319E0E91300A9D68F /* QMLStatusImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QMLStatusImageView.h; sourceTree = "<group>"; };
 		CE663E7419E0E91300A9D68F /* QMLStatusImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QMLStatusImageView.m; sourceTree = "<group>"; };
 		CE6EA22919F75749008D2105 /* QMLItem.qml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = QMLItem.qml; sourceTree = "<group>"; };
@@ -482,6 +478,7 @@
 				CE4EBE5719E2DFF300D9B34A /* QMLSliderViewController.h */,
 				CE4EBE5819E2DFF300D9B34A /* QMLSliderViewController.m */,
 				CE6EA22919F75749008D2105 /* QMLItem.qml */,
+				CE5D809719F7ED28003EDE27 /* YJLProgreeView.qml */,
 			);
 			path = testYJLUIKit;
 			sourceTree = "<group>";
@@ -534,8 +531,6 @@
 				B2012A37193884AB005D52F7 /* YJLContentView.m */,
 				B21FA35E19387B2200E8465D /* YJLDefine.h */,
 				B21FA35F19387B2200E8465D /* YJLFlagDelegate.h */,
-				B21FA36019387B2200E8465D /* YJLFlagView.h */,
-				B21FA36119387B2200E8465D /* YJLFlagView.m */,
 				B21FA36219387B2200E8465D /* YJLLayoutDelegate.h */,
 				B21FA36319387B2200E8465D /* YJLUIKit.h */,
 				B21FA36419387B2200E8465D /* YJLUIKit.m */,
@@ -815,6 +810,7 @@
 				9C988CC4199A5513008F82E3 /* btn_segment3_default.png in Resources */,
 				B21FA31219386EEE00E8465D /* Images.xcassets in Resources */,
 				9C988CC5199A5513008F82E3 /* btn_segment3_select.png in Resources */,
+				CE5D809819F7ED28003EDE27 /* YJLProgreeView.qml in Resources */,
 				9C988CC8199A5513008F82E3 /* pic_tab2_default.png in Resources */,
 				9C988CC9199A5513008F82E3 /* pic_tab2_select.png in Resources */,
 				9C988CCB199A5513008F82E3 /* pic_tab3_select.png in Resources */,
@@ -874,7 +870,6 @@
 				B2F286BD19494904005DC4D9 /* YJLTextObj.m in Sources */,
 				B21FA36919387B2200E8465D /* YJLUIKit.m in Sources */,
 				9C4F3659197BC11D00C4B403 /* TestYJLADControl.m in Sources */,
-				B21FA36719387B2200E8465D /* YJLFlagView.m in Sources */,
 				9C988CD0199A553A008F82E3 /* TestSegViewController.m in Sources */,
 				CE6EA22D19F7727E008D2105 /* QMLLayoutFunction.m in Sources */,
 				9CC51A0A196277EB000877FA /* TestProgressViewViewController.m in Sources */,
@@ -928,7 +923,6 @@
 				9C2DEFBA1963117F005C6F56 /* YJLRefurbishView.m in Sources */,
 				CEAC1DB719C697E000732671 /* QMLNetGraphicsLayer.m in Sources */,
 				9C049BB119627A41002EC9FA /* YJLProgreeView.m in Sources */,
-				B21FA36819387B2200E8465D /* YJLFlagView.m in Sources */,
 				CE6EA22E19F7727E008D2105 /* QMLLayoutFunction.m in Sources */,
 				CEAC1DBB19C697FE00732671 /* QMLShapeLayer.m in Sources */,
 				B22C440F193D9E720012064D /* YJLViewController.m in Sources */,

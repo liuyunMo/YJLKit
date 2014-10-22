@@ -10,15 +10,15 @@
 
 @protocol YJLLayoutDelegate <NSObject>
 @required
-@property(nonatomic,readonly)NSDictionary *infoDict;
 @property(nonatomic,copy)NSString *flag;
-+(NSArray *)getInfoDictKeys;
 +(id)createWithInfoDict:(NSDictionary*)infoDict;
+@optional
+@property(nonatomic,readonly)NSDictionary *infoDict;
++(NSArray *)getInfoDictKeys;
+
 //+(BOOL)writeToFileAtPath:(NSString *)path;
 @end
 
-@protocol YJLCreateDelegate <YJLLayoutDelegate>
-@end
 
 
 //keyStr NSString 用,连接每个属性 如：@"frame,tag,backgroundColor"

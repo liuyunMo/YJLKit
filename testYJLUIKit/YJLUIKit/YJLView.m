@@ -9,6 +9,20 @@
 #import "YJLView.h"
 
 @implementation YJLView
+@synthesize flag=_flag;
+-(NSString*)flag
+{
+    if (!_flag) {
+        return NSStringFromClass([self class]);
+    }
+    return _flag;
+}
+- (void)dealloc
+{
+    DEALLOC_PRINT;
+    [_flag release];
+    [super dealloc];
+}
 -(id)initWithFrame:(CGRect)frame
 {
     if (self=[super initWithFrame:frame]) {
@@ -27,11 +41,7 @@
 {
     
 }
-- (void)dealloc
-{
-    DEALLOC_PRINT;
-    [super dealloc];
-}
+
 #pragma mark -- YJLLayoutDelegate Methods
 +(id)createWithInfoDict:(NSDictionary*)infoDict
 {
@@ -48,6 +58,11 @@
         getColorWithLatoutStr(backgroundColor, &color);
         vi.backgroundColor=color;
     }
-    return vi;
+   
+    NSString *flag=[infoDict objectForKey:@"flag"];
+    if (flag) {
+        vi.flag=flag;
+    }
+    return [vi autorelease];
 }
 @end

@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 @class QMLSegItem;
-@interface QMLSegmentControl : YJLFlagView
+@interface QMLSegmentControl : YJLView
 @property(nonatomic,retain)NSArray *items; //QMLSegItem
 @property(nonatomic,assign)int selectIndex;
 @property(nonatomic,copy)VIBlock valueChanged;

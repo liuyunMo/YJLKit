@@ -19,10 +19,6 @@
 {
     [super viewDidLoad];
     self.view.backgroundColor=[UIColor scrollViewTexturedBackgroundColor];
-    proVi1=[[YJLProgreeView alloc] initWithFrame:CGRectMake(140, 70, 160, 160)];
-    proVi1.backgroundColor=[UIColor clearColor];
-    [self.view addSubview:proVi1];
-    [proVi1 release];
     
     proVi3=[[YJLProgreeView alloc] initWithFrame:CGRectMake(20, 250, 280, 15)];
     proVi3.borderType=YJLProgressViewBorderTypeRound;
@@ -35,31 +31,24 @@
     [self.view addSubview:proVi3];
     [proVi3 release];
     
-    proVi2=[[YJLProgreeView alloc] initWithFrame:CGRectMake(20, 280, 280, 10)];
-    proVi2.borderType=YJLProgressViewBorderTypePlain;
-    proVi2.type=YJLProgressViewDefault;
-    proVi2.backgroundColor=[UIColor clearColor];
+    NSDictionary *dict=nil;
+    NSString *layoutStr=nil;
+    getLayoutStrWithLayoutFile(@"YJLProgreeView", &layoutStr);
+    getInstancesWithLayoutStr(layoutStr, &dict);
+    proVi1=[dict objectForKey:@"TestProgressViewViewController_YJLProgreeView_pro1"];
+    [self.view addSubview:proVi1];
+    
+    proVi2=[dict objectForKey:@"TestProgressViewViewController_YJLProgreeView_pro3"];
     [self.view addSubview:proVi2];
-    [proVi2 release];
     
-    proVi=[[YJLProgreeView alloc] initWithFrame:CGRectMake(20, 70, 100, 100)];
-    proVi.borderType=YJLProgressViewBorderTypePlain;
-    proVi.backgroundColor=[UIColor clearColor];
-    [self.view addSubview:proVi];
-    [proVi release];
     
-    proVi4=[[YJLProgreeView alloc] initWithFrame:CGRectMake(80, 300, 100, 100)];
-    proVi4.type=YJLProgressViewPie;
-    proVi4.backgroundColor=[UIColor clearColor];
+    proVi4=[dict objectForKey:@"TestProgressViewViewController_YJLProgreeView_pro4"];
     [self.view addSubview:proVi4];
-    __block typeof(proVi4)p=proVi4;
-    proVi4.progressChanged=^{
-        NSLog(@"%f",p.progress);
-    };
-    [proVi4 release];
     
+    proVi=[dict objectForKey:@"TestProgressViewViewController_YJLProgreeView_pro5"];
+    [self.view addSubview:proVi];
+    LYLog(@"%@",dict);
     timer=[NSTimer scheduledTimerWithTimeInterval:.1 target:self selector:@selector(run) userInfo:nil repeats:YES];
-    NSLog(@"%@",proVi.infoDict);
 }
 -(void)run
 {

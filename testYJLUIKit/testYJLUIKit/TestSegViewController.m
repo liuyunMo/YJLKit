@@ -68,31 +68,8 @@
     [self.view addSubview:seg];
     [seg release];
     
-    NSDictionary *dict=getInstanceWithLayoutFile(@"QMLItem",YES);
-    NSLog(@"%@",dict);
-    
-    QMLSegmentControl *control=[dict objectForKey:@"TestSegViewController_QMLSegmentControl_tab"];
-    NSMutableArray *items=[NSMutableArray array];
-    QMLSegItem *item1=[dict objectForKey:@"TestSegViewController_QMLSegItem_item1"];
-    if (item1) {
-        [items addObject:item1];
-    }
-    QMLSegItem *item2=[dict objectForKey:@"TestSegViewController_QMLSegItem_item2"];
-    if (item2) {
-        [items addObject:item2];
-    }
-    QMLSegItem *item3=[dict objectForKey:@"TestSegViewController_QMLSegItem_item3"];
-    if (item3) {
-        [items addObject:item3];
-    }
-    QMLSegItem *item4=[dict objectForKey:@"TestSegViewController_QMLSegItem_item4"];
-    if (item4) {
-        [items addObject:item4];
-    }
-    control.items=items;
-    [control setSelectIndex:control.selectIndex];
+    QMLSegmentControl *control=getInstanceWithLayoutFile(@"QMLItem",YES);
     [self.view addSubview:control];
-    NSLog(@"%@",control);
 }
 -(void)valueChagedTo:(int)index
 {

@@ -123,6 +123,18 @@
 +(id)createWithInfoDict:(NSDictionary*)infoDict
 {
     QMLSegmentControl *seg=[super createWithInfoDict:infoDict];
+    
+    NSString *items=[infoDict objectForKey:@"items"];
+    NSArray *arr=[items componentsSeparatedByString:LAYOUT_ITEM_SEP];
+    NSMutableArray *itemArr=[NSMutableArray array];
+    for (NSString *str in arr) {
+        NSString *key=[str substringFromIndex:LAYOUY_HAS_ASS_PREFIX.length+1];
+        QMLSegItem *item=[infoDict objectForKey:key];
+        if (item&&[item isKindOfClass:[QMLSegItem class]]) {
+            [itemArr addObject:item];
+        }
+    }
+    seg.items=itemArr;
     NSString *selectIndex=[infoDict objectForKey:@"selectIndex"];
     if (selectIndex) {
         seg.selectIndex=[selectIndex intValue];

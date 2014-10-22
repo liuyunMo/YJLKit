@@ -40,3 +40,4 @@ defaultTextColor=0,0,0;
 heightLightTextColor=255,0,0;
 defaultImage=pic_tab4_default;
 heightLightImage=pic_tab4_select;
+

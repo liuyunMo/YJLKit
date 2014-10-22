@@ -6,10 +6,10 @@
 //  Copyright (c) 2014年 钟园园. All rights reserved.
 //
 
-#import "YJLFlagView.h"
+
 #import "YJLQuestion.h"
 @protocol YJLQuestionViewDelegate;
-@interface YJLQuestionView : YJLFlagView
+@interface YJLQuestionView : YJLView
 @property(nonatomic,assign)YJLQuestion *question;
 @property(nonatomic,assign)BOOL        ableAnswer;
 @property(nonatomic,readonly)BOOL      showingParse;

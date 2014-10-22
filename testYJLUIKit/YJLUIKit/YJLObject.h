@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-
-@interface YJLObject : NSObject<YJLCreateDelegate>
+@protocol YJLLayoutDelegate;
+@interface YJLObject : NSObject<YJLLayoutDelegate>
 -(void)setupDefineValues;
 @end

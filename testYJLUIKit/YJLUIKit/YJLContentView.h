@@ -6,9 +6,9 @@
 //  Copyright (c) 2014年 钟园园. All rights reserved.
 //
 
-#import "YJLFlagView.h"
 
-@interface YJLContentView : YJLFlagView
+
+@interface YJLContentView : YJLView
 @property(nonatomic,copy)NSString    *content;
 @property(nonatomic,retain)UIFont    *font;
 @property(nonatomic,retain)UIColor   *textColor;

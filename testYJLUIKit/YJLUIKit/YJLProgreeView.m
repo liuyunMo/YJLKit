@@ -142,4 +142,46 @@
     }
     UIGraphicsPopContext();
 }
+
+
+#pragma mark--   YJLCreateDelegate
++(id)createWithInfoDict:(NSDictionary*)infoDict
+{
+    YJLProgreeView *vi=[super createWithInfoDict:infoDict];
+    NSString *type=[infoDict objectForKey:@"type"];
+    if (type) {
+        vi.type=[type intValue];
+    }
+    
+    NSString *borderType=[infoDict objectForKey:@"borderType"];
+    if (borderType) {
+        vi.borderType=[borderType intValue];
+    }
+    
+    NSString *defaultColor=[infoDict objectForKey:@"defaultColor"];
+    if (defaultColor) {
+        UIColor *color=nil;
+        getColorWithLatoutStr(defaultColor, &color);
+        vi.defaultColor=color;
+    }
+    
+    NSString *progressColor=[infoDict objectForKey:@"progressColor"];
+    if (progressColor) {
+        UIColor *color=nil;
+        getColorWithLatoutStr(progressColor, &color);
+        vi.progressColor=color;
+    }
+    
+    NSString *progress=[infoDict objectForKey:@"progress"];
+    if (progress) {
+        vi.progress=[progress floatValue];
+    }
+    
+    NSString *progressWidth=[infoDict objectForKey:@"progressWidth"];
+    if (progressWidth) {
+        vi.progressWidth=[progressWidth floatValue];
+    }
+    
+    return vi;
+}
 @end

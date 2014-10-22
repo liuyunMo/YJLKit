@@ -6,9 +6,9 @@
 //  Copyright (c) 2014年 钟园园. All rights reserved.
 //
 
-#import "YJLFlagView.h"
+
 #import "YJLTextObj.h"
-@interface YJLDrawLabel : YJLFlagView
+@interface YJLDrawLabel : YJLView
 @property(nonatomic,retain)    YJLTextObj  *textObj;
 @property(nonatomic,readonly)  float        width;
 -(void)redraw;

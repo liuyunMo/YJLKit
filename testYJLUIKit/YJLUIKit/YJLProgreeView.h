@@ -6,7 +6,7 @@
 //  Copyright (c) 2014年 钟园园. All rights reserved.
 //
 
-#import "YJLFlagView.h"
+
 typedef enum:NSUInteger{
     YJLProgressViewDefault,
     YJLProgressViewRound,
@@ -17,7 +17,7 @@ typedef enum : NSUInteger {
     YJLProgressViewBorderTypeRound
 } YJLProgressViewBorderType;
 
-@interface YJLProgreeView : YJLFlagView
+@interface YJLProgreeView : YJLView
 @property(nonatomic,assign)YJLProgressViewType        type;
 @property(nonatomic,assign)YJLProgressViewBorderType  borderType;
 @property(nonatomic,retain)UIColor *                  defaultColor;

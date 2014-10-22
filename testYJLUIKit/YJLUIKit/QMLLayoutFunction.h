@@ -40,7 +40,8 @@ void getImageWithName(NSString *name,UIImage **img);
 UIImage *imageWithName(NSString *name);
 
 void getInstancesWithLayoutStr(NSString *str,NSDictionary **dict);
-void getSingleInstanceWithLayoutStr(NSString *str,id<YJLLayoutDelegate> *instance,BOOL *hasAsso);
+void* getSingleInstanceWithLayoutStr(NSString *str,Class *mainClass);
+void getLayoutStrWithLayoutFile(NSString *name,NSString **str);
 void* getInstanceWithLayoutFile(NSString *name,BOOL hasAsso);
 
 #endif

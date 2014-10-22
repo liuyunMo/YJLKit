@@ -7,7 +7,7 @@
 //
 
 #import "QMLLayoutFunction.h"
-void getLayoutStrWithLayoutFile(NSString *name,NSString **str);
+
 
 
 NSString *getStringByDelWhiteSpaceAndNewLine(NSString *str)
@@ -128,29 +128,36 @@ findImg:
     }
 }
 //hasAsso 是否存在关联
-void getSingleInstanceWithLayoutStr(NSString *str,id<YJLLayoutDelegate> *instance,BOOL *hasAsso)
+void* getSingleInstanceWithLayoutStr(NSString *str,Class *mainClass)
 {
-    if (str&&instance) {
+    if (str) {
         NSMutableDictionary *dict=[NSMutableDictionary dictionary];
+        BOOL hasAsso=NO;
         NSArray *arr=[str componentsSeparatedByString:LAYOUT_ROW_SEP];
         for (NSString *subStr in arr) {
             NSArray *subArr=[subStr componentsSeparatedByString:LAYOUT_KEY_VALUE_SEP];
             if (subArr.count>1) {
                 NSString *key=getStringByDelWhiteSpaceAndNewLine([subArr objectAtIndex:0]);
                 NSString *value=getStringByDelWhiteSpaceAndNewLine([subArr objectAtIndex:1]);
-                if (hasAsso&&!*hasAsso) {
-                    *hasAsso=[value hasPrefix:LAYOUY_HAS_ASS_PREFIX];
-                }
                 if (key&&value) {
+                    if (!hasAsso) {
+                        hasAsso=[value hasPrefix:LAYOUY_HAS_ASS_PREFIX];
+                    }
                     [dict setObject:value forKey:key];
                 }
             }
         }
         NSString *c_str=[dict objectForKey:LAYOUT_KEY_CLASS];
         if (c_str) {
-            *instance=[NSClassFromString(c_str) createWithInfoDict:dict];
+            if (hasAsso&&mainClass) {
+                *mainClass=NSClassFromString(c_str);
+                return dict;
+            }else{
+                return [NSClassFromString(c_str) createWithInfoDict:dict];
+            }
         }
     }
+    return nil;
 }
 void getInstancesWithLayoutStr(NSString *str,NSDictionary **dict)
 {
@@ -164,15 +171,14 @@ void getInstancesWithLayoutStr(NSString *str,NSDictionary **dict)
     NSMutableDictionary *mudict=[NSMutableDictionary dictionary];
     for (NSString *subStr in arr) {
         subStr = getStringByDelWhiteSpaceAndNewLine([LAYOUT_KEY_CLASS stringByAppendingString:subStr]);
-        id <YJLLayoutDelegate> ins=nil;
-        BOOL hasAss=NO;
-        getSingleInstanceWithLayoutStr(subStr, &ins,&hasAss);
+        Class c=nil;
+        id <YJLLayoutDelegate> ins=getSingleInstanceWithLayoutStr(subStr,&c);
         if (ins&&ins.flag) {
             [mudict setObject:ins forKey:ins.flag];
         }
-        if (dict) {
-            *dict=mudict;
-        }
+    }
+    if (dict) {
+        *dict=mudict;
     }
 }
 void* getInstanceWithLayoutStr(NSString *str,BOOL hasAsso)
@@ -184,14 +190,17 @@ void* getInstanceWithLayoutStr(NSString *str,BOOL hasAsso)
     
     NSArray *arr=[c_str componentsSeparatedByString:LAYOUT_KEY_CLASS];
     NSMutableDictionary *dict=[NSMutableDictionary dictionary];
+    Class c=nil;
     for (NSString *subStr in arr) {
         if (getStringByDelWhiteSpaceAndNewLine(subStr).length<1) {
             continue;
         }
         subStr = getStringByDelWhiteSpaceAndNewLine([LAYOUT_KEY_CLASS stringByAppendingString:subStr]);
-        id <YJLLayoutDelegate> ins=nil;
-        getSingleInstanceWithLayoutStr(subStr, &ins,nil);
-        if (ins&&ins.flag) {
+        id <YJLLayoutDelegate> ins=getSingleInstanceWithLayoutStr(subStr,&c);
+        if (hasAsso&&[ins isKindOfClass:[NSDictionary class]]) {
+            [dict setDictionary:(NSDictionary *)ins];
+        }
+        if ([ins respondsToSelector:@selector(flag)]&&ins.flag) {
             if (hasAsso) {
                 [dict setObject:ins forKey:ins.flag];
             }else{
@@ -199,7 +208,11 @@ void* getInstanceWithLayoutStr(NSString *str,BOOL hasAsso)
             }
         }
     }
-    return dict;
+    if (c) {
+        return [c createWithInfoDict:dict];
+    }else{
+        return dict;
+    }
 }
 
 void* getInstanceWithLayoutFile(NSString *name,BOOL hasAsso)

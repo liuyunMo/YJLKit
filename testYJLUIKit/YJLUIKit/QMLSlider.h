@@ -8,7 +8,7 @@
 
 #import "YJLImageView.h"
 
-@interface QMLSlider : YJLFlagView
+@interface QMLSlider : YJLView
 @property(nonatomic,assign)float value;//0-1;
 @property(nonatomic,assign)float scale;
 @property(nonatomic,copy)VFBlock valueChanged;
