@@ -26,9 +26,9 @@
     selectVi.menuWidth=100;
     [self.view addSubview:selectVi];
     [selectVi release];
-    NSLog(@"%@",selectVi.infoDict);
+    //NSLog(@"%@",selectVi.infoDict);
     
-    
+    NSLog(@"%@",[YJLSelectView getInfoDictKeys]);
     YJLSelectView *vi=[YJLSelectView createWithInfoDict:selectVi.infoDict];
     vi.menuOffset=CGPointZero;
     CGRect rect=vi.frame;

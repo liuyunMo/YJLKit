@@ -31,5 +31,13 @@
     [super dealloc];
 }
 #pragma mark-- YJLCreateDelegate Methods
-YJLLAYOUTDELEGATE_IMPLEMENTATION(@"flag","YJLObject")
++(id)createWithInfoDict:(NSDictionary *)infoDict
+{
+    YJLObject *obj=[[[self class] alloc] init];
+    NSString *flag=[infoDict objectForKey:@"flag"];
+    if (flag) {
+        obj.flag=flag;
+    }
+    return obj;
+}
 @end

@@ -14,7 +14,7 @@
 		<string>https://github.com/liuyunMo/YJLKit.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>testYJLUIKit/testYJLUIKit.xcodeproj/project.xcworkspace</string>
+	<string>testYJLUIKit/testYJLUIKit.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>777BEB305586A35E75C4F655B7860A099E52D118</key>

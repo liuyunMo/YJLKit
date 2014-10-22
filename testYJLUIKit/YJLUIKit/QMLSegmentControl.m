@@ -83,6 +83,10 @@
 }
 -(void)setSelectIndex:(int)selectIndex
 {
+    if (self.items.count-1<selectIndex) {
+        _selectIndex=selectIndex;
+        return;
+    }
     UIImageView *lastIm=(UIImageView *)[self viewWithTag:10+_selectIndex];
     UILabel *lastLa=(UILabel *)[self viewWithTag:20+_selectIndex];
     QMLSegItem *lastItem=[self.items objectAtIndex:_selectIndex];
@@ -111,5 +115,18 @@
     UITouch *t=[touches anyObject];
     CGPoint p=[t locationInView:self];
     self.selectIndex=p.x/itemWidth;
+}
+
+
+#pragma mark--   YJLCreateDelegate
+
++(id)createWithInfoDict:(NSDictionary*)infoDict
+{
+    QMLSegmentControl *seg=[super createWithInfoDict:infoDict];
+    NSString *selectIndex=[infoDict objectForKey:@"selectIndex"];
+    if (selectIndex) {
+        seg.selectIndex=[selectIndex intValue];
+    }
+    return seg;
 }
 @end

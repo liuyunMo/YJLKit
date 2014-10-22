@@ -8,6 +8,6 @@
 
 #import <QuartzCore/QuartzCore.h>
 
-@interface QMLShapeLayer : CAShapeLayer<YJLFlagDelegate>
-
+@interface QMLShapeLayer : CAShapeLayer
+@property(nonatomic,copy)NSString *flag;
 @end

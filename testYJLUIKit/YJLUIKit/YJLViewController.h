@@ -8,7 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface YJLViewController : UIViewController<YJLFlagDelegate>
+@interface YJLViewController : UIViewController
 @property(nonatomic,strong)NSDictionary *userInfo;
 @property(nonatomic,copy)void (^result)(id userInfo);
+@property(nonatomic,copy)NSString *flag;
 @end

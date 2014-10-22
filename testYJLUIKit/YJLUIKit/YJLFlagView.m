@@ -23,5 +23,14 @@
     [_flag release];
     [super dealloc];
 }
-
+#pragma mark --YJLLayout
++(id)createWithInfoDict:(NSDictionary*)infoDict
+{
+    YJLFlagView *vi=[super createWithInfoDict:infoDict];
+    NSString *flag=[infoDict objectForKey:@"flag"];
+    if (flag) {
+        vi.flag=flag;
+    }
+    return vi;
+}
 @end

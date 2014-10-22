@@ -8,6 +8,6 @@
 
 #import <Foundation/Foundation.h>
 
-@interface YJLObject : NSObject<YJLFlagDelegate,YJLCreateDelegate>
+@interface YJLObject : NSObject<YJLCreateDelegate>
 -(void)setupDefineValues;
 @end

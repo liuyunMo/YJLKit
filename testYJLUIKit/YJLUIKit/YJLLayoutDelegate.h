@@ -11,6 +11,7 @@
 @protocol YJLLayoutDelegate <NSObject>
 @required
 @property(nonatomic,readonly)NSDictionary *infoDict;
+@property(nonatomic,copy)NSString *flag;
 +(NSArray *)getInfoDictKeys;
 +(id)createWithInfoDict:(NSDictionary*)infoDict;
 //+(BOOL)writeToFileAtPath:(NSString *)path;
@@ -18,6 +19,7 @@
 
 @protocol YJLCreateDelegate <YJLLayoutDelegate>
 @end
+
 
 //keyStr NSString 用,连接每个属性 如：@"frame,tag,backgroundColor"
 //baseClass const char*
@@ -65,6 +67,7 @@ INFO_DICT_IMPLEMENTATION
 { \
     NSMutableDictionary *dict=[NSMutableDictionary dictionary]; \
     for (NSString *key in [[self class] getInfoDictKeys]) { \
+        LYLog(@"%@",key);\
         id value=[self valueForKey:key]; \
         if (value) { \
             [dict setObject:value forKey:key]; \

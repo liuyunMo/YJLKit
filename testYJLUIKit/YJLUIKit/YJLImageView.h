@@ -8,7 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface YJLImageView : UIImageView<YJLFlagDelegate,YJLLayoutDelegate>
+@interface YJLImageView : UIImageView<YJLLayoutDelegate>
 @property(nonatomic,assign)float scale;//0--1 default .5;
+@property(nonatomic,copy)NSString *flag;
 -(void)setupDefineValues;
 @end

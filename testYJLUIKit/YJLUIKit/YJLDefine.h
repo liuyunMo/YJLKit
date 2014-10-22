@@ -52,7 +52,10 @@ typedef void(^VSBlock)(NSSet *);
 
 
 #define DEALLOC_PRINT if(logEnable())printf(("\n%s"), __PRETTY_FUNCTION__)
+#define LYLog(format,...)  if(logEnable())NSLog((@"" format),##__VA_ARGS__)
 
 #define SET_PAR(_p,p) do{[p retain];[_p release];_p=p;}while(0)
+
+#define STR_LOCATION(key) NSLocalizedStringFromTable(key, @"InfoPlist", key)
 
 #endif

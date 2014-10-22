@@ -49,7 +49,7 @@
         self.frame=rect;
     }
 }
-#pragma mark -- YJLFlagDelegate Methods
+
 -(NSString *)flag
 {
     if (!_flag) {

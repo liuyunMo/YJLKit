@@ -7,6 +7,6 @@
 //
 
 #import "YJLView.h"
-#import "YJLFlagDelegate.h"
-@interface YJLFlagView : YJLView<YJLFlagDelegate>
+@interface YJLFlagView : YJLView
+@property(nonatomic,copy)NSString *flag;
 @end

@@ -33,5 +33,21 @@
     [super dealloc];
 }
 #pragma mark -- YJLLayoutDelegate Methods
-YJLLAYOUTDELEGATE_IMPLEMENTATION(@"frame,tag,backgroundColor","YJLView")
++(id)createWithInfoDict:(NSDictionary*)infoDict
+{
+    YJLView *vi=[[[self class] alloc]init];
+    NSString *frame=[infoDict objectForKey:@"frame"];
+    if (frame) {
+        CGRect rect;
+        getFrameWithLayoutStr(frame, &rect);
+        vi.frame=rect;
+    }
+    NSString *backgroundColor=[infoDict objectForKey:@"backgroundColor"];
+    if (backgroundColor) {
+        UIColor *color=nil;
+        getColorWithLatoutStr(backgroundColor, &color);
+        vi.backgroundColor=color;
+    }
+    return vi;
+}
 @end

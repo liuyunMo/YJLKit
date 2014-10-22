@@ -24,7 +24,6 @@
     [super dealloc];
 }
 
-#pragma mark -- YJLFlagDelegate Methods
 -(NSString*)flag
 {
     if (!_flag) {
