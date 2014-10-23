@@ -63,6 +63,11 @@
     if (flag) {
         vi.flag=flag;
     }
+    
+    NSString *tag=[infoDict objectForKey:@"tag"];
+    if (tag) {
+        vi.tag=[tag intValue];
+    }
     return [vi autorelease];
 }
 @end

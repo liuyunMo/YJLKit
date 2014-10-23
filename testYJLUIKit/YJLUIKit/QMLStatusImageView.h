@@ -6,9 +6,9 @@
 //  Copyright (c) 2014年 钟园园. All rights reserved.
 //
 
-#import "YJLImageView.h"
+#import "QMLTouchImageView.h"
 
-@interface QMLStatusImageView : YJLImageView
+@interface QMLStatusImageView : QMLTouchImageView
 @property(nonatomic,retain)UIImage *defaultImg;
 @property(nonatomic,retain)UIImage *selectImg;
 @property(nonatomic,assign)BOOL    selected;
