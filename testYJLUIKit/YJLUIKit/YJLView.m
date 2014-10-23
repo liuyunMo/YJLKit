@@ -55,7 +55,7 @@
     NSString *backgroundColor=[infoDict objectForKey:@"backgroundColor"];
     if (backgroundColor) {
         UIColor *color=nil;
-        getColorWithLatoutStr(backgroundColor, &color);
+        getColorWithLayoutStr(backgroundColor, &color);
         vi.backgroundColor=color;
     }
    

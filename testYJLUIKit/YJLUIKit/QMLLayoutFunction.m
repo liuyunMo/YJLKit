@@ -59,7 +59,7 @@ void getFrameWithLayoutStr(NSString *str,CGRect *rect)
     }
     
 }
-void getColorWithLatoutStr(NSString *str,UIColor **color)
+void getColorWithLayoutStr(NSString *str,UIColor **color)
 {
     NSString *c_str=getStringByDelWhiteSpaceAndNewLine(str);
     float value[4]={255.0,255.0,255.0,255.0};
@@ -71,6 +71,25 @@ void getColorWithLatoutStr(NSString *str,UIColor **color)
     if (color) {
         *color=COLOR_WITH_RGBA(value[0], value[1], value[2], value[3]);
     }
+}
+void getFontWithLayoutStr(NSString *str,UIFont **font)
+{
+    if (str&&font) {
+        NSString *f_str=getStringByDelWhiteSpaceAndNewLine(str);
+        if ([f_str hasPrefix:LAYOUT_FONT_SYS_PREFIX]) {
+            float size=[[f_str substringFromIndex:LAYOUT_FONT_SYS_PREFIX.length+1] floatValue];
+            *font=[UIFont systemFontOfSize:size];
+        }
+        if ([f_str hasPrefix:LAYOUT_FONT_BOLD_PREFIX]) {
+            float size=[[f_str substringFromIndex:LAYOUT_FONT_BOLD_PREFIX.length+1] floatValue];
+            *font=[UIFont boldSystemFontOfSize:size];
+        }
+        if ([f_str hasPrefix:LAYOUT_FONT_ITALIC_PREFIX]) {
+            float size=[[f_str substringFromIndex:LAYOUT_FONT_ITALIC_PREFIX.length+1] floatValue];
+            *font=[UIFont italicSystemFontOfSize:size];
+        }
+    }
+    
 }
 void getImageWithName(NSString *name,UIImage **img)
 {

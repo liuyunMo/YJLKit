@@ -52,7 +52,6 @@
 		9C988CCD199A5513008F82E3 /* pic_tab4_select.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C988CBF199A5513008F82E3 /* pic_tab4_select.png */; };
 		9C988CD0199A553A008F82E3 /* TestSegViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C988CCF199A553A008F82E3 /* TestSegViewController.m */; };
 		9CC51A0A196277EB000877FA /* TestProgressViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CC51A09196277EB000877FA /* TestProgressViewViewController.m */; };
-		B2012A2D19388371005D52F7 /* YJLFlagDelegate.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = B21FA35F19387B2200E8465D /* YJLFlagDelegate.h */; };
 		B2012A2F19388371005D52F7 /* YJLLayoutDelegate.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = B21FA36219387B2200E8465D /* YJLLayoutDelegate.h */; };
 		B2012A3019388371005D52F7 /* YJLUIKit.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = B21FA36319387B2200E8465D /* YJLUIKit.h */; };
 		B2012A3119388371005D52F7 /* YJLView.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = B21FA36519387B2200E8465D /* YJLView.h */; };
@@ -114,7 +113,6 @@
 		B2F286BD19494904005DC4D9 /* YJLTextObj.m in Sources */ = {isa = PBXBuildFile; fileRef = B2F286BC19494904005DC4D9 /* YJLTextObj.m */; };
 		B2F286BE19494904005DC4D9 /* YJLTextObj.m in Sources */ = {isa = PBXBuildFile; fileRef = B2F286BC19494904005DC4D9 /* YJLTextObj.m */; };
 		B2FAC52B195C16810022C4C9 /* TestSelectViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2FAC52A195C16810022C4C9 /* TestSelectViewViewController.m */; };
-		CE42DA9219C18A8F00896FB4 /* QMLLineView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE42DA9119C18A8F00896FB4 /* QMLLineView.m */; };
 		CE4EBE5919E2DFF300D9B34A /* QMLSliderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE4EBE5819E2DFF300D9B34A /* QMLSliderViewController.m */; };
 		CE4EBE5C19E2E65900D9B34A /* QMLSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = CE4EBE5B19E2E65900D9B34A /* QMLSlider.m */; };
 		CE4EBE5D19E2E65900D9B34A /* QMLSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = CE4EBE5B19E2E65900D9B34A /* QMLSlider.m */; };
@@ -179,7 +177,6 @@
 				B22C442F193DA5FC0012064D /* YJLDefine.h in CopyFiles */,
 				B22C4410193D9F750012064D /* YJLViewController.h in CopyFiles */,
 				B2012A3E19388E1C005D52F7 /* YJLContentView.h in CopyFiles */,
-				B2012A2D19388371005D52F7 /* YJLFlagDelegate.h in CopyFiles */,
 				B2012A2F19388371005D52F7 /* YJLLayoutDelegate.h in CopyFiles */,
 				B2012A3019388371005D52F7 /* YJLUIKit.h in CopyFiles */,
 				B2012A3119388371005D52F7 /* YJLView.h in CopyFiles */,
@@ -271,7 +268,6 @@
 		B21FA34A19386F0100E8465D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B21FA34C19386F0100E8465D /* YJLUIKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YJLUIKitTests.m; sourceTree = "<group>"; };
 		B21FA35E19387B2200E8465D /* YJLDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJLDefine.h; sourceTree = "<group>"; };
-		B21FA35F19387B2200E8465D /* YJLFlagDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJLFlagDelegate.h; sourceTree = "<group>"; };
 		B21FA36219387B2200E8465D /* YJLLayoutDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJLLayoutDelegate.h; sourceTree = "<group>"; };
 		B21FA36319387B2200E8465D /* YJLUIKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJLUIKit.h; sourceTree = "<group>"; };
 		B21FA36419387B2200E8465D /* YJLUIKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJLUIKit.m; sourceTree = "<group>"; };
@@ -303,8 +299,6 @@
 		B2F286BC19494904005DC4D9 /* YJLTextObj.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJLTextObj.m; sourceTree = "<group>"; };
 		B2FAC529195C16810022C4C9 /* TestSelectViewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestSelectViewViewController.h; sourceTree = "<group>"; };
 		B2FAC52A195C16810022C4C9 /* TestSelectViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestSelectViewViewController.m; sourceTree = "<group>"; };
-		CE42DA9019C18A8F00896FB4 /* QMLLineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QMLLineView.h; sourceTree = "<group>"; };
-		CE42DA9119C18A8F00896FB4 /* QMLLineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QMLLineView.m; sourceTree = "<group>"; };
 		CE4EBE5719E2DFF300D9B34A /* QMLSliderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QMLSliderViewController.h; sourceTree = "<group>"; };
 		CE4EBE5819E2DFF300D9B34A /* QMLSliderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QMLSliderViewController.m; sourceTree = "<group>"; };
 		CE4EBE5A19E2E65900D9B34A /* QMLSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QMLSlider.h; sourceTree = "<group>"; };
@@ -530,7 +524,6 @@
 				B2012A36193884AB005D52F7 /* YJLContentView.h */,
 				B2012A37193884AB005D52F7 /* YJLContentView.m */,
 				B21FA35E19387B2200E8465D /* YJLDefine.h */,
-				B21FA35F19387B2200E8465D /* YJLFlagDelegate.h */,
 				B21FA36219387B2200E8465D /* YJLLayoutDelegate.h */,
 				B21FA36319387B2200E8465D /* YJLUIKit.h */,
 				B21FA36419387B2200E8465D /* YJLUIKit.m */,
@@ -558,8 +551,6 @@
 				9C2DEFBF1963BE81005C6F56 /* YJLRefView.m */,
 				9C4F3653197BC0DF00C4B403 /* YJLADControl.h */,
 				9C4F3654197BC0DF00C4B403 /* YJLADControl.m */,
-				CE42DA9019C18A8F00896FB4 /* QMLLineView.h */,
-				CE42DA9119C18A8F00896FB4 /* QMLLineView.m */,
 				CE663E7319E0E91300A9D68F /* QMLStatusImageView.h */,
 				CE663E7419E0E91300A9D68F /* QMLStatusImageView.m */,
 			);
@@ -928,7 +919,6 @@
 				B22C440F193D9E720012064D /* YJLViewController.m in Sources */,
 				B2F286BE19494904005DC4D9 /* YJLTextObj.m in Sources */,
 				CE4EBE6A19E2E67800D9B34A /* QMLTouchImageView.m in Sources */,
-				CE42DA9219C18A8F00896FB4 /* QMLLineView.m in Sources */,
 				B21FA36C19387B2200E8465D /* YJLView.m in Sources */,
 				B2D7A253194EF43F00C679B0 /* YJLDrawLabel.m in Sources */,
 				9C2DEFC11963BE81005C6F56 /* YJLRefView.m in Sources */,

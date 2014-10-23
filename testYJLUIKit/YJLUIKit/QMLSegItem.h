@@ -9,7 +9,7 @@
 #import <Foundation/Foundation.h>
 
 @interface QMLSegItem : YJLObject
-@property(nonatomic,copy)NSString *title;
+@property(nonatomic,copy)NSString  *title;
 @property(nonatomic,retain)UIColor *defaultTextColor;
 @property(nonatomic,retain)UIColor *heightLightTextColor;
 @property(nonatomic,retain)UIImage *defaultImage;

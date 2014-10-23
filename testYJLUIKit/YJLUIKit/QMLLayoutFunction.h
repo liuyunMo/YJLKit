@@ -27,6 +27,10 @@
 
 #define LAYOUT_KEY_CLASS       @"class"
 
+#define LAYOUT_FONT_SYS_PREFIX      @"S"
+#define LAYOUT_FONT_BOLD_PREFIX     @"B"
+#define LAYOUT_FONT_ITALIC_PREFIX   @"I"
+
 @protocol YJLLayoutDelegate;
 
 BOOL createLayoutFolder();
@@ -35,7 +39,8 @@ NSString *getStringByDelWhiteSpaceAndNewLine(NSString *str);
 
 void getScreenSize(float *w,float *h);
 void getFrameWithLayoutStr(NSString *str,CGRect *rect);
-void getColorWithLatoutStr(NSString *str,UIColor **color);
+void getColorWithLayoutStr(NSString *str,UIColor **color);
+void getFontWithLayoutStr(NSString *str,UIFont **font);
 void getImageWithName(NSString *name,UIImage **img);
 UIImage *imageWithName(NSString *name);
 

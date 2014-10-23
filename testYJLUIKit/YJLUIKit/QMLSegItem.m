@@ -34,14 +34,14 @@
     NSString *defaultTextColor=[infoDict objectForKey:@"defaultTextColor"];
     if (defaultTextColor) {
         UIColor *color=nil;
-        getColorWithLatoutStr(defaultTextColor, &color);
+        getColorWithLayoutStr(defaultTextColor, &color);
         item.defaultTextColor=color;
     }
     
     NSString *heightLightTextColor=[infoDict objectForKey:@"heightLightTextColor"];
     if (defaultTextColor) {
         UIColor *color=nil;
-        getColorWithLatoutStr(heightLightTextColor, &color);
+        getColorWithLayoutStr(heightLightTextColor, &color);
         item.heightLightTextColor=color;
     }
     

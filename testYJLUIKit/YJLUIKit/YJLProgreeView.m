@@ -161,14 +161,14 @@
     NSString *defaultColor=[infoDict objectForKey:@"defaultColor"];
     if (defaultColor) {
         UIColor *color=nil;
-        getColorWithLatoutStr(defaultColor, &color);
+        getColorWithLayoutStr(defaultColor, &color);
         vi.defaultColor=color;
     }
     
     NSString *progressColor=[infoDict objectForKey:@"progressColor"];
     if (progressColor) {
         UIColor *color=nil;
-        getColorWithLatoutStr(progressColor, &color);
+        getColorWithLayoutStr(progressColor, &color);
         vi.progressColor=color;
     }
     

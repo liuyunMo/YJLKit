@@ -19,6 +19,7 @@
 - (void)dealloc
 {
     DEALLOC_PRINT;
+    Block_release(_valueChanged);
     [_items release];
     [super dealloc];
 }

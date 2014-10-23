@@ -30,6 +30,7 @@
     [vi release];
     [refView prepareToRefurbish];
     
+    [refView performSelector:@selector(refurbishFinish) withObject:nil afterDelay:2];
     UIPanGestureRecognizer *pan=[[UIPanGestureRecognizer alloc] initWithTarget:self action:@selector(pan:)];
     [vi addGestureRecognizer:pan];
     [pan release];
@@ -46,6 +47,7 @@
             break;
         case UIGestureRecognizerStateEnded:
             [refView tryToRefurbish];
+            [refView performSelector:@selector(refurbishFinish) withObject:nil afterDelay:2];
             break;
         default:
             break;

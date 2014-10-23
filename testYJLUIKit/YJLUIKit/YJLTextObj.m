@@ -24,29 +24,25 @@
 }
 
 #pragma mark-- YJLCreateDelegate Methods
-+(NSArray *)getInfoDictKeys{
-    NSMutableArray *arr=[NSMutableArray arrayWithArray:[super getInfoDictKeys]];
-    [arr addObjectsFromArray:@[
-                               @"text",
-                               @"font",
-                               @"textColor"
-                               ]];
-    return arr;
-}
+
 +(id)createWithInfoDict:(NSDictionary*)infoDict
 {
     YJLTextObj *obj=[super createWithInfoDict:infoDict];
     NSString *text=[infoDict objectForKey:@"text"];
-    if (text&&[text isKindOfClass:[NSString class]]) {
+    if (text) {
         obj.text=text;
     }
-    UIFont *font=[infoDict objectForKey:@"font"];
-    if (font&&[font isKindOfClass:[NSString class]]) {
+    NSString *fontStr=[infoDict objectForKey:@"font"];
+    if (fontStr) {
+        UIFont *font=nil;
+        getFontWithLayoutStr(fontStr, &font);
         obj.font=font;
     }
-    UIColor *textColor=[infoDict objectForKey:@"textColor"];
-    if (textColor&&[textColor isKindOfClass:[UIColor class]]) {
-        obj.textColor=textColor;
+    NSString *textColor=[infoDict objectForKey:@"textColor"];
+    if (textColor) {
+        UIColor *color=nil;
+        getColorWithLayoutStr(textColor, &color);
+        obj.textColor=color;
     }
     return obj;
 }
