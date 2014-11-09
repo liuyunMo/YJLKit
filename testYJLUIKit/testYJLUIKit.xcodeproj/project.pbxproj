@@ -7,35 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9C049BB019627A41002EC9FA /* YJLProgreeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C049BAF19627A41002EC9FA /* YJLProgreeView.m */; };
-		9C049BB119627A41002EC9FA /* YJLProgreeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C049BAF19627A41002EC9FA /* YJLProgreeView.m */; };
-		9C27983B197CC07600603D52 /* YJLADControl.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9C4F3653197BC0DF00C4B403 /* YJLADControl.h */; };
-		9C2DEFB91963117F005C6F56 /* YJLRefurbishView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C2DEFB81963117F005C6F56 /* YJLRefurbishView.m */; };
-		9C2DEFBA1963117F005C6F56 /* YJLRefurbishView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C2DEFB81963117F005C6F56 /* YJLRefurbishView.m */; };
 		9C2DEFBD19631530005C6F56 /* TestRefurbishView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C2DEFBC19631530005C6F56 /* TestRefurbishView.m */; };
-		9C2DEFC01963BE81005C6F56 /* YJLRefView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C2DEFBF1963BE81005C6F56 /* YJLRefView.m */; };
-		9C2DEFC11963BE81005C6F56 /* YJLRefView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C2DEFBF1963BE81005C6F56 /* YJLRefView.m */; };
 		9C2DEFC41963C487005C6F56 /* TestYJLRefView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C2DEFC31963C487005C6F56 /* TestYJLRefView.m */; };
 		9C300697196539C500A95B4C /* YJLOptionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C300696196539C500A95B4C /* YJLOptionView.m */; };
 		9C300698196539C500A95B4C /* YJLOptionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C300696196539C500A95B4C /* YJLOptionView.m */; };
 		9C30069D196540A200A95B4C /* YJLQuestionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C30069C196540A200A95B4C /* YJLQuestionView.m */; };
 		9C30069E196540A200A95B4C /* YJLQuestionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C30069C196540A200A95B4C /* YJLQuestionView.m */; };
-		9C31CF2719605E8700823002 /* YJLImageView.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = B2F286B3194941C2005DC4D9 /* YJLImageView.h */; };
-		9C31CF2819605E8700823002 /* YJLObject.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = B2F286B7194948AA005DC4D9 /* YJLObject.h */; };
-		9C31CF2919605E8700823002 /* YJLTextObj.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = B2F286BB19494904005DC4D9 /* YJLTextObj.h */; };
-		9C31CF2A19605E8700823002 /* YJLScrollLabel.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = B2D7A24C194EF40700C679B0 /* YJLScrollLabel.h */; };
-		9C31CF2B19605E8700823002 /* YJLDrawLabel.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = B2D7A250194EF43F00C679B0 /* YJLDrawLabel.h */; };
-		9C31CF2C19605E8700823002 /* YJLSelectView.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = B202D9FF1959637500F75F23 /* YJLSelectView.h */; };
-		9C4F3655197BC0DF00C4B403 /* YJLADControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C4F3654197BC0DF00C4B403 /* YJLADControl.m */; };
-		9C4F3656197BC0DF00C4B403 /* YJLADControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C4F3654197BC0DF00C4B403 /* YJLADControl.m */; };
 		9C4F3659197BC11D00C4B403 /* TestYJLADControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C4F3658197BC11D00C4B403 /* TestYJLADControl.m */; };
-		9C6DC70C1975270F00D67AB2 /* YJLProgreeView.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9C049BAE19627A41002EC9FA /* YJLProgreeView.h */; };
-		9C6DC70D1975270F00D67AB2 /* YJLRefurbishView.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9C2DEFB71963117F005C6F56 /* YJLRefurbishView.h */; };
-		9C6DC70E1975270F00D67AB2 /* YJLRefView.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9C2DEFBE1963BE81005C6F56 /* YJLRefView.h */; };
-		9C988CAD199A5401008F82E3 /* QMLSegItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C988CAA199A5401008F82E3 /* QMLSegItem.m */; };
-		9C988CAE199A5401008F82E3 /* QMLSegItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C988CAA199A5401008F82E3 /* QMLSegItem.m */; };
-		9C988CAF199A5401008F82E3 /* QMLSegmentControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C988CAC199A5401008F82E3 /* QMLSegmentControl.m */; };
-		9C988CB0199A5401008F82E3 /* QMLSegmentControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C988CAC199A5401008F82E3 /* QMLSegmentControl.m */; };
 		9C988CC0199A5513008F82E3 /* btn_segment1_default.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C988CB2199A5513008F82E3 /* btn_segment1_default.png */; };
 		9C988CC1199A5513008F82E3 /* btn_segment1_select.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C988CB3199A5513008F82E3 /* btn_segment1_select.png */; };
 		9C988CC2199A5513008F82E3 /* btn_segment2_default.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C988CB4199A5513008F82E3 /* btn_segment2_default.png */; };
@@ -52,15 +30,7 @@
 		9C988CCD199A5513008F82E3 /* pic_tab4_select.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C988CBF199A5513008F82E3 /* pic_tab4_select.png */; };
 		9C988CD0199A553A008F82E3 /* TestSegViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C988CCF199A553A008F82E3 /* TestSegViewController.m */; };
 		9CC51A0A196277EB000877FA /* TestProgressViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CC51A09196277EB000877FA /* TestProgressViewViewController.m */; };
-		B2012A2F19388371005D52F7 /* YJLLayoutDelegate.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = B21FA36219387B2200E8465D /* YJLLayoutDelegate.h */; };
-		B2012A3019388371005D52F7 /* YJLUIKit.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = B21FA36319387B2200E8465D /* YJLUIKit.h */; };
-		B2012A3119388371005D52F7 /* YJLView.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = B21FA36519387B2200E8465D /* YJLView.h */; };
-		B2012A38193884AB005D52F7 /* YJLContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = B2012A37193884AB005D52F7 /* YJLContentView.m */; };
-		B2012A39193884AB005D52F7 /* YJLContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = B2012A37193884AB005D52F7 /* YJLContentView.m */; };
 		B2012A3D19388D3D005D52F7 /* readme.txt in Resources */ = {isa = PBXBuildFile; fileRef = B2012A3C19388D3D005D52F7 /* readme.txt */; };
-		B2012A3E19388E1C005D52F7 /* YJLContentView.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = B2012A36193884AB005D52F7 /* YJLContentView.h */; };
-		B202DA011959637500F75F23 /* YJLSelectView.m in Sources */ = {isa = PBXBuildFile; fileRef = B202DA001959637500F75F23 /* YJLSelectView.m */; };
-		B202DA021959637500F75F23 /* YJLSelectView.m in Sources */ = {isa = PBXBuildFile; fileRef = B202DA001959637500F75F23 /* YJLSelectView.m */; };
 		B21FA2FA19386EEE00E8465D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B21FA2F919386EEE00E8465D /* Foundation.framework */; };
 		B21FA2FC19386EEE00E8465D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B21FA2FB19386EEE00E8465D /* CoreGraphics.framework */; };
 		B21FA2FE19386EEE00E8465D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B21FA2FD19386EEE00E8465D /* UIKit.framework */; };
@@ -81,14 +51,6 @@
 		B21FA34519386F0100E8465D /* libYJLUIKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B21FA33219386F0000E8465D /* libYJLUIKit.a */; };
 		B21FA34B19386F0100E8465D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B21FA34919386F0100E8465D /* InfoPlist.strings */; };
 		B21FA34D19386F0100E8465D /* YJLUIKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B21FA34C19386F0100E8465D /* YJLUIKitTests.m */; };
-		B21FA36919387B2200E8465D /* YJLUIKit.m in Sources */ = {isa = PBXBuildFile; fileRef = B21FA36419387B2200E8465D /* YJLUIKit.m */; };
-		B21FA36A19387B2200E8465D /* YJLUIKit.m in Sources */ = {isa = PBXBuildFile; fileRef = B21FA36419387B2200E8465D /* YJLUIKit.m */; };
-		B21FA36B19387B2200E8465D /* YJLView.m in Sources */ = {isa = PBXBuildFile; fileRef = B21FA36619387B2200E8465D /* YJLView.m */; };
-		B21FA36C19387B2200E8465D /* YJLView.m in Sources */ = {isa = PBXBuildFile; fileRef = B21FA36619387B2200E8465D /* YJLView.m */; };
-		B22C440E193D9E720012064D /* YJLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B22C440D193D9E720012064D /* YJLViewController.m */; };
-		B22C440F193D9E720012064D /* YJLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B22C440D193D9E720012064D /* YJLViewController.m */; };
-		B22C4410193D9F750012064D /* YJLViewController.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = B22C440C193D9E720012064D /* YJLViewController.h */; };
-		B22C442F193DA5FC0012064D /* YJLDefine.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = B21FA35E19387B2200E8465D /* YJLDefine.h */; };
 		B2ABD88B194ADB1500EF2EC6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B21FA2F919386EEE00E8465D /* Foundation.framework */; };
 		B2ABD890194ADB1500EF2EC6 /* YJLExam.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = B2ABD88F194ADB1500EF2EC6 /* YJLExam.h */; };
 		B2ABD892194ADB1500EF2EC6 /* YJLExam.m in Sources */ = {isa = PBXBuildFile; fileRef = B2ABD891194ADB1500EF2EC6 /* YJLExam.m */; };
@@ -102,35 +64,57 @@
 		B2ABD8AF194ADB7E00EF2EC6 /* YJLQuestion.m in Sources */ = {isa = PBXBuildFile; fileRef = B2ABD8AD194ADB7E00EF2EC6 /* YJLQuestion.m */; };
 		B2ABD8B2194ADD0E00EF2EC6 /* YJLQuestionHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = B2ABD8B1194ADD0E00EF2EC6 /* YJLQuestionHandle.m */; };
 		B2ABD8B3194ADD0E00EF2EC6 /* YJLQuestionHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = B2ABD8B1194ADD0E00EF2EC6 /* YJLQuestionHandle.m */; };
-		B2D7A24E194EF40700C679B0 /* YJLScrollLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = B2D7A24D194EF40700C679B0 /* YJLScrollLabel.m */; };
-		B2D7A24F194EF40700C679B0 /* YJLScrollLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = B2D7A24D194EF40700C679B0 /* YJLScrollLabel.m */; };
-		B2D7A252194EF43F00C679B0 /* YJLDrawLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = B2D7A251194EF43F00C679B0 /* YJLDrawLabel.m */; };
-		B2D7A253194EF43F00C679B0 /* YJLDrawLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = B2D7A251194EF43F00C679B0 /* YJLDrawLabel.m */; };
-		B2F286B5194941C2005DC4D9 /* YJLImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = B2F286B4194941C2005DC4D9 /* YJLImageView.m */; };
-		B2F286B6194941C2005DC4D9 /* YJLImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = B2F286B4194941C2005DC4D9 /* YJLImageView.m */; };
-		B2F286B9194948AA005DC4D9 /* YJLObject.m in Sources */ = {isa = PBXBuildFile; fileRef = B2F286B8194948AA005DC4D9 /* YJLObject.m */; };
-		B2F286BA194948AA005DC4D9 /* YJLObject.m in Sources */ = {isa = PBXBuildFile; fileRef = B2F286B8194948AA005DC4D9 /* YJLObject.m */; };
-		B2F286BD19494904005DC4D9 /* YJLTextObj.m in Sources */ = {isa = PBXBuildFile; fileRef = B2F286BC19494904005DC4D9 /* YJLTextObj.m */; };
-		B2F286BE19494904005DC4D9 /* YJLTextObj.m in Sources */ = {isa = PBXBuildFile; fileRef = B2F286BC19494904005DC4D9 /* YJLTextObj.m */; };
 		B2FAC52B195C16810022C4C9 /* TestSelectViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2FAC52A195C16810022C4C9 /* TestSelectViewViewController.m */; };
 		CE4EBE5919E2DFF300D9B34A /* QMLSliderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE4EBE5819E2DFF300D9B34A /* QMLSliderViewController.m */; };
-		CE4EBE5C19E2E65900D9B34A /* QMLSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = CE4EBE5B19E2E65900D9B34A /* QMLSlider.m */; };
-		CE4EBE5D19E2E65900D9B34A /* QMLSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = CE4EBE5B19E2E65900D9B34A /* QMLSlider.m */; };
-		CE4EBE6919E2E67800D9B34A /* QMLTouchImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE4EBE6419E2E67800D9B34A /* QMLTouchImageView.m */; };
-		CE4EBE6A19E2E67800D9B34A /* QMLTouchImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE4EBE6419E2E67800D9B34A /* QMLTouchImageView.m */; };
 		CE4EBE6D19E2EC9000D9B34A /* btn_brightness_default.png in Resources */ = {isa = PBXBuildFile; fileRef = CE4EBE6B19E2EC9000D9B34A /* btn_brightness_default.png */; };
 		CE4EBE6E19E2EC9000D9B34A /* btn_brightness_select.png in Resources */ = {isa = PBXBuildFile; fileRef = CE4EBE6C19E2EC9000D9B34A /* btn_brightness_select.png */; };
 		CE5D809819F7ED28003EDE27 /* YJLProgreeView.qml in Resources */ = {isa = PBXBuildFile; fileRef = CE5D809719F7ED28003EDE27 /* YJLProgreeView.qml */; };
-		CE663E7519E0E91300A9D68F /* QMLStatusImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE663E7419E0E91300A9D68F /* QMLStatusImageView.m */; };
-		CE663E7619E0E91300A9D68F /* QMLStatusImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE663E7419E0E91300A9D68F /* QMLStatusImageView.m */; };
 		CE6EA22A19F75749008D2105 /* QMLItem.qml in Resources */ = {isa = PBXBuildFile; fileRef = CE6EA22919F75749008D2105 /* QMLItem.qml */; };
-		CE6EA22D19F7727E008D2105 /* QMLLayoutFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6EA22C19F7727E008D2105 /* QMLLayoutFunction.m */; };
-		CE6EA22E19F7727E008D2105 /* QMLLayoutFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6EA22C19F7727E008D2105 /* QMLLayoutFunction.m */; };
-		CEAC1DB619C697E000732671 /* QMLNetGraphicsLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = CEAC1DB519C697E000732671 /* QMLNetGraphicsLayer.m */; };
-		CEAC1DB719C697E000732671 /* QMLNetGraphicsLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = CEAC1DB519C697E000732671 /* QMLNetGraphicsLayer.m */; };
-		CEAC1DBA19C697FE00732671 /* QMLShapeLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = CEAC1DB919C697FE00732671 /* QMLShapeLayer.m */; };
-		CEAC1DBB19C697FE00732671 /* QMLShapeLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = CEAC1DB919C697FE00732671 /* QMLShapeLayer.m */; };
 		CEBED37719C2D535000F7905 /* TestNetLayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEBED37619C2D535000F7905 /* TestNetLayerViewController.m */; };
+		CEE68A2A1A0F6ACF00C081C2 /* YJLADControl.m in Sources */ = {isa = PBXBuildFile; fileRef = CEE689F01A0F6ACF00C081C2 /* YJLADControl.m */; };
+		CEE68A2B1A0F6ACF00C081C2 /* YJLADControl.m in Sources */ = {isa = PBXBuildFile; fileRef = CEE689F01A0F6ACF00C081C2 /* YJLADControl.m */; };
+		CEE68A2C1A0F6ACF00C081C2 /* QMLShapeLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = CEE689F31A0F6ACF00C081C2 /* QMLShapeLayer.m */; };
+		CEE68A2D1A0F6ACF00C081C2 /* QMLShapeLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = CEE689F31A0F6ACF00C081C2 /* QMLShapeLayer.m */; };
+		CEE68A2E1A0F6ACF00C081C2 /* YJLImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = CEE689F51A0F6ACF00C081C2 /* YJLImageView.m */; };
+		CEE68A2F1A0F6ACF00C081C2 /* YJLImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = CEE689F51A0F6ACF00C081C2 /* YJLImageView.m */; };
+		CEE68A301A0F6ACF00C081C2 /* YJLObject.m in Sources */ = {isa = PBXBuildFile; fileRef = CEE689F71A0F6ACF00C081C2 /* YJLObject.m */; };
+		CEE68A311A0F6ACF00C081C2 /* YJLObject.m in Sources */ = {isa = PBXBuildFile; fileRef = CEE689F71A0F6ACF00C081C2 /* YJLObject.m */; };
+		CEE68A321A0F6ACF00C081C2 /* YJLView.m in Sources */ = {isa = PBXBuildFile; fileRef = CEE689F91A0F6ACF00C081C2 /* YJLView.m */; };
+		CEE68A331A0F6ACF00C081C2 /* YJLView.m in Sources */ = {isa = PBXBuildFile; fileRef = CEE689F91A0F6ACF00C081C2 /* YJLView.m */; };
+		CEE68A341A0F6ACF00C081C2 /* YJLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEE689FB1A0F6ACF00C081C2 /* YJLViewController.m */; };
+		CEE68A351A0F6ACF00C081C2 /* YJLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEE689FB1A0F6ACF00C081C2 /* YJLViewController.m */; };
+		CEE68A361A0F6ACF00C081C2 /* YJLContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = CEE689FE1A0F6ACF00C081C2 /* YJLContentView.m */; };
+		CEE68A371A0F6ACF00C081C2 /* YJLContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = CEE689FE1A0F6ACF00C081C2 /* YJLContentView.m */; };
+		CEE68A381A0F6ACF00C081C2 /* QMLStatusImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = CEE68A011A0F6ACF00C081C2 /* QMLStatusImageView.m */; };
+		CEE68A391A0F6ACF00C081C2 /* QMLStatusImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = CEE68A011A0F6ACF00C081C2 /* QMLStatusImageView.m */; };
+		CEE68A3A1A0F6ACF00C081C2 /* QMLTouchImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = CEE68A031A0F6ACF00C081C2 /* QMLTouchImageView.m */; };
+		CEE68A3B1A0F6ACF00C081C2 /* QMLTouchImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = CEE68A031A0F6ACF00C081C2 /* QMLTouchImageView.m */; };
+		CEE68A3C1A0F6ACF00C081C2 /* YJLDrawLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = CEE68A061A0F6ACF00C081C2 /* YJLDrawLabel.m */; };
+		CEE68A3D1A0F6ACF00C081C2 /* YJLDrawLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = CEE68A061A0F6ACF00C081C2 /* YJLDrawLabel.m */; };
+		CEE68A3E1A0F6ACF00C081C2 /* YJLScrollLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = CEE68A081A0F6ACF00C081C2 /* YJLScrollLabel.m */; };
+		CEE68A3F1A0F6ACF00C081C2 /* YJLScrollLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = CEE68A081A0F6ACF00C081C2 /* YJLScrollLabel.m */; };
+		CEE68A401A0F6ACF00C081C2 /* QMLNetGraphicsLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = CEE68A0B1A0F6ACF00C081C2 /* QMLNetGraphicsLayer.m */; };
+		CEE68A411A0F6ACF00C081C2 /* QMLNetGraphicsLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = CEE68A0B1A0F6ACF00C081C2 /* QMLNetGraphicsLayer.m */; };
+		CEE68A421A0F6ACF00C081C2 /* QMLLayoutFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = CEE68A0E1A0F6ACF00C081C2 /* QMLLayoutFunction.m */; };
+		CEE68A431A0F6ACF00C081C2 /* QMLLayoutFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = CEE68A0E1A0F6ACF00C081C2 /* QMLLayoutFunction.m */; };
+		CEE68A441A0F6ACF00C081C2 /* YJLTextObj.m in Sources */ = {isa = PBXBuildFile; fileRef = CEE68A121A0F6ACF00C081C2 /* YJLTextObj.m */; };
+		CEE68A451A0F6ACF00C081C2 /* YJLTextObj.m in Sources */ = {isa = PBXBuildFile; fileRef = CEE68A121A0F6ACF00C081C2 /* YJLTextObj.m */; };
+		CEE68A461A0F6ACF00C081C2 /* YJLProgreeView.m in Sources */ = {isa = PBXBuildFile; fileRef = CEE68A151A0F6ACF00C081C2 /* YJLProgreeView.m */; };
+		CEE68A471A0F6ACF00C081C2 /* YJLProgreeView.m in Sources */ = {isa = PBXBuildFile; fileRef = CEE68A151A0F6ACF00C081C2 /* YJLProgreeView.m */; };
+		CEE68A481A0F6ACF00C081C2 /* YJLRefurbishView.m in Sources */ = {isa = PBXBuildFile; fileRef = CEE68A181A0F6ACF00C081C2 /* YJLRefurbishView.m */; };
+		CEE68A491A0F6ACF00C081C2 /* YJLRefurbishView.m in Sources */ = {isa = PBXBuildFile; fileRef = CEE68A181A0F6ACF00C081C2 /* YJLRefurbishView.m */; };
+		CEE68A4A1A0F6ACF00C081C2 /* YJLRefView.m in Sources */ = {isa = PBXBuildFile; fileRef = CEE68A1A1A0F6ACF00C081C2 /* YJLRefView.m */; };
+		CEE68A4B1A0F6ACF00C081C2 /* YJLRefView.m in Sources */ = {isa = PBXBuildFile; fileRef = CEE68A1A1A0F6ACF00C081C2 /* YJLRefView.m */; };
+		CEE68A4C1A0F6ACF00C081C2 /* QMLSegItem.m in Sources */ = {isa = PBXBuildFile; fileRef = CEE68A1D1A0F6ACF00C081C2 /* QMLSegItem.m */; };
+		CEE68A4D1A0F6ACF00C081C2 /* QMLSegItem.m in Sources */ = {isa = PBXBuildFile; fileRef = CEE68A1D1A0F6ACF00C081C2 /* QMLSegItem.m */; };
+		CEE68A4E1A0F6ACF00C081C2 /* QMLSegmentControl.m in Sources */ = {isa = PBXBuildFile; fileRef = CEE68A1F1A0F6ACF00C081C2 /* QMLSegmentControl.m */; };
+		CEE68A4F1A0F6ACF00C081C2 /* QMLSegmentControl.m in Sources */ = {isa = PBXBuildFile; fileRef = CEE68A1F1A0F6ACF00C081C2 /* QMLSegmentControl.m */; };
+		CEE68A501A0F6ACF00C081C2 /* YJLSelectView.m in Sources */ = {isa = PBXBuildFile; fileRef = CEE68A221A0F6ACF00C081C2 /* YJLSelectView.m */; };
+		CEE68A511A0F6ACF00C081C2 /* YJLSelectView.m in Sources */ = {isa = PBXBuildFile; fileRef = CEE68A221A0F6ACF00C081C2 /* YJLSelectView.m */; };
+		CEE68A521A0F6ACF00C081C2 /* QMLSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = CEE68A251A0F6ACF00C081C2 /* QMLSlider.m */; };
+		CEE68A531A0F6ACF00C081C2 /* QMLSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = CEE68A251A0F6ACF00C081C2 /* QMLSlider.m */; };
+		CEE68A541A0F6ACF00C081C2 /* YJLUIKit.m in Sources */ = {isa = PBXBuildFile; fileRef = CEE68A291A0F6ACF00C081C2 /* YJLUIKit.m */; };
+		CEE68A551A0F6ACF00C081C2 /* YJLUIKit.m in Sources */ = {isa = PBXBuildFile; fileRef = CEE68A291A0F6ACF00C081C2 /* YJLUIKit.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -164,22 +148,6 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
-				9C27983B197CC07600603D52 /* YJLADControl.h in CopyFiles */,
-				9C6DC70C1975270F00D67AB2 /* YJLProgreeView.h in CopyFiles */,
-				9C6DC70D1975270F00D67AB2 /* YJLRefurbishView.h in CopyFiles */,
-				9C6DC70E1975270F00D67AB2 /* YJLRefView.h in CopyFiles */,
-				9C31CF2719605E8700823002 /* YJLImageView.h in CopyFiles */,
-				9C31CF2819605E8700823002 /* YJLObject.h in CopyFiles */,
-				9C31CF2919605E8700823002 /* YJLTextObj.h in CopyFiles */,
-				9C31CF2A19605E8700823002 /* YJLScrollLabel.h in CopyFiles */,
-				9C31CF2B19605E8700823002 /* YJLDrawLabel.h in CopyFiles */,
-				9C31CF2C19605E8700823002 /* YJLSelectView.h in CopyFiles */,
-				B22C442F193DA5FC0012064D /* YJLDefine.h in CopyFiles */,
-				B22C4410193D9F750012064D /* YJLViewController.h in CopyFiles */,
-				B2012A3E19388E1C005D52F7 /* YJLContentView.h in CopyFiles */,
-				B2012A2F19388371005D52F7 /* YJLLayoutDelegate.h in CopyFiles */,
-				B2012A3019388371005D52F7 /* YJLUIKit.h in CopyFiles */,
-				B2012A3119388371005D52F7 /* YJLView.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -196,14 +164,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		9C049BAE19627A41002EC9FA /* YJLProgreeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJLProgreeView.h; sourceTree = "<group>"; };
-		9C049BAF19627A41002EC9FA /* YJLProgreeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJLProgreeView.m; sourceTree = "<group>"; };
-		9C2DEFB71963117F005C6F56 /* YJLRefurbishView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJLRefurbishView.h; sourceTree = "<group>"; };
-		9C2DEFB81963117F005C6F56 /* YJLRefurbishView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJLRefurbishView.m; sourceTree = "<group>"; };
 		9C2DEFBB19631530005C6F56 /* TestRefurbishView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestRefurbishView.h; sourceTree = "<group>"; };
 		9C2DEFBC19631530005C6F56 /* TestRefurbishView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestRefurbishView.m; sourceTree = "<group>"; };
-		9C2DEFBE1963BE81005C6F56 /* YJLRefView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJLRefView.h; sourceTree = "<group>"; };
-		9C2DEFBF1963BE81005C6F56 /* YJLRefView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJLRefView.m; sourceTree = "<group>"; };
 		9C2DEFC21963C487005C6F56 /* TestYJLRefView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestYJLRefView.h; sourceTree = "<group>"; };
 		9C2DEFC31963C487005C6F56 /* TestYJLRefView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestYJLRefView.m; sourceTree = "<group>"; };
 		9C300695196539C500A95B4C /* YJLOptionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJLOptionView.h; sourceTree = "<group>"; };
@@ -212,14 +174,8 @@
 		9C30069A1965405100A95B4C /* option_btn_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = option_btn_selected.png; sourceTree = "<group>"; };
 		9C30069B196540A200A95B4C /* YJLQuestionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJLQuestionView.h; sourceTree = "<group>"; };
 		9C30069C196540A200A95B4C /* YJLQuestionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJLQuestionView.m; sourceTree = "<group>"; };
-		9C4F3653197BC0DF00C4B403 /* YJLADControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJLADControl.h; sourceTree = "<group>"; };
-		9C4F3654197BC0DF00C4B403 /* YJLADControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJLADControl.m; sourceTree = "<group>"; };
 		9C4F3657197BC11D00C4B403 /* TestYJLADControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestYJLADControl.h; sourceTree = "<group>"; };
 		9C4F3658197BC11D00C4B403 /* TestYJLADControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestYJLADControl.m; sourceTree = "<group>"; };
-		9C988CA9199A5401008F82E3 /* QMLSegItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QMLSegItem.h; sourceTree = "<group>"; };
-		9C988CAA199A5401008F82E3 /* QMLSegItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QMLSegItem.m; sourceTree = "<group>"; };
-		9C988CAB199A5401008F82E3 /* QMLSegmentControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QMLSegmentControl.h; sourceTree = "<group>"; };
-		9C988CAC199A5401008F82E3 /* QMLSegmentControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QMLSegmentControl.m; sourceTree = "<group>"; };
 		9C988CB2199A5513008F82E3 /* btn_segment1_default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_segment1_default.png; sourceTree = "<group>"; };
 		9C988CB3199A5513008F82E3 /* btn_segment1_select.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_segment1_select.png; sourceTree = "<group>"; };
 		9C988CB4199A5513008F82E3 /* btn_segment2_default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_segment2_default.png; sourceTree = "<group>"; };
@@ -238,11 +194,7 @@
 		9C988CCF199A553A008F82E3 /* TestSegViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestSegViewController.m; sourceTree = "<group>"; };
 		9CC51A08196277EB000877FA /* TestProgressViewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestProgressViewViewController.h; sourceTree = "<group>"; };
 		9CC51A09196277EB000877FA /* TestProgressViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestProgressViewViewController.m; sourceTree = "<group>"; };
-		B2012A36193884AB005D52F7 /* YJLContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJLContentView.h; sourceTree = "<group>"; };
-		B2012A37193884AB005D52F7 /* YJLContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJLContentView.m; sourceTree = "<group>"; };
 		B2012A3C19388D3D005D52F7 /* readme.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = readme.txt; sourceTree = SOURCE_ROOT; };
-		B202D9FF1959637500F75F23 /* YJLSelectView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJLSelectView.h; sourceTree = "<group>"; };
-		B202DA001959637500F75F23 /* YJLSelectView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJLSelectView.m; sourceTree = "<group>"; };
 		B21FA2F619386EEE00E8465D /* testYJLUIKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testYJLUIKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B21FA2F919386EEE00E8465D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B21FA2FB19386EEE00E8465D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -262,19 +214,10 @@
 		B21FA32219386EEE00E8465D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B21FA32419386EEE00E8465D /* testYJLUIKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testYJLUIKitTests.m; sourceTree = "<group>"; };
 		B21FA33219386F0000E8465D /* libYJLUIKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libYJLUIKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		B21FA33619386F0000E8465D /* YJLUIKit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YJLUIKit-Prefix.pch"; sourceTree = "<group>"; };
 		B21FA33F19386F0100E8465D /* YJLUIKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YJLUIKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B21FA34819386F0100E8465D /* YJLUIKitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "YJLUIKitTests-Info.plist"; sourceTree = "<group>"; };
 		B21FA34A19386F0100E8465D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B21FA34C19386F0100E8465D /* YJLUIKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YJLUIKitTests.m; sourceTree = "<group>"; };
-		B21FA35E19387B2200E8465D /* YJLDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJLDefine.h; sourceTree = "<group>"; };
-		B21FA36219387B2200E8465D /* YJLLayoutDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJLLayoutDelegate.h; sourceTree = "<group>"; };
-		B21FA36319387B2200E8465D /* YJLUIKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJLUIKit.h; sourceTree = "<group>"; };
-		B21FA36419387B2200E8465D /* YJLUIKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJLUIKit.m; sourceTree = "<group>"; };
-		B21FA36519387B2200E8465D /* YJLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJLView.h; sourceTree = "<group>"; };
-		B21FA36619387B2200E8465D /* YJLView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJLView.m; sourceTree = "<group>"; };
-		B22C440C193D9E720012064D /* YJLViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJLViewController.h; sourceTree = "<group>"; };
-		B22C440D193D9E720012064D /* YJLViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJLViewController.m; sourceTree = "<group>"; };
 		B2ABD88A194ADB1500EF2EC6 /* libYJLExam.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libYJLExam.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2ABD88E194ADB1500EF2EC6 /* YJLExam-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YJLExam-Prefix.pch"; sourceTree = "<group>"; };
 		B2ABD88F194ADB1500EF2EC6 /* YJLExam.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YJLExam.h; sourceTree = "<group>"; };
@@ -287,38 +230,63 @@
 		B2ABD8AD194ADB7E00EF2EC6 /* YJLQuestion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJLQuestion.m; sourceTree = "<group>"; };
 		B2ABD8B0194ADD0E00EF2EC6 /* YJLQuestionHandle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJLQuestionHandle.h; sourceTree = "<group>"; };
 		B2ABD8B1194ADD0E00EF2EC6 /* YJLQuestionHandle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJLQuestionHandle.m; sourceTree = "<group>"; };
-		B2D7A24C194EF40700C679B0 /* YJLScrollLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJLScrollLabel.h; sourceTree = "<group>"; };
-		B2D7A24D194EF40700C679B0 /* YJLScrollLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJLScrollLabel.m; sourceTree = "<group>"; };
-		B2D7A250194EF43F00C679B0 /* YJLDrawLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJLDrawLabel.h; sourceTree = "<group>"; };
-		B2D7A251194EF43F00C679B0 /* YJLDrawLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJLDrawLabel.m; sourceTree = "<group>"; };
-		B2F286B3194941C2005DC4D9 /* YJLImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJLImageView.h; sourceTree = "<group>"; };
-		B2F286B4194941C2005DC4D9 /* YJLImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJLImageView.m; sourceTree = "<group>"; };
-		B2F286B7194948AA005DC4D9 /* YJLObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJLObject.h; sourceTree = "<group>"; };
-		B2F286B8194948AA005DC4D9 /* YJLObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJLObject.m; sourceTree = "<group>"; };
-		B2F286BB19494904005DC4D9 /* YJLTextObj.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJLTextObj.h; sourceTree = "<group>"; };
-		B2F286BC19494904005DC4D9 /* YJLTextObj.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJLTextObj.m; sourceTree = "<group>"; };
 		B2FAC529195C16810022C4C9 /* TestSelectViewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestSelectViewViewController.h; sourceTree = "<group>"; };
 		B2FAC52A195C16810022C4C9 /* TestSelectViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestSelectViewViewController.m; sourceTree = "<group>"; };
 		CE4EBE5719E2DFF300D9B34A /* QMLSliderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QMLSliderViewController.h; sourceTree = "<group>"; };
 		CE4EBE5819E2DFF300D9B34A /* QMLSliderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QMLSliderViewController.m; sourceTree = "<group>"; };
-		CE4EBE5A19E2E65900D9B34A /* QMLSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QMLSlider.h; sourceTree = "<group>"; };
-		CE4EBE5B19E2E65900D9B34A /* QMLSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QMLSlider.m; sourceTree = "<group>"; };
-		CE4EBE6319E2E67800D9B34A /* QMLTouchImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QMLTouchImageView.h; sourceTree = "<group>"; };
-		CE4EBE6419E2E67800D9B34A /* QMLTouchImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QMLTouchImageView.m; sourceTree = "<group>"; };
 		CE4EBE6B19E2EC9000D9B34A /* btn_brightness_default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_brightness_default.png; sourceTree = "<group>"; };
 		CE4EBE6C19E2EC9000D9B34A /* btn_brightness_select.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_brightness_select.png; sourceTree = "<group>"; };
 		CE5D809719F7ED28003EDE27 /* YJLProgreeView.qml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = YJLProgreeView.qml; sourceTree = "<group>"; };
-		CE663E7319E0E91300A9D68F /* QMLStatusImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QMLStatusImageView.h; sourceTree = "<group>"; };
-		CE663E7419E0E91300A9D68F /* QMLStatusImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QMLStatusImageView.m; sourceTree = "<group>"; };
 		CE6EA22919F75749008D2105 /* QMLItem.qml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = QMLItem.qml; sourceTree = "<group>"; };
-		CE6EA22B19F7727E008D2105 /* QMLLayoutFunction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QMLLayoutFunction.h; sourceTree = "<group>"; };
-		CE6EA22C19F7727E008D2105 /* QMLLayoutFunction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QMLLayoutFunction.m; sourceTree = "<group>"; };
-		CEAC1DB419C697E000732671 /* QMLNetGraphicsLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QMLNetGraphicsLayer.h; sourceTree = "<group>"; };
-		CEAC1DB519C697E000732671 /* QMLNetGraphicsLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QMLNetGraphicsLayer.m; sourceTree = "<group>"; };
-		CEAC1DB819C697FE00732671 /* QMLShapeLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QMLShapeLayer.h; sourceTree = "<group>"; };
-		CEAC1DB919C697FE00732671 /* QMLShapeLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QMLShapeLayer.m; sourceTree = "<group>"; };
 		CEBED37519C2D535000F7905 /* TestNetLayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestNetLayerViewController.h; sourceTree = "<group>"; };
 		CEBED37619C2D535000F7905 /* TestNetLayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestNetLayerViewController.m; sourceTree = "<group>"; };
+		CEE689EF1A0F6ACF00C081C2 /* YJLADControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJLADControl.h; sourceTree = "<group>"; };
+		CEE689F01A0F6ACF00C081C2 /* YJLADControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJLADControl.m; sourceTree = "<group>"; };
+		CEE689F21A0F6ACF00C081C2 /* QMLShapeLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QMLShapeLayer.h; sourceTree = "<group>"; };
+		CEE689F31A0F6ACF00C081C2 /* QMLShapeLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QMLShapeLayer.m; sourceTree = "<group>"; };
+		CEE689F41A0F6ACF00C081C2 /* YJLImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJLImageView.h; sourceTree = "<group>"; };
+		CEE689F51A0F6ACF00C081C2 /* YJLImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJLImageView.m; sourceTree = "<group>"; };
+		CEE689F61A0F6ACF00C081C2 /* YJLObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJLObject.h; sourceTree = "<group>"; };
+		CEE689F71A0F6ACF00C081C2 /* YJLObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJLObject.m; sourceTree = "<group>"; };
+		CEE689F81A0F6ACF00C081C2 /* YJLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJLView.h; sourceTree = "<group>"; };
+		CEE689F91A0F6ACF00C081C2 /* YJLView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJLView.m; sourceTree = "<group>"; };
+		CEE689FA1A0F6ACF00C081C2 /* YJLViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJLViewController.h; sourceTree = "<group>"; };
+		CEE689FB1A0F6ACF00C081C2 /* YJLViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJLViewController.m; sourceTree = "<group>"; };
+		CEE689FD1A0F6ACF00C081C2 /* YJLContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJLContentView.h; sourceTree = "<group>"; };
+		CEE689FE1A0F6ACF00C081C2 /* YJLContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJLContentView.m; sourceTree = "<group>"; };
+		CEE68A001A0F6ACF00C081C2 /* QMLStatusImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QMLStatusImageView.h; sourceTree = "<group>"; };
+		CEE68A011A0F6ACF00C081C2 /* QMLStatusImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QMLStatusImageView.m; sourceTree = "<group>"; };
+		CEE68A021A0F6ACF00C081C2 /* QMLTouchImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QMLTouchImageView.h; sourceTree = "<group>"; };
+		CEE68A031A0F6ACF00C081C2 /* QMLTouchImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QMLTouchImageView.m; sourceTree = "<group>"; };
+		CEE68A051A0F6ACF00C081C2 /* YJLDrawLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJLDrawLabel.h; sourceTree = "<group>"; };
+		CEE68A061A0F6ACF00C081C2 /* YJLDrawLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJLDrawLabel.m; sourceTree = "<group>"; };
+		CEE68A071A0F6ACF00C081C2 /* YJLScrollLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJLScrollLabel.h; sourceTree = "<group>"; };
+		CEE68A081A0F6ACF00C081C2 /* YJLScrollLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJLScrollLabel.m; sourceTree = "<group>"; };
+		CEE68A0A1A0F6ACF00C081C2 /* QMLNetGraphicsLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QMLNetGraphicsLayer.h; sourceTree = "<group>"; };
+		CEE68A0B1A0F6ACF00C081C2 /* QMLNetGraphicsLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QMLNetGraphicsLayer.m; sourceTree = "<group>"; };
+		CEE68A0D1A0F6ACF00C081C2 /* QMLLayoutFunction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QMLLayoutFunction.h; sourceTree = "<group>"; };
+		CEE68A0E1A0F6ACF00C081C2 /* QMLLayoutFunction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QMLLayoutFunction.m; sourceTree = "<group>"; };
+		CEE68A0F1A0F6ACF00C081C2 /* YJLLayoutDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJLLayoutDelegate.h; sourceTree = "<group>"; };
+		CEE68A111A0F6ACF00C081C2 /* YJLTextObj.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJLTextObj.h; sourceTree = "<group>"; };
+		CEE68A121A0F6ACF00C081C2 /* YJLTextObj.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJLTextObj.m; sourceTree = "<group>"; };
+		CEE68A141A0F6ACF00C081C2 /* YJLProgreeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJLProgreeView.h; sourceTree = "<group>"; };
+		CEE68A151A0F6ACF00C081C2 /* YJLProgreeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJLProgreeView.m; sourceTree = "<group>"; };
+		CEE68A171A0F6ACF00C081C2 /* YJLRefurbishView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJLRefurbishView.h; sourceTree = "<group>"; };
+		CEE68A181A0F6ACF00C081C2 /* YJLRefurbishView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJLRefurbishView.m; sourceTree = "<group>"; };
+		CEE68A191A0F6ACF00C081C2 /* YJLRefView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJLRefView.h; sourceTree = "<group>"; };
+		CEE68A1A1A0F6ACF00C081C2 /* YJLRefView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJLRefView.m; sourceTree = "<group>"; };
+		CEE68A1C1A0F6ACF00C081C2 /* QMLSegItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QMLSegItem.h; sourceTree = "<group>"; };
+		CEE68A1D1A0F6ACF00C081C2 /* QMLSegItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QMLSegItem.m; sourceTree = "<group>"; };
+		CEE68A1E1A0F6ACF00C081C2 /* QMLSegmentControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QMLSegmentControl.h; sourceTree = "<group>"; };
+		CEE68A1F1A0F6ACF00C081C2 /* QMLSegmentControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QMLSegmentControl.m; sourceTree = "<group>"; };
+		CEE68A211A0F6ACF00C081C2 /* YJLSelectView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJLSelectView.h; sourceTree = "<group>"; };
+		CEE68A221A0F6ACF00C081C2 /* YJLSelectView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJLSelectView.m; sourceTree = "<group>"; };
+		CEE68A241A0F6ACF00C081C2 /* QMLSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QMLSlider.h; sourceTree = "<group>"; };
+		CEE68A251A0F6ACF00C081C2 /* QMLSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QMLSlider.m; sourceTree = "<group>"; };
+		CEE68A261A0F6ACF00C081C2 /* YJLDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJLDefine.h; sourceTree = "<group>"; };
+		CEE68A271A0F6ACF00C081C2 /* YJLUIKit-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "YJLUIKit-Prefix.pch"; sourceTree = "<group>"; };
+		CEE68A281A0F6ACF00C081C2 /* YJLUIKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJLUIKit.h; sourceTree = "<group>"; };
+		CEE68A291A0F6ACF00C081C2 /* YJLUIKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJLUIKit.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -409,10 +377,10 @@
 		B21FA2ED19386EEE00E8465D = {
 			isa = PBXGroup;
 			children = (
+				CEE689ED1A0F6ACF00C081C2 /* YJLUIKit */,
 				9C988CB1199A5513008F82E3 /* Res */,
 				B21FA2FF19386EEE00E8465D /* testYJLUIKit */,
 				B21FA31E19386EEE00E8465D /* testYJLUIKitTests */,
-				B21FA33419386F0000E8465D /* YJLUIKit */,
 				B21FA34619386F0100E8465D /* YJLUIKitTests */,
 				B2ABD88C194ADB1500EF2EC6 /* YJLExam */,
 				B2ABD89E194ADB1500EF2EC6 /* YJLExamTests */,
@@ -506,65 +474,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		B21FA33419386F0000E8465D /* YJLUIKit */ = {
-			isa = PBXGroup;
-			children = (
-				CE6EA22B19F7727E008D2105 /* QMLLayoutFunction.h */,
-				CE6EA22C19F7727E008D2105 /* QMLLayoutFunction.m */,
-				CE4EBE6319E2E67800D9B34A /* QMLTouchImageView.h */,
-				CE4EBE6419E2E67800D9B34A /* QMLTouchImageView.m */,
-				CE4EBE5A19E2E65900D9B34A /* QMLSlider.h */,
-				CE4EBE5B19E2E65900D9B34A /* QMLSlider.m */,
-				CEBED37819C2D727000F7905 /* QMLLayer */,
-				9C988CA9199A5401008F82E3 /* QMLSegItem.h */,
-				9C988CAA199A5401008F82E3 /* QMLSegItem.m */,
-				9C988CAB199A5401008F82E3 /* QMLSegmentControl.h */,
-				9C988CAC199A5401008F82E3 /* QMLSegmentControl.m */,
-				B21FA33519386F0000E8465D /* Supporting Files */,
-				B2012A36193884AB005D52F7 /* YJLContentView.h */,
-				B2012A37193884AB005D52F7 /* YJLContentView.m */,
-				B21FA35E19387B2200E8465D /* YJLDefine.h */,
-				B21FA36219387B2200E8465D /* YJLLayoutDelegate.h */,
-				B21FA36319387B2200E8465D /* YJLUIKit.h */,
-				B21FA36419387B2200E8465D /* YJLUIKit.m */,
-				B21FA36519387B2200E8465D /* YJLView.h */,
-				B21FA36619387B2200E8465D /* YJLView.m */,
-				B22C440C193D9E720012064D /* YJLViewController.h */,
-				B22C440D193D9E720012064D /* YJLViewController.m */,
-				B2F286B3194941C2005DC4D9 /* YJLImageView.h */,
-				B2F286B4194941C2005DC4D9 /* YJLImageView.m */,
-				B2F286B7194948AA005DC4D9 /* YJLObject.h */,
-				B2F286B8194948AA005DC4D9 /* YJLObject.m */,
-				B2F286BB19494904005DC4D9 /* YJLTextObj.h */,
-				B2F286BC19494904005DC4D9 /* YJLTextObj.m */,
-				B2D7A24C194EF40700C679B0 /* YJLScrollLabel.h */,
-				B2D7A24D194EF40700C679B0 /* YJLScrollLabel.m */,
-				B2D7A250194EF43F00C679B0 /* YJLDrawLabel.h */,
-				B2D7A251194EF43F00C679B0 /* YJLDrawLabel.m */,
-				B202D9FF1959637500F75F23 /* YJLSelectView.h */,
-				B202DA001959637500F75F23 /* YJLSelectView.m */,
-				9C049BAE19627A41002EC9FA /* YJLProgreeView.h */,
-				9C049BAF19627A41002EC9FA /* YJLProgreeView.m */,
-				9C2DEFB71963117F005C6F56 /* YJLRefurbishView.h */,
-				9C2DEFB81963117F005C6F56 /* YJLRefurbishView.m */,
-				9C2DEFBE1963BE81005C6F56 /* YJLRefView.h */,
-				9C2DEFBF1963BE81005C6F56 /* YJLRefView.m */,
-				9C4F3653197BC0DF00C4B403 /* YJLADControl.h */,
-				9C4F3654197BC0DF00C4B403 /* YJLADControl.m */,
-				CE663E7319E0E91300A9D68F /* QMLStatusImageView.h */,
-				CE663E7419E0E91300A9D68F /* QMLStatusImageView.m */,
-			);
-			path = YJLUIKit;
-			sourceTree = "<group>";
-		};
-		B21FA33519386F0000E8465D /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				B21FA33619386F0000E8465D /* YJLUIKit-Prefix.pch */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 		B21FA34619386F0100E8465D /* YJLUIKitTests */ = {
 			isa = PBXGroup;
 			children = (
@@ -629,15 +538,162 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		CEBED37819C2D727000F7905 /* QMLLayer */ = {
+		CEE689ED1A0F6ACF00C081C2 /* YJLUIKit */ = {
 			isa = PBXGroup;
 			children = (
-				CEAC1DB819C697FE00732671 /* QMLShapeLayer.h */,
-				CEAC1DB919C697FE00732671 /* QMLShapeLayer.m */,
-				CEAC1DB419C697E000732671 /* QMLNetGraphicsLayer.h */,
-				CEAC1DB519C697E000732671 /* QMLNetGraphicsLayer.m */,
+				CEE689EE1A0F6ACF00C081C2 /* QMLADControl */,
+				CEE689F11A0F6ACF00C081C2 /* QMLBase */,
+				CEE689FC1A0F6ACF00C081C2 /* QMLContentView */,
+				CEE689FF1A0F6ACF00C081C2 /* QMLImageView */,
+				CEE68A041A0F6ACF00C081C2 /* QMLLabel */,
+				CEE68A091A0F6ACF00C081C2 /* QMLLayer */,
+				CEE68A0C1A0F6ACF00C081C2 /* QMLLayout */,
+				CEE68A101A0F6ACF00C081C2 /* QMLObject */,
+				CEE68A131A0F6ACF00C081C2 /* QMLProgreeView */,
+				CEE68A161A0F6ACF00C081C2 /* QMLRefView */,
+				CEE68A1B1A0F6ACF00C081C2 /* QMLSegControl */,
+				CEE68A201A0F6ACF00C081C2 /* QMLSelectView */,
+				CEE68A231A0F6ACF00C081C2 /* QMLSlider */,
+				CEE68A261A0F6ACF00C081C2 /* YJLDefine.h */,
+				CEE68A271A0F6ACF00C081C2 /* YJLUIKit-Prefix.pch */,
+				CEE68A281A0F6ACF00C081C2 /* YJLUIKit.h */,
+				CEE68A291A0F6ACF00C081C2 /* YJLUIKit.m */,
+			);
+			path = YJLUIKit;
+			sourceTree = "<group>";
+		};
+		CEE689EE1A0F6ACF00C081C2 /* QMLADControl */ = {
+			isa = PBXGroup;
+			children = (
+				CEE689EF1A0F6ACF00C081C2 /* YJLADControl.h */,
+				CEE689F01A0F6ACF00C081C2 /* YJLADControl.m */,
+			);
+			path = QMLADControl;
+			sourceTree = "<group>";
+		};
+		CEE689F11A0F6ACF00C081C2 /* QMLBase */ = {
+			isa = PBXGroup;
+			children = (
+				CEE689F21A0F6ACF00C081C2 /* QMLShapeLayer.h */,
+				CEE689F31A0F6ACF00C081C2 /* QMLShapeLayer.m */,
+				CEE689F41A0F6ACF00C081C2 /* YJLImageView.h */,
+				CEE689F51A0F6ACF00C081C2 /* YJLImageView.m */,
+				CEE689F61A0F6ACF00C081C2 /* YJLObject.h */,
+				CEE689F71A0F6ACF00C081C2 /* YJLObject.m */,
+				CEE689F81A0F6ACF00C081C2 /* YJLView.h */,
+				CEE689F91A0F6ACF00C081C2 /* YJLView.m */,
+				CEE689FA1A0F6ACF00C081C2 /* YJLViewController.h */,
+				CEE689FB1A0F6ACF00C081C2 /* YJLViewController.m */,
+			);
+			path = QMLBase;
+			sourceTree = "<group>";
+		};
+		CEE689FC1A0F6ACF00C081C2 /* QMLContentView */ = {
+			isa = PBXGroup;
+			children = (
+				CEE689FD1A0F6ACF00C081C2 /* YJLContentView.h */,
+				CEE689FE1A0F6ACF00C081C2 /* YJLContentView.m */,
+			);
+			path = QMLContentView;
+			sourceTree = "<group>";
+		};
+		CEE689FF1A0F6ACF00C081C2 /* QMLImageView */ = {
+			isa = PBXGroup;
+			children = (
+				CEE68A001A0F6ACF00C081C2 /* QMLStatusImageView.h */,
+				CEE68A011A0F6ACF00C081C2 /* QMLStatusImageView.m */,
+				CEE68A021A0F6ACF00C081C2 /* QMLTouchImageView.h */,
+				CEE68A031A0F6ACF00C081C2 /* QMLTouchImageView.m */,
+			);
+			path = QMLImageView;
+			sourceTree = "<group>";
+		};
+		CEE68A041A0F6ACF00C081C2 /* QMLLabel */ = {
+			isa = PBXGroup;
+			children = (
+				CEE68A051A0F6ACF00C081C2 /* YJLDrawLabel.h */,
+				CEE68A061A0F6ACF00C081C2 /* YJLDrawLabel.m */,
+				CEE68A071A0F6ACF00C081C2 /* YJLScrollLabel.h */,
+				CEE68A081A0F6ACF00C081C2 /* YJLScrollLabel.m */,
+			);
+			path = QMLLabel;
+			sourceTree = "<group>";
+		};
+		CEE68A091A0F6ACF00C081C2 /* QMLLayer */ = {
+			isa = PBXGroup;
+			children = (
+				CEE68A0A1A0F6ACF00C081C2 /* QMLNetGraphicsLayer.h */,
+				CEE68A0B1A0F6ACF00C081C2 /* QMLNetGraphicsLayer.m */,
 			);
 			path = QMLLayer;
+			sourceTree = "<group>";
+		};
+		CEE68A0C1A0F6ACF00C081C2 /* QMLLayout */ = {
+			isa = PBXGroup;
+			children = (
+				CEE68A0D1A0F6ACF00C081C2 /* QMLLayoutFunction.h */,
+				CEE68A0E1A0F6ACF00C081C2 /* QMLLayoutFunction.m */,
+				CEE68A0F1A0F6ACF00C081C2 /* YJLLayoutDelegate.h */,
+			);
+			path = QMLLayout;
+			sourceTree = "<group>";
+		};
+		CEE68A101A0F6ACF00C081C2 /* QMLObject */ = {
+			isa = PBXGroup;
+			children = (
+				CEE68A111A0F6ACF00C081C2 /* YJLTextObj.h */,
+				CEE68A121A0F6ACF00C081C2 /* YJLTextObj.m */,
+			);
+			path = QMLObject;
+			sourceTree = "<group>";
+		};
+		CEE68A131A0F6ACF00C081C2 /* QMLProgreeView */ = {
+			isa = PBXGroup;
+			children = (
+				CEE68A141A0F6ACF00C081C2 /* YJLProgreeView.h */,
+				CEE68A151A0F6ACF00C081C2 /* YJLProgreeView.m */,
+			);
+			path = QMLProgreeView;
+			sourceTree = "<group>";
+		};
+		CEE68A161A0F6ACF00C081C2 /* QMLRefView */ = {
+			isa = PBXGroup;
+			children = (
+				CEE68A171A0F6ACF00C081C2 /* YJLRefurbishView.h */,
+				CEE68A181A0F6ACF00C081C2 /* YJLRefurbishView.m */,
+				CEE68A191A0F6ACF00C081C2 /* YJLRefView.h */,
+				CEE68A1A1A0F6ACF00C081C2 /* YJLRefView.m */,
+			);
+			path = QMLRefView;
+			sourceTree = "<group>";
+		};
+		CEE68A1B1A0F6ACF00C081C2 /* QMLSegControl */ = {
+			isa = PBXGroup;
+			children = (
+				CEE68A1C1A0F6ACF00C081C2 /* QMLSegItem.h */,
+				CEE68A1D1A0F6ACF00C081C2 /* QMLSegItem.m */,
+				CEE68A1E1A0F6ACF00C081C2 /* QMLSegmentControl.h */,
+				CEE68A1F1A0F6ACF00C081C2 /* QMLSegmentControl.m */,
+			);
+			path = QMLSegControl;
+			sourceTree = "<group>";
+		};
+		CEE68A201A0F6ACF00C081C2 /* QMLSelectView */ = {
+			isa = PBXGroup;
+			children = (
+				CEE68A211A0F6ACF00C081C2 /* YJLSelectView.h */,
+				CEE68A221A0F6ACF00C081C2 /* YJLSelectView.m */,
+			);
+			path = QMLSelectView;
+			sourceTree = "<group>";
+		};
+		CEE68A231A0F6ACF00C081C2 /* QMLSlider */ = {
+			isa = PBXGroup;
+			children = (
+				CEE68A241A0F6ACF00C081C2 /* QMLSlider.h */,
+				CEE68A251A0F6ACF00C081C2 /* QMLSlider.m */,
+			);
+			path = QMLSlider;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -851,43 +907,43 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B2F286B9194948AA005DC4D9 /* YJLObject.m in Sources */,
+				CEE68A361A0F6ACF00C081C2 /* YJLContentView.m in Sources */,
+				CEE68A2E1A0F6ACF00C081C2 /* YJLImageView.m in Sources */,
 				9C30069D196540A200A95B4C /* YJLQuestionView.m in Sources */,
-				B2F286B5194941C2005DC4D9 /* YJLImageView.m in Sources */,
-				CE4EBE5C19E2E65900D9B34A /* QMLSlider.m in Sources */,
+				CEE68A521A0F6ACF00C081C2 /* QMLSlider.m in Sources */,
+				CEE68A441A0F6ACF00C081C2 /* YJLTextObj.m in Sources */,
+				CEE68A2C1A0F6ACF00C081C2 /* QMLShapeLayer.m in Sources */,
 				B2ABD8B2194ADD0E00EF2EC6 /* YJLQuestionHandle.m in Sources */,
-				B2D7A252194EF43F00C679B0 /* YJLDrawLabel.m in Sources */,
-				B202DA011959637500F75F23 /* YJLSelectView.m in Sources */,
-				B2F286BD19494904005DC4D9 /* YJLTextObj.m in Sources */,
-				B21FA36919387B2200E8465D /* YJLUIKit.m in Sources */,
+				CEE68A381A0F6ACF00C081C2 /* QMLStatusImageView.m in Sources */,
 				9C4F3659197BC11D00C4B403 /* TestYJLADControl.m in Sources */,
 				9C988CD0199A553A008F82E3 /* TestSegViewController.m in Sources */,
-				CE6EA22D19F7727E008D2105 /* QMLLayoutFunction.m in Sources */,
+				CEE68A321A0F6ACF00C081C2 /* YJLView.m in Sources */,
 				9CC51A0A196277EB000877FA /* TestProgressViewViewController.m in Sources */,
 				CE4EBE5919E2DFF300D9B34A /* QMLSliderViewController.m in Sources */,
-				9C988CAD199A5401008F82E3 /* QMLSegItem.m in Sources */,
-				9C2DEFB91963117F005C6F56 /* YJLRefurbishView.m in Sources */,
-				B21FA36B19387B2200E8465D /* YJLView.m in Sources */,
-				CEAC1DB619C697E000732671 /* QMLNetGraphicsLayer.m in Sources */,
-				B2012A38193884AB005D52F7 /* YJLContentView.m in Sources */,
-				B22C440E193D9E720012064D /* YJLViewController.m in Sources */,
 				9C300697196539C500A95B4C /* YJLOptionView.m in Sources */,
-				B2D7A24E194EF40700C679B0 /* YJLScrollLabel.m in Sources */,
-				9C4F3655197BC0DF00C4B403 /* YJLADControl.m in Sources */,
-				CEAC1DBA19C697FE00732671 /* QMLShapeLayer.m in Sources */,
 				B21FA31019386EEE00E8465D /* ViewController.m in Sources */,
-				CE663E7519E0E91300A9D68F /* QMLStatusImageView.m in Sources */,
+				CEE68A4E1A0F6ACF00C081C2 /* QMLSegmentControl.m in Sources */,
+				CEE68A4A1A0F6ACF00C081C2 /* YJLRefView.m in Sources */,
 				9C2DEFBD19631530005C6F56 /* TestRefurbishView.m in Sources */,
-				CE4EBE6919E2E67800D9B34A /* QMLTouchImageView.m in Sources */,
-				9C049BB019627A41002EC9FA /* YJLProgreeView.m in Sources */,
+				CEE68A341A0F6ACF00C081C2 /* YJLViewController.m in Sources */,
 				B21FA30A19386EEE00E8465D /* AppDelegate.m in Sources */,
-				9C2DEFC01963BE81005C6F56 /* YJLRefView.m in Sources */,
+				CEE68A461A0F6ACF00C081C2 /* YJLProgreeView.m in Sources */,
+				CEE68A501A0F6ACF00C081C2 /* YJLSelectView.m in Sources */,
+				CEE68A301A0F6ACF00C081C2 /* YJLObject.m in Sources */,
+				CEE68A481A0F6ACF00C081C2 /* YJLRefurbishView.m in Sources */,
+				CEE68A4C1A0F6ACF00C081C2 /* QMLSegItem.m in Sources */,
+				CEE68A3A1A0F6ACF00C081C2 /* QMLTouchImageView.m in Sources */,
 				B21FA30619386EEE00E8465D /* main.m in Sources */,
 				B2ABD8AE194ADB7E00EF2EC6 /* YJLQuestion.m in Sources */,
 				9C2DEFC41963C487005C6F56 /* TestYJLRefView.m in Sources */,
 				CEBED37719C2D535000F7905 /* TestNetLayerViewController.m in Sources */,
+				CEE68A2A1A0F6ACF00C081C2 /* YJLADControl.m in Sources */,
+				CEE68A3C1A0F6ACF00C081C2 /* YJLDrawLabel.m in Sources */,
+				CEE68A421A0F6ACF00C081C2 /* QMLLayoutFunction.m in Sources */,
+				CEE68A401A0F6ACF00C081C2 /* QMLNetGraphicsLayer.m in Sources */,
 				B2FAC52B195C16810022C4C9 /* TestSelectViewViewController.m in Sources */,
-				9C988CAF199A5401008F82E3 /* QMLSegmentControl.m in Sources */,
+				CEE68A541A0F6ACF00C081C2 /* YJLUIKit.m in Sources */,
+				CEE68A3E1A0F6ACF00C081C2 /* YJLScrollLabel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -903,28 +959,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B2F286B6194941C2005DC4D9 /* YJLImageView.m in Sources */,
-				CE4EBE5D19E2E65900D9B34A /* QMLSlider.m in Sources */,
-				B2F286BA194948AA005DC4D9 /* YJLObject.m in Sources */,
-				B202DA021959637500F75F23 /* YJLSelectView.m in Sources */,
-				B2012A39193884AB005D52F7 /* YJLContentView.m in Sources */,
-				CE663E7619E0E91300A9D68F /* QMLStatusImageView.m in Sources */,
-				B21FA36A19387B2200E8465D /* YJLUIKit.m in Sources */,
-				9C4F3656197BC0DF00C4B403 /* YJLADControl.m in Sources */,
-				9C2DEFBA1963117F005C6F56 /* YJLRefurbishView.m in Sources */,
-				CEAC1DB719C697E000732671 /* QMLNetGraphicsLayer.m in Sources */,
-				9C049BB119627A41002EC9FA /* YJLProgreeView.m in Sources */,
-				CE6EA22E19F7727E008D2105 /* QMLLayoutFunction.m in Sources */,
-				CEAC1DBB19C697FE00732671 /* QMLShapeLayer.m in Sources */,
-				B22C440F193D9E720012064D /* YJLViewController.m in Sources */,
-				B2F286BE19494904005DC4D9 /* YJLTextObj.m in Sources */,
-				CE4EBE6A19E2E67800D9B34A /* QMLTouchImageView.m in Sources */,
-				B21FA36C19387B2200E8465D /* YJLView.m in Sources */,
-				B2D7A253194EF43F00C679B0 /* YJLDrawLabel.m in Sources */,
-				9C2DEFC11963BE81005C6F56 /* YJLRefView.m in Sources */,
-				9C988CB0199A5401008F82E3 /* QMLSegmentControl.m in Sources */,
-				B2D7A24F194EF40700C679B0 /* YJLScrollLabel.m in Sources */,
-				9C988CAE199A5401008F82E3 /* QMLSegItem.m in Sources */,
+				CEE68A551A0F6ACF00C081C2 /* YJLUIKit.m in Sources */,
+				CEE68A511A0F6ACF00C081C2 /* YJLSelectView.m in Sources */,
+				CEE68A431A0F6ACF00C081C2 /* QMLLayoutFunction.m in Sources */,
+				CEE68A491A0F6ACF00C081C2 /* YJLRefurbishView.m in Sources */,
+				CEE68A351A0F6ACF00C081C2 /* YJLViewController.m in Sources */,
+				CEE68A4D1A0F6ACF00C081C2 /* QMLSegItem.m in Sources */,
+				CEE68A471A0F6ACF00C081C2 /* YJLProgreeView.m in Sources */,
+				CEE68A311A0F6ACF00C081C2 /* YJLObject.m in Sources */,
+				CEE68A331A0F6ACF00C081C2 /* YJLView.m in Sources */,
+				CEE68A411A0F6ACF00C081C2 /* QMLNetGraphicsLayer.m in Sources */,
+				CEE68A531A0F6ACF00C081C2 /* QMLSlider.m in Sources */,
+				CEE68A3F1A0F6ACF00C081C2 /* YJLScrollLabel.m in Sources */,
+				CEE68A391A0F6ACF00C081C2 /* QMLStatusImageView.m in Sources */,
+				CEE68A371A0F6ACF00C081C2 /* YJLContentView.m in Sources */,
+				CEE68A3B1A0F6ACF00C081C2 /* QMLTouchImageView.m in Sources */,
+				CEE68A2F1A0F6ACF00C081C2 /* YJLImageView.m in Sources */,
+				CEE68A451A0F6ACF00C081C2 /* YJLTextObj.m in Sources */,
+				CEE68A2D1A0F6ACF00C081C2 /* QMLShapeLayer.m in Sources */,
+				CEE68A3D1A0F6ACF00C081C2 /* YJLDrawLabel.m in Sources */,
+				CEE68A4B1A0F6ACF00C081C2 /* YJLRefView.m in Sources */,
+				CEE68A2B1A0F6ACF00C081C2 /* YJLADControl.m in Sources */,
+				CEE68A4F1A0F6ACF00C081C2 /* QMLSegmentControl.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

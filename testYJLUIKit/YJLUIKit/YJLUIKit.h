@@ -23,6 +23,7 @@
 #import "YJLRefurbishView.h"
 #import "YJLRefView.h"
 #import "YJLADControl.h"
+#import "QMLSegmentControl.h"
 
 
 @interface YJLUIKit : NSObject
