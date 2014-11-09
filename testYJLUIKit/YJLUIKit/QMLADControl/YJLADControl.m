@@ -73,8 +73,56 @@
     if (self.itemCount==0) {
         _currentIndex=0;
     }else{
-        _currentIndex=currentIndex<0?0:currentIndex;
+        _currentIndex=currentIndex<0?self.itemCount-1:currentIndex;
         _currentIndex=_currentIndex>self.itemCount-1?0:_currentIndex;
+    }
+}
+-(void)setCanSwipeGes:(BOOL)canSwipeGes
+{
+    _canSwipeGes=canSwipeGes;
+    if (_canSwipeGes) {
+        UISwipeGestureRecognizer *leftSwi=[[UISwipeGestureRecognizer alloc] initWithTarget:self action:@selector(leftSwipeAction)];
+        leftSwi.direction=UISwipeGestureRecognizerDirectionLeft;
+        [self addGestureRecognizer:leftSwi];
+        
+        UISwipeGestureRecognizer *rightSwi=[[UISwipeGestureRecognizer alloc] initWithTarget:self action:@selector(rightSwipeAction)];
+        rightSwi.direction=UISwipeGestureRecognizerDirectionRight;
+        [self addGestureRecognizer:rightSwi];
+    }else{
+        for (UISwipeGestureRecognizer *swipe in self.gestureRecognizers) {
+            if ([swipe isKindOfClass:[UISwipeGestureRecognizer class]]) {
+                [self removeGestureRecognizer:swipe];
+            }
+        }
+    }
+}
+-(void)rightSwipeAction
+{
+    if (transiting) {
+        return;
+    }
+    timeCount=0;
+    [self beginTransition:NO];
+}
+-(void)leftSwipeAction
+{
+    if (transiting) {
+        return;
+    }
+    timeCount=0;
+    [self beginTransition:YES];
+}
+-(void)startAnimation
+{
+    if (!timer&&_autoScroll) {
+        timer=[NSTimer scheduledTimerWithTimeInterval:.1 target:self selector:@selector(timerRun) userInfo:nil repeats:YES];
+    }
+}
+-(void)stopAnimation
+{
+    if (timer) {
+        [timer invalidate];
+        timer=nil;
     }
 }
 -(void)endTimer
@@ -87,14 +135,14 @@
 -(void)timerRun
 {
     if (!self.superview) {
-        [self endTimer];
+        [self stopAnimation];
         return;
     }
     timeCount+=.1f;
-    if (timeCount>=_showTime)
+    if (timeCount>=_showTime&&_autoScroll)
     {
         timeCount=0;
-        [self beginTransition];
+        [self beginTransition:YES];
     }
 }
 - (void)willMoveToSuperview:(UIView *)newSuperview
@@ -103,7 +151,11 @@
         [self endTimer];
     }
 }
--(void)beginTransition
+-(YJLView *)getCurrentView
+{
+    return currentView;
+}
+-(void)beginTransition:(BOOL)next
 {
     transiting=YES;
     float width=self.frame.size.width;
@@ -111,40 +163,41 @@
     CGRect nextRect,preRect;
     switch (self.scrollDirection) {
         case kYJLDirectionLeft:
-            self.currentIndex=self.currentIndex+1;
+            self.currentIndex=self.currentIndex+(next?1:-1);
             nextRect=CGRectMake(width, 0, width, height);
             preRect=CGRectMake(-width, 0, width, height);
             break;
         case kYJLDirectionRight:
-            self.currentIndex=self.currentIndex-1;
+            self.currentIndex=self.currentIndex-(next?1:-1);
             nextRect=CGRectMake(-width, 0, width, height);
             preRect=CGRectMake(width, 0, width, height);
             break;
         case kYJLDirectionDown:
-            self.currentIndex=self.currentIndex-1;
+            self.currentIndex=self.currentIndex-(next?1:-1);
             nextRect=CGRectMake(0, -height, width, height);
             preRect=CGRectMake(0, height, width, height);
             break;
         case kYJLDirectionUp:
-            self.currentIndex=self.currentIndex+1;
+            self.currentIndex=self.currentIndex+(next?1:-1);
             nextRect=CGRectMake(0, height, width, height);
             preRect=CGRectMake(0, -height, width, height);
             break;
     }
     if (!nextView) {
-        nextView=[[YJLView alloc] initWithFrame:nextRect];
+        nextView=[[YJLView alloc] initWithFrame:next?nextRect:preRect];
+        nextView.userInteractionEnabled=YES;
         nextView.flag=FLAG_NEXT_VIEW;
         [self addSubview:nextView];
         [nextView release];
     }
-    nextView.frame=nextRect;
+    nextView.frame=next?nextRect:preRect;
     [self willShowView:nextView atIndex:self.currentIndex];
     
     __block typeof(self)bSelf=self;
     [UIView animateWithDuration:self.transitionTime animations:^{
         [UIView setAnimationCurve:UIViewAnimationCurveEaseIn];
         nextView.frame=bSelf.bounds;
-        currentView.frame=preRect;
+        currentView.frame=next?preRect:nextRect;
     } completion:^(BOOL finished) {
         [bSelf endTransition];
     }];
@@ -157,6 +210,24 @@
     currentView.flag=FLAG_CURRENT_VIEW;
     nextView=nil;
     [self showViewAtIndex:self.currentIndex];
+}
+-(void)showViewWithIndex:(int)index
+{
+    self.currentIndex=index;
+    
+    if (!nextView) {
+        nextView=[[YJLView alloc] initWithFrame:self.bounds];
+        nextView.userInteractionEnabled=YES;
+        nextView.flag=FLAG_NEXT_VIEW;
+        [self addSubview:nextView];
+        [nextView release];
+    }else{
+        nextView.frame=self.bounds;
+    }
+    
+    [self willShowView:nextView atIndex:self.currentIndex];
+    
+    [self endTransition];
 }
 -(void)willShowView:(YJLView *)view atIndex:(int)index
 {

@@ -8,7 +8,9 @@
 
 
 #import "YJLTextObj.h"
-@interface YJLDrawLabel : YJLView
+#import "YJLView.h"
+@class YJLView,YJLTextObj;
+@interface YJLDrawLabel :YJLView
 @property(nonatomic,retain)    YJLTextObj  *textObj;
 @property(nonatomic,readonly)  float        width;
 -(void)redraw;

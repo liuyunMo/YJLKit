@@ -29,7 +29,7 @@
     control=[[YJLADControl alloc] initWithFrame:self.view.bounds];
     control.delegate=self;
     control.itemCount=2;
-    control.autoScroll=YES;
+    control.canSwipeGes=YES;
     [self.view addSubview:control];
     [control release];
     layer=[CALayer layer];

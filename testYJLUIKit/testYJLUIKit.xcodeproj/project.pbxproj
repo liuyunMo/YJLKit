@@ -115,6 +115,30 @@
 		CEE68A531A0F6ACF00C081C2 /* QMLSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = CEE68A251A0F6ACF00C081C2 /* QMLSlider.m */; };
 		CEE68A541A0F6ACF00C081C2 /* YJLUIKit.m in Sources */ = {isa = PBXBuildFile; fileRef = CEE68A291A0F6ACF00C081C2 /* YJLUIKit.m */; };
 		CEE68A551A0F6ACF00C081C2 /* YJLUIKit.m in Sources */ = {isa = PBXBuildFile; fileRef = CEE68A291A0F6ACF00C081C2 /* YJLUIKit.m */; };
+		CEE68A561A0F6C5200C081C2 /* YJLADControl.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = CEE689EF1A0F6ACF00C081C2 /* YJLADControl.h */; };
+		CEE68A571A0F6C5200C081C2 /* QMLShapeLayer.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = CEE689F21A0F6ACF00C081C2 /* QMLShapeLayer.h */; };
+		CEE68A581A0F6C5200C081C2 /* YJLImageView.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = CEE689F41A0F6ACF00C081C2 /* YJLImageView.h */; };
+		CEE68A591A0F6C5200C081C2 /* YJLObject.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = CEE689F61A0F6ACF00C081C2 /* YJLObject.h */; };
+		CEE68A5A1A0F6C5200C081C2 /* YJLView.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = CEE689F81A0F6ACF00C081C2 /* YJLView.h */; };
+		CEE68A5B1A0F6C5200C081C2 /* YJLViewController.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = CEE689FA1A0F6ACF00C081C2 /* YJLViewController.h */; };
+		CEE68A5C1A0F6C5200C081C2 /* YJLContentView.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = CEE689FD1A0F6ACF00C081C2 /* YJLContentView.h */; };
+		CEE68A5D1A0F6C5200C081C2 /* QMLStatusImageView.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = CEE68A001A0F6ACF00C081C2 /* QMLStatusImageView.h */; };
+		CEE68A5E1A0F6C5200C081C2 /* QMLTouchImageView.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = CEE68A021A0F6ACF00C081C2 /* QMLTouchImageView.h */; };
+		CEE68A5F1A0F6C5200C081C2 /* YJLDrawLabel.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = CEE68A051A0F6ACF00C081C2 /* YJLDrawLabel.h */; };
+		CEE68A601A0F6C5200C081C2 /* YJLScrollLabel.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = CEE68A071A0F6ACF00C081C2 /* YJLScrollLabel.h */; };
+		CEE68A611A0F6C5200C081C2 /* QMLNetGraphicsLayer.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = CEE68A0A1A0F6ACF00C081C2 /* QMLNetGraphicsLayer.h */; };
+		CEE68A621A0F6C5200C081C2 /* QMLLayoutFunction.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = CEE68A0D1A0F6ACF00C081C2 /* QMLLayoutFunction.h */; };
+		CEE68A631A0F6C5200C081C2 /* YJLLayoutDelegate.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = CEE68A0F1A0F6ACF00C081C2 /* YJLLayoutDelegate.h */; };
+		CEE68A641A0F6C5200C081C2 /* YJLTextObj.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = CEE68A111A0F6ACF00C081C2 /* YJLTextObj.h */; };
+		CEE68A651A0F6C5200C081C2 /* YJLProgreeView.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = CEE68A141A0F6ACF00C081C2 /* YJLProgreeView.h */; };
+		CEE68A661A0F6C5200C081C2 /* YJLRefurbishView.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = CEE68A171A0F6ACF00C081C2 /* YJLRefurbishView.h */; };
+		CEE68A671A0F6C5200C081C2 /* YJLRefView.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = CEE68A191A0F6ACF00C081C2 /* YJLRefView.h */; };
+		CEE68A681A0F6C5200C081C2 /* QMLSegItem.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = CEE68A1C1A0F6ACF00C081C2 /* QMLSegItem.h */; };
+		CEE68A691A0F6C5200C081C2 /* QMLSegmentControl.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = CEE68A1E1A0F6ACF00C081C2 /* QMLSegmentControl.h */; };
+		CEE68A6A1A0F6C5200C081C2 /* YJLSelectView.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = CEE68A211A0F6ACF00C081C2 /* YJLSelectView.h */; };
+		CEE68A6B1A0F6C5200C081C2 /* QMLSlider.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = CEE68A241A0F6ACF00C081C2 /* QMLSlider.h */; };
+		CEE68A6C1A0F6C5200C081C2 /* YJLDefine.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = CEE68A261A0F6ACF00C081C2 /* YJLDefine.h */; };
+		CEE68A6D1A0F6C5200C081C2 /* YJLUIKit.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = CEE68A281A0F6ACF00C081C2 /* YJLUIKit.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -148,6 +172,30 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
+				CEE68A561A0F6C5200C081C2 /* YJLADControl.h in CopyFiles */,
+				CEE68A571A0F6C5200C081C2 /* QMLShapeLayer.h in CopyFiles */,
+				CEE68A581A0F6C5200C081C2 /* YJLImageView.h in CopyFiles */,
+				CEE68A591A0F6C5200C081C2 /* YJLObject.h in CopyFiles */,
+				CEE68A5A1A0F6C5200C081C2 /* YJLView.h in CopyFiles */,
+				CEE68A5B1A0F6C5200C081C2 /* YJLViewController.h in CopyFiles */,
+				CEE68A5C1A0F6C5200C081C2 /* YJLContentView.h in CopyFiles */,
+				CEE68A5D1A0F6C5200C081C2 /* QMLStatusImageView.h in CopyFiles */,
+				CEE68A5E1A0F6C5200C081C2 /* QMLTouchImageView.h in CopyFiles */,
+				CEE68A5F1A0F6C5200C081C2 /* YJLDrawLabel.h in CopyFiles */,
+				CEE68A601A0F6C5200C081C2 /* YJLScrollLabel.h in CopyFiles */,
+				CEE68A611A0F6C5200C081C2 /* QMLNetGraphicsLayer.h in CopyFiles */,
+				CEE68A621A0F6C5200C081C2 /* QMLLayoutFunction.h in CopyFiles */,
+				CEE68A631A0F6C5200C081C2 /* YJLLayoutDelegate.h in CopyFiles */,
+				CEE68A641A0F6C5200C081C2 /* YJLTextObj.h in CopyFiles */,
+				CEE68A651A0F6C5200C081C2 /* YJLProgreeView.h in CopyFiles */,
+				CEE68A661A0F6C5200C081C2 /* YJLRefurbishView.h in CopyFiles */,
+				CEE68A671A0F6C5200C081C2 /* YJLRefView.h in CopyFiles */,
+				CEE68A681A0F6C5200C081C2 /* QMLSegItem.h in CopyFiles */,
+				CEE68A691A0F6C5200C081C2 /* QMLSegmentControl.h in CopyFiles */,
+				CEE68A6A1A0F6C5200C081C2 /* YJLSelectView.h in CopyFiles */,
+				CEE68A6B1A0F6C5200C081C2 /* QMLSlider.h in CopyFiles */,
+				CEE68A6C1A0F6C5200C081C2 /* YJLDefine.h in CopyFiles */,
+				CEE68A6D1A0F6C5200C081C2 /* YJLUIKit.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -554,8 +602,8 @@
 				CEE68A1B1A0F6ACF00C081C2 /* QMLSegControl */,
 				CEE68A201A0F6ACF00C081C2 /* QMLSelectView */,
 				CEE68A231A0F6ACF00C081C2 /* QMLSlider */,
-				CEE68A261A0F6ACF00C081C2 /* YJLDefine.h */,
 				CEE68A271A0F6ACF00C081C2 /* YJLUIKit-Prefix.pch */,
+				CEE68A261A0F6ACF00C081C2 /* YJLDefine.h */,
 				CEE68A281A0F6ACF00C081C2 /* YJLUIKit.h */,
 				CEE68A291A0F6ACF00C081C2 /* YJLUIKit.m */,
 			);
